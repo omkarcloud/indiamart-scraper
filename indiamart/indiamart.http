@@ -1,0 +1,98 @@
+@baseUrl = http://127.0.0.1:6002
+# @baseUrl = https://indiamart-scraper.omkar.cloud
+
+# Every value below returned a 200 with data on 2026-10-05 (local service).
+# derive_facts.py reads the FIRST request per path as the proven example.
+
+### Search Products
+GET {{baseUrl}}/indiamart/products/search?query=cnc%20machine
+
+### Search Products (city + business type + price range)
+GET {{baseUrl}}/indiamart/products/search?query=basmati%20rice&city=Mumbai&business_type=exporter&min_price=50&max_price=120
+
+### Search Products (large, long-registered suppliers only)
+GET {{baseUrl}}/indiamart/products/search?query=industrial%20valves&annual_turnover=above_5_crore&gst_registration_age=above_3_years
+
+### Search Suppliers
+GET {{baseUrl}}/indiamart/suppliers/search?query=cnc%20machine
+
+### Search Suppliers (city + business type)
+GET {{baseUrl}}/indiamart/suppliers/search?query=led%20lights&city=Pune&business_type=manufacturer
+
+### Autocomplete (search keywords)
+GET {{baseUrl}}/indiamart/autocomplete?query=cnc&limit=10
+
+### Autocomplete Cities
+GET {{baseUrl}}/indiamart/cities/autocomplete?query=pun&limit=10
+
+### Autocomplete Categories
+GET {{baseUrl}}/indiamart/categories/autocomplete?query=cnc&limit=10
+
+### Categories (industries)
+GET {{baseUrl}}/indiamart/categories
+
+### Categories (sub-categories of an industry)
+GET {{baseUrl}}/indiamart/categories?parent=agro-farm
+
+### Categories (categories of a sub-category, by link)
+GET {{baseUrl}}/indiamart/categories?parent=https://dir.indiamart.com/indianexporters/ac-refrigeration-equipment.html
+
+### Category Details
+GET {{baseUrl}}/indiamart/categories/details?category=cnc-machines
+
+### Category Details (by name)
+GET {{baseUrl}}/indiamart/categories/details?category=Basmati%20Rice
+
+### Category Products
+GET {{baseUrl}}/indiamart/categories/products?category=cnc-machines
+
+### Category Products (city + business type)
+GET {{baseUrl}}/indiamart/categories/products?category=cnc-machines&city=Pune&business_type=manufacturer
+
+### Category Products (city listing link)
+GET {{baseUrl}}/indiamart/categories/products?category=https://dir.indiamart.com/new-delhi/basmati-rice.html
+
+### Product Details
+GET {{baseUrl}}/indiamart/products/details?product=11558361073
+
+### Product Details (link)
+GET {{baseUrl}}/indiamart/products/details?product=https://www.indiamart.com/proddetail/cnc-milling-deburring-spm-11558361073.html
+
+### Similar Products
+GET {{baseUrl}}/indiamart/products/similar?product=11558361073
+
+### Supplier Details
+GET {{baseUrl}}/indiamart/suppliers/details?supplier=patsonmachines
+
+### Supplier Details (numeric supplier id)
+GET {{baseUrl}}/indiamart/suppliers/details?supplier=20902177
+
+### Supplier Details (storefront link)
+GET {{baseUrl}}/indiamart/suppliers/details?supplier=https://www.indiamart.com/vm-technology-bengaluru/
+
+### Supplier Catalogue
+GET {{baseUrl}}/indiamart/suppliers/catalogue?supplier=patsonmachines
+
+### Supplier Products (one catalogue page)
+GET {{baseUrl}}/indiamart/suppliers/products?supplier=risansi&category=screw-pump
+
+### Supplier Products (catalogue page link)
+GET {{baseUrl}}/indiamart/suppliers/products?supplier=patsonmachines&category=https://www.indiamart.com/patsonmachines/defence-product-machines.html
+
+### Supplier Reviews
+GET {{baseUrl}}/indiamart/suppliers/reviews?supplier=vm-technology-bengaluru
+
+### Supplier Reviews (page 2, most recent first)
+GET {{baseUrl}}/indiamart/suppliers/reviews?supplier=vm-technology-bengaluru&page=2&sort_by=recent
+
+### Supplier Registration & Directors
+GET {{baseUrl}}/indiamart/suppliers/registration?supplier=patsonmachines
+
+### Supplier TrustSEAL Certificate
+GET {{baseUrl}}/indiamart/suppliers/trustseal?supplier=risansi
+
+### Supplier Photos
+GET {{baseUrl}}/indiamart/suppliers/photos?supplier=risansi
+
+### Supplier Videos
+GET {{baseUrl}}/indiamart/suppliers/videos?supplier=patsonmachines

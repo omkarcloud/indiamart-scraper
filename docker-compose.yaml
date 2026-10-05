@@ -1,0 +1,11 @@
+services:
+  indiamart-scraper:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      - PORT=8000
+      # Optional — IndiaMART allows ~15 requests a minute per IP. Set a rotating
+      # residential proxy only if you need more than that.
+      # - INDIAMART_PROXY=http://user:pass@host:port

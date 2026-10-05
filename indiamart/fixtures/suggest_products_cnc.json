@@ -1,0 +1,244 @@
+{
+ "product": [
+  {
+   "label": "cnc machine",
+   "value": "cnc machine",
+   "cat_id": [
+    "587"
+   ],
+   "freq": 48477,
+   "data": {
+    "type_data": "2",
+    "sort_order": "2"
+   }
+  },
+  {
+   "label": "cnc job work",
+   "value": "cnc job work",
+   "cat_id": [
+    "513"
+   ],
+   "freq": 20917,
+   "data": {
+    "type_data": "2",
+    "sort_order": "2"
+   }
+  },
+  {
+   "label": "cnc lathe machine",
+   "value": "cnc lathe machine",
+   "cat_id": [
+    "587"
+   ],
+   "freq": 18580,
+   "data": {
+    "type_data": "2",
+    "sort_order": "2"
+   }
+  },
+  {
+   "label": "cnc router",
+   "value": "cnc router",
+   "cat_id": [
+    "587"
+   ],
+   "freq": 18300,
+   "data": {
+    "type_data": "2",
+    "sort_order": "2"
+   }
+  },
+  {
+   "label": "cnc machine components",
+   "value": "cnc machine components",
+   "cat_id": [
+    "587"
+   ],
+   "freq": 9754,
+   "data": {
+    "type_data": "2",
+    "sort_order": "2"
+   }
+  },
+  {
+   "label": "cnc milling machine",
+   "value": "cnc milling machine",
+   "cat_id": [
+    "587"
+   ],
+   "freq": 9000,
+   "data": {
+    "type_data": "2",
+    "sort_order": "2"
+   }
+  },
+  {
+   "label": "cnc turning machine",
+   "value": "cnc turning machine",
+   "cat_id": [
+    "587"
+   ],
+   "freq": 8419,
+   "data": {
+    "type_data": "2",
+    "sort_order": "2"
+   }
+  },
+  {
+   "label": "cnc",
+   "value": "cnc",
+   "cat_id": [
+    "587"
+   ],
+   "freq": 17335,
+   "data": {
+    "type_data": "2",
+    "sort_order": "2"
+   }
+  },
+  {
+   "label": "cnc turned components",
+   "value": "cnc turned components",
+   "cat_id": [
+    "587"
+   ],
+   "freq": 6212,
+   "data": {
+    "type_data": "2",
+    "sort_order": "2"
+   }
+  },
+  {
+   "label": "cnc components",
+   "value": "cnc components",
+   "cat_id": [
+    "587"
+   ],
+   "freq": 6295,
+   "data": {
+    "type_data": "2",
+    "sort_order": "2"
+   }
+  },
+  {
+   "label": "cnc router machine",
+   "value": "cnc router machine",
+   "cat_id": [
+    "587"
+   ],
+   "freq": 10534,
+   "data": {
+    "type_data": "2",
+    "sort_order": "2"
+   }
+  },
+  {
+   "label": "cnc toolings",
+   "value": "cnc toolings",
+   "cat_id": [
+    "154"
+   ],
+   "freq": 5028,
+   "data": {
+    "type_data": "2",
+    "sort_order": "2"
+   }
+  },
+  {
+   "label": "cnc plasma cutting machine",
+   "value": "cnc plasma cutting machine",
+   "cat_id": [
+    "587"
+   ],
+   "freq": 7074,
+   "data": {
+    "type_data": "2",
+    "sort_order": "2"
+   }
+  },
+  {
+   "label": "cnc lathe",
+   "value": "cnc lathe",
+   "cat_id": [
+    "587"
+   ],
+   "freq": 4771,
+   "data": {
+    "type_data": "2",
+    "sort_order": "2"
+   }
+  },
+  {
+   "label": "cnc turning job work",
+   "value": "cnc turning job work",
+   "cat_id": [
+    "513"
+   ],
+   "freq": 4959,
+   "data": {
+    "type_data": "2",
+    "sort_order": "2"
+   }
+  },
+  {
+   "label": "cnc machining job work",
+   "value": "cnc machining job work",
+   "cat_id": [
+    "513"
+   ],
+   "freq": 4640,
+   "data": {
+    "type_data": "2",
+    "sort_order": "2"
+   }
+  },
+  {
+   "label": "c n c machine service",
+   "value": "c n c machine service",
+   "cat_id": [
+    "513"
+   ],
+   "freq": 3812,
+   "data": {
+    "type_data": "2",
+    "sort_order": "2"
+   }
+  },
+  {
+   "label": "cnc laser cutting services",
+   "value": "cnc laser cutting services",
+   "cat_id": [
+    "829"
+   ],
+   "freq": 3764,
+   "data": {
+    "type_data": "2",
+    "sort_order": "2"
+   }
+  },
+  {
+   "label": "cnc wood router",
+   "value": "cnc wood router",
+   "cat_id": [
+    "587"
+   ],
+   "freq": 5070,
+   "data": {
+    "type_data": "2",
+    "sort_order": "2"
+   }
+  },
+  {
+   "label": "cnc wood carving machine",
+   "value": "cnc wood carving machine",
+   "cat_id": [
+    "587"
+   ],
+   "freq": 7413,
+   "data": {
+    "type_data": "2",
+    "sort_order": "2"
+   }
+  }
+ ]
+}

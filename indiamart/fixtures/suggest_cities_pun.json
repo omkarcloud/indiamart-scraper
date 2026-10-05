@@ -1,0 +1,44 @@
+{
+ "city": [
+  {
+   "value": "Pune",
+   "label": "Pune"
+  },
+  {
+   "value": "Punganuru",
+   "label": "Punganuru"
+  },
+  {
+   "value": "Punahana",
+   "label": "Punahana"
+  },
+  {
+   "value": "Punalur",
+   "label": "Punalur"
+  },
+  {
+   "value": "Punasa",
+   "label": "Punasa"
+  },
+  {
+   "value": "Pundri",
+   "label": "Pundri"
+  },
+  {
+   "value": "Punjai Thottakurichi",
+   "label": "Punjai Thottakurichi"
+  },
+  {
+   "value": "Punjaipugalur",
+   "label": "Punjaipugalur"
+  },
+  {
+   "value": "Punjaipuliampatti",
+   "label": "Punjaipuliampatti"
+  },
+  {
+   "value": "Punnapara",
+   "label": "Punnapara"
+  }
+ ]
+}

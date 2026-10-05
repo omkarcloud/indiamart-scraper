@@ -1,0 +1,2536 @@
+{
+ "breadcrumb": [
+  {
+   "CAT": {
+    "catflName": "cnc-lathes",
+    "catName": "CNC Machines, Lathes & Tools"
+   }
+  },
+  {
+   "PARENT_MCAT": {
+    "pmcatflName": "",
+    "pmcatName": ""
+   }
+  },
+  {
+   "MCAT_DATA": {
+    "mcatflName": "cnc-machines",
+    "mcatName": "CNC Machines"
+   }
+  }
+ ],
+ "title": "CNC Machines",
+ "citybar": [
+  {
+   "cityName": "Bengaluru",
+   "cityFlName": "bengaluru",
+   "stateName": "Karnataka",
+   "stateFlName": "karnataka"
+  },
+  {
+   "cityName": "Pune",
+   "cityFlName": "pune",
+   "stateName": "Maharashtra",
+   "stateFlName": "maharashtra"
+  },
+  {
+   "cityName": "Chennai",
+   "cityFlName": "chennai",
+   "stateName": "Tamil Nadu",
+   "stateFlName": "tamil-nadu"
+  },
+  {
+   "cityName": "Delhi",
+   "cityFlName": "delhi",
+   "stateName": "Delhi",
+   "stateFlName": "delhi"
+  },
+  {
+   "cityName": "Coimbatore",
+   "cityFlName": "coimbatore",
+   "stateName": "Tamil Nadu",
+   "stateFlName": "tamil-nadu"
+  },
+  {
+   "cityName": "Ahmedabad",
+   "cityFlName": "ahmedabad",
+   "stateName": "Gujarat",
+   "stateFlName": "gujarat"
+  },
+  {
+   "cityName": "Hyderabad",
+   "cityFlName": "hyderabad",
+   "stateName": "Telangana",
+   "stateFlName": "telangana"
+  },
+  {
+   "cityName": "Thane",
+   "cityFlName": "thane",
+   "stateName": "Maharashtra",
+   "stateFlName": "maharashtra"
+  },
+  {
+   "cityName": "Mumbai",
+   "cityFlName": "mumbai",
+   "stateName": "Maharashtra",
+   "stateFlName": "maharashtra"
+  },
+  {
+   "cityName": "Faridabad",
+   "cityFlName": "faridabad",
+   "stateName": "Haryana",
+   "stateFlName": "haryana"
+  },
+  {
+   "cityName": "Rajkot",
+   "cityFlName": "rajkot",
+   "stateName": "Gujarat",
+   "stateFlName": "gujarat"
+  },
+  {
+   "cityName": "Ghaziabad",
+   "cityFlName": "ghaziabad",
+   "stateName": "Uttar Pradesh",
+   "stateFlName": "uttar-pradesh"
+  },
+  {
+   "cityName": "Ludhiana",
+   "cityFlName": "ludhiana",
+   "stateName": "Punjab",
+   "stateFlName": "punjab"
+  },
+  {
+   "cityName": "Gurugram",
+   "cityFlName": "gurgaon",
+   "stateName": "Haryana",
+   "stateFlName": "haryana"
+  },
+  {
+   "cityName": "Nashik",
+   "cityFlName": "nashik",
+   "stateName": "Maharashtra",
+   "stateFlName": "maharashtra"
+  },
+  {
+   "cityName": "Vadodara",
+   "cityFlName": "vadodara",
+   "stateName": "Gujarat",
+   "stateFlName": "gujarat"
+  },
+  {
+   "cityName": "Kolhapur",
+   "cityFlName": "kolhapur",
+   "stateName": "Maharashtra",
+   "stateFlName": "maharashtra"
+  },
+  {
+   "cityName": "Greater Noida",
+   "cityFlName": "greater-noida",
+   "stateName": "Uttar Pradesh",
+   "stateFlName": "uttar-pradesh"
+  },
+  {
+   "cityName": "Tiruvallur",
+   "cityFlName": "tiruvallur",
+   "stateName": "Tamil Nadu",
+   "stateFlName": "tamil-nadu"
+  },
+  {
+   "cityName": "Jaipur",
+   "cityFlName": "jaipur",
+   "stateName": "Rajasthan",
+   "stateFlName": "rajasthan"
+  },
+  {
+   "cityName": "Surat",
+   "cityFlName": "surat",
+   "stateName": "Gujarat",
+   "stateFlName": "gujarat"
+  },
+  {
+   "cityName": "Kolkata",
+   "cityFlName": "kolkata",
+   "stateName": "West Bengal",
+   "stateFlName": "west-bengal"
+  },
+  {
+   "cityName": "Aurangabad",
+   "cityFlName": "aurangabad",
+   "stateName": "Maharashtra",
+   "stateFlName": "maharashtra"
+  },
+  {
+   "cityName": "Noida",
+   "cityFlName": "noida",
+   "stateName": "Uttar Pradesh",
+   "stateFlName": "uttar-pradesh"
+  },
+  {
+   "cityName": "Krishnagiri",
+   "cityFlName": "krishnagiri",
+   "stateName": "Tamil Nadu",
+   "stateFlName": "tamil-nadu"
+  },
+  {
+   "cityName": "Pimpri Chinchwad",
+   "cityFlName": "pimpri-chinchwad",
+   "stateName": "Maharashtra",
+   "stateFlName": "maharashtra"
+  },
+  {
+   "cityName": "Hosur",
+   "cityFlName": "hosur",
+   "stateName": "Tamil Nadu",
+   "stateFlName": "tamil-nadu"
+  },
+  {
+   "cityName": "Kancheepuram",
+   "cityFlName": "kanchipuram",
+   "stateName": "Tamil Nadu",
+   "stateFlName": "tamil-nadu"
+  },
+  {
+   "cityName": "Indore",
+   "cityFlName": "indore",
+   "stateName": "Madhya Pradesh",
+   "stateFlName": "madhya-pradesh"
+  },
+  {
+   "cityName": "Navi Mumbai",
+   "cityFlName": "navi-mumbai",
+   "stateName": "Maharashtra",
+   "stateFlName": "maharashtra"
+  },
+  {
+   "cityName": "Lucknow",
+   "cityFlName": "lucknow",
+   "stateName": "Uttar Pradesh",
+   "stateFlName": "uttar-pradesh"
+  },
+  {
+   "cityName": "Gurdaspur",
+   "cityFlName": "gurdaspur",
+   "stateName": "Punjab",
+   "stateFlName": "punjab"
+  },
+  {
+   "cityName": "Nagpur",
+   "cityFlName": "nagpur",
+   "stateName": "Maharashtra",
+   "stateFlName": "maharashtra"
+  },
+  {
+   "cityName": "Secunderabad",
+   "cityFlName": "secunderabad",
+   "stateName": "Telangana",
+   "stateFlName": "telangana"
+  },
+  {
+   "cityName": "Mohali",
+   "cityFlName": "mohali",
+   "stateName": "Punjab",
+   "stateFlName": "punjab"
+  },
+  {
+   "cityName": "Ernakulam",
+   "cityFlName": "ernakulam",
+   "stateName": "Kerala",
+   "stateFlName": "kerala"
+  },
+  {
+   "cityName": "Belagavi",
+   "cityFlName": "belgaum",
+   "stateName": "Karnataka",
+   "stateFlName": "karnataka"
+  },
+  {
+   "cityName": "Vasai",
+   "cityFlName": "vasai",
+   "stateName": "Maharashtra",
+   "stateFlName": "maharashtra"
+  },
+  {
+   "cityName": "Kanpur",
+   "cityFlName": "kanpur",
+   "stateName": "Uttar Pradesh",
+   "stateFlName": "uttar-pradesh"
+  },
+  {
+   "cityName": "Howrah",
+   "cityFlName": "howrah",
+   "stateName": "West Bengal",
+   "stateFlName": "west-bengal"
+  },
+  {
+   "cityName": "Jamnagar",
+   "cityFlName": "jamnagar",
+   "stateName": "Gujarat",
+   "stateFlName": "gujarat"
+  },
+  {
+   "cityName": "Alwar",
+   "cityFlName": "alwar",
+   "stateName": "Rajasthan",
+   "stateFlName": "rajasthan"
+  },
+  {
+   "cityName": "Patna",
+   "cityFlName": "patna",
+   "stateName": "Bihar",
+   "stateFlName": "bihar"
+  },
+  {
+   "cityName": "Chandigarh",
+   "cityFlName": "chandigarh",
+   "stateName": "Chandigarh",
+   "stateFlName": "chandigarh"
+  },
+  {
+   "cityName": "Ahilyanagar",
+   "cityFlName": "ahmednagar",
+   "stateName": "Maharashtra",
+   "stateFlName": "maharashtra"
+  },
+  {
+   "cityName": "Mysuru",
+   "cityFlName": "mysore",
+   "stateName": "Karnataka",
+   "stateFlName": "karnataka"
+  },
+  {
+   "cityName": "Jodhpur",
+   "cityFlName": "jodhpur",
+   "stateName": "Rajasthan",
+   "stateFlName": "rajasthan"
+  },
+  {
+   "cityName": "Satara",
+   "cityFlName": "satara",
+   "stateName": "Maharashtra",
+   "stateFlName": "maharashtra"
+  },
+  {
+   "cityName": "Amritsar",
+   "cityFlName": "amritsar",
+   "stateName": "Punjab",
+   "stateFlName": "punjab"
+  },
+  {
+   "cityName": "Bhopal",
+   "cityFlName": "bhopal",
+   "stateName": "Madhya Pradesh",
+   "stateFlName": "madhya-pradesh"
+  }
+ ],
+ "grp_link": "plant-machinery",
+ "cat_link": "cnc-lathes",
+ "is_brand": "0",
+ "show_disclaimer": 0,
+ "disclaimer_text": "",
+ "mcatname": "CNC Machines",
+ "mcatflname": "cnc-machines",
+ "prodsAvailable": "20890",
+ "sold_flag": 2,
+ "ecom": 0,
+ "ecomtype": "non-ecom",
+ "cityid": "",
+ "pmcatflname": "",
+ "image_flag": 4,
+ "seller_isq_flag": 3,
+ "related_service_data": [],
+ "company_display_flag": "2",
+ "McatMetaData": {
+  "title": "CNC Machines - CNC Machineries Latest Price, Manufacturers & Suppliers",
+  "desc": "Find here CNC Machines, CNC Machineries manufacturers, suppliers & exporters in India. Get contact details & address of companies manufacturing and supplying CNC Machines, CNC Machineries, Computer Numerical Control Machines across India.",
+  "keyword": "CNC Machines, CNC Machineries, Computer Numerical Control Machines, Computer Numerical Control Machineries, manufacturers, suppliers, exporters, traders, dealers, manufacturing companies, retailers, producers, CNC Machines & Lathe Machine India"
+ },
+ "urls": {
+  "canonical_url": "https://dir.indiamart.com/impcat/cnc-machines.html",
+  "alternate_mobile_url": "https://m.indiamart.com/impcat/cnc-machines.html",
+  "alternate_android_url": "android-app://com.indiamart.m/https/m.indiamart.com/impcat/cnc-machines.html"
+ },
+ "viewtype": {
+  "list_view": false,
+  "grid_view": true,
+  "default_grid_view": true,
+  "default_list_view": false,
+  "url_list_view": false
+ },
+ "data": [
+  {
+   "photo": "https://5.imimg.com/data5/SELLER/Default/2026/9/641984285/ZX/OC/NG/2142435/5-axis-cnc-statue-engraving-machine-1000x1000.png",
+   "s_url": "https://www.shusacnc.in/",
+   "ts": "shusamechatronics",
+   "pr": "₹ 32,00,000/Piece",
+   "prd_price": "3200000",
+   "isq": [
+    {
+     "MASTER_DESC": "Tool Spindle Power",
+     "OPTIONS_DESC": " 10 HP"
+    },
+    {
+     "MASTER_DESC": "Tool Diameter",
+     "OPTIONS_DESC": " 1 -20 mm"
+    },
+    {
+     "MASTER_DESC": "Motor Drive",
+     "OPTIONS_DESC": " X Y Z A & C : All Axis Servo Motor Drive"
+    },
+    {
+     "MASTER_DESC": "Axis Type",
+     "OPTIONS_DESC": " Full 5 Axis"
+    },
+    {
+     "MASTER_DESC": "Table Size",
+     "OPTIONS_DESC": " 900 x 1500 mm"
+    },
+    {
+     "MASTER_DESC": "Spindle Speed",
+     "OPTIONS_DESC": " 24000 rpm"
+    }
+   ],
+   "CMP": "Shusa Mechatronics",
+   "c_ct": "7949344409",
+   "c_vl": 1,
+   "f_ad": "",
+   "p_url": "https://www.indiamart.com/proddetail/5-axis-cnc-statue-engraving-machine-2859817632391.html",
+   "city": "Ahmedabad",
+   "ad": "Ahmedabad",
+   "disp_id": 2859817632391,
+   "PF": "71",
+   "cw_o": 149,
+   "g_s": "",
+   "g_c": "India",
+   "g_cn": "LEADER",
+   "wt_avg": 4,
+   "tr_c": 100,
+   "more_prod": [
+    {
+     "photo": "https://4.imimg.com/data4/MT/NH/MY-2142435/stone-engraving-machine-1000x1000.jpg",
+     "s_url": "https://www.shusacnc.in/",
+     "ts": "shusamechatronics",
+     "pr": "₹ 8,81,000/Piece",
+     "isq": [
+      {
+       "MASTER_DESC": "Table Size",
+       "OPTIONS_DESC": " 2620 x 1400 mm"
+      },
+      {
+       "MASTER_DESC": "Working Precision",
+       "OPTIONS_DESC": " 0.1 mm"
+      },
+      {
+       "MASTER_DESC": "Gantry Height",
+       "OPTIONS_DESC": " 450 mm"
+      },
+      {
+       "MASTER_DESC": "X-Y Axis Working Area",
+       "OPTIONS_DESC": " 2500 x 1300 mm"
+      },
+      {
+       "MASTER_DESC": "Z Axis Working Area",
+       "OPTIONS_DESC": " 350 mm"
+      },
+      {
+       "MASTER_DESC": "Spindle Power",
+       "OPTIONS_DESC": " 7.25 HP"
+      },
+      {
+       "MASTER_DESC": "Model",
+       "OPTIONS_DESC": " SM2500S"
+      },
+      {
+       "MASTER_DESC": "Machine Type",
+       "OPTIONS_DESC": " 3 Axis"
+      },
+      {
+       "MASTER_DESC": "Job Material",
+       "OPTIONS_DESC": " Wood, Black Graphite, Marble, Stone"
+      },
+      {
+       "MASTER_DESC": "Spindle Head Type",
+       "OPTIONS_DESC": " Single Spindle"
+      },
+      {
+       "MASTER_DESC": "Spindle Speed",
+       "OPTIONS_DESC": " 24000 RPM"
+      },
+      {
+       "MASTER_DESC": "X-Y Movement",
+       "OPTIONS_DESC": " Rack & Pinion"
+      },
+      {
+       "MASTER_DESC": "Z movement",
+       "OPTIONS_DESC": " Ball Screw"
+      },
+      {
+       "MASTER_DESC": "Resolution",
+       "OPTIONS_DESC": " 0.1 mm"
+      },
+      {
+       "MASTER_DESC": "Driven Motor",
+       "OPTIONS_DESC": " Servo Motor"
+      },
+      {
+       "MASTER_DESC": "Control System",
+       "OPTIONS_DESC": " DSP Controller / NC Studio"
+      },
+      {
+       "MASTER_DESC": "Power Consumption",
+       "OPTIONS_DESC": " 12 kW"
+      },
+      {
+       "MASTER_DESC": "Machine Weight",
+       "OPTIONS_DESC": " 2100 kg"
+      },
+      {
+       "MASTER_DESC": "Condition",
+       "OPTIONS_DESC": " New"
+      }
+     ],
+     "CMP": "Shusa Mechatronics",
+     "c_ct": "7949344409",
+     "c_vl": 1,
+     "f_ad": "",
+     "p_url": "https://www.indiamart.com/proddetail/stone-engraving-machine-6684175630.html",
+     "city": "Ahmedabad",
+     "ad": "Ahmedabad",
+     "disp_id": 6684175630,
+     "PF": "71",
+     "cw_o": 149,
+     "g_s": "",
+     "g_c": "India",
+     "g_cn": "LEADER",
+     "wt_avg": 4,
+     "tr_c": 100,
+     "p_nm": "SM2500S 3 Axis Stone Engraving Machine, 7.25 HP",
+     "f_nm": "Stone Engraving Machine",
+     "srch_id": 49756573,
+     "ds": "",
+     "gl_id": 2142435,
+     "iil_display": 1,
+     "d_in": 0
+    },
+    {
+     "photo": "https://5.imimg.com/data5/SELLER/Default/2022/6/DH/AH/VD/2142435/cnc-wood-router-machine-1000x1000.PNG",
+     "s_url": "https://www.shusacnc.in/",
+     "ts": "shusamechatronics",
+     "pr": "₹ 8,51,000/Piece",
+     "isq": [
+      {
+       "MASTER_DESC": "Brand",
+       "OPTIONS_DESC": " Shusa"
+      },
+      {
+       "MASTER_DESC": "Working Table Size",
+       "OPTIONS_DESC": " 1400 x 2700 mm"
+      },
+      {
+       "MASTER_DESC": "X-Y Axis Working Area",
+       "OPTIONS_DESC": " 1300 x 2500 mm"
+      },
+      {
+       "MASTER_DESC": "Z Axis Working Area",
+       "OPTIONS_DESC": " 330 mm"
+      },
+      {
+       "MASTER_DESC": "Spindle Power",
+       "OPTIONS_DESC": " 7.5 kW"
+      },
+      {
+       "MASTER_DESC": "Model",
+       "OPTIONS_DESC": " SM1300"
+      },
+      {
+       "MASTER_DESC": "Machine Type",
+       "OPTIONS_DESC": " 3 Axis"
+      },
+      {
+       "MASTER_DESC": "Job Material",
+       "OPTIONS_DESC": " Acrylic, Wood"
+      },
+      {
+       "MASTER_DESC": "Spindle Head Type",
+       "OPTIONS_DESC": " Single Spindle"
+      },
+      {
+       "MASTER_DESC": "Spindle Speed",
+       "OPTIONS_DESC": " 24000 RPM"
+      },
+      {
+       "MASTER_DESC": "X-Y Movement",
+       "OPTIONS_DESC": " Rack & Pinion"
+      },
+      {
+       "MASTER_DESC": "Cutting Tool Diameter",
+       "OPTIONS_DESC": " 1mm - 20mm (ER 32 Collet)"
+      },
+      {
+       "MASTER_DESC": "Driven Motor",
+       "OPTIONS_DESC": " Servo Motor"
+      },
+      {
+       "MASTER_DESC": "Control System",
+       "OPTIONS_DESC": " Control Handle Remote NK105 /A11E"
+      },
+      {
+       "MASTER_DESC": "Dimension",
+       "OPTIONS_DESC": " 2100 x 3100 x 1680"
+      },
+      {
+       "MASTER_DESC": "Machine Weight",
+       "OPTIONS_DESC": " 1810 Kg"
+      },
+      {
+       "MASTER_DESC": "Condition",
+       "OPTIONS_DESC": " New"
+      }
+     ],
+     "CMP": "Shusa Mechatronics",
+     "c_ct": "7949344409",
+     "c_vl": 1,
+     "f_ad": "",
+     "p_url": "https://www.indiamart.com/proddetail/cnc-wood-router-machine-9379088962.html",
+     "city": "Ahmedabad",
+     "ad": "Ahmedabad",
+     "disp_id": 9379088962,
+     "PF": "71",
+     "cw_o": 149,
+     "g_s": "",
+     "g_c": "India",
+     "g_cn": "LEADER",
+     "wt_avg": 4,
+     "tr_c": 100,
+     "p_nm": "CNC Wood Router Machine, 7.5 kW",
+     "f_nm": "CNC Wood Router Machine",
+     "srch_id": 66512636,
+     "ds": "",
+     "gl_id": 2142435,
+     "iil_display": 1,
+     "d_in": 0
+    },
+    {
+     "photo": "https://5.imimg.com/data5/SELLER/Default/2024/11/467472556/GR/ZN/LP/2142435/double-spindle-cnc-stone-engraving-machine-1000x1000.png",
+     "s_url": "https://www.shusacnc.in/",
+     "ts": "shusamechatronics",
+     "pr": "₹ 8,91,000/Piece",
+     "isq": [
+      {
+       "MASTER_DESC": "X-Y Axis Working Area",
+       "OPTIONS_DESC": " 3000 x 1500"
+      },
+      {
+       "MASTER_DESC": "Z Axis Working Area",
+       "OPTIONS_DESC": " 450 mm"
+      },
+      {
+       "MASTER_DESC": "Spindle Power",
+       "OPTIONS_DESC": " 7.5 kW"
+      },
+      {
+       "MASTER_DESC": "Model",
+       "OPTIONS_DESC": " SM 3015 S"
+      },
+      {
+       "MASTER_DESC": "Machine Type",
+       "OPTIONS_DESC": " 3 Axis"
+      },
+      {
+       "MASTER_DESC": "Job Material",
+       "OPTIONS_DESC": " Stone, Marble, Sandstone, Black Graphite"
+      },
+      {
+       "MASTER_DESC": "Spindle Head Type",
+       "OPTIONS_DESC": " Single Spindle"
+      },
+      {
+       "MASTER_DESC": "Command Code",
+       "OPTIONS_DESC": " G Code, G Code*u00.mmg*.plt"
+      },
+      {
+       "MASTER_DESC": "Machine Condition",
+       "OPTIONS_DESC": " New"
+      },
+      {
+       "MASTER_DESC": "Country of Origin",
+       "OPTIONS_DESC": " Made in India"
+      }
+     ],
+     "CMP": "Shusa Mechatronics",
+     "c_ct": "7949344409",
+     "c_vl": 1,
+     "f_ad": "",
+     "p_url": "https://www.indiamart.com/proddetail/single-spindle-cnc-stone-engraving-machine-2855189737297.html",
+     "city": "Ahmedabad",
+     "ad": "Ahmedabad",
+     "disp_id": 2855189737297,
+     "PF": "71",
+     "cw_o": 149,
+     "g_s": "",
+     "g_c": "India",
+     "g_cn": "LEADER",
+     "wt_avg": 4,
+     "tr_c": 100,
+     "p_nm": "SM 3015 S Single Spindle Cnc Stone Engraving Machine, 7.5 kW",
+     "f_nm": "Single Spindle Cnc Stone Engraving Machine",
+     "srch_id": 286496370,
+     "ds": "",
+     "gl_id": 2142435,
+     "iil_display": 1,
+     "d_in": 0
+    }
+   ],
+   "p_nm": "5 Axis CNC Statue Engraving Machine",
+   "f_nm": "5 Axis CNC Statue Engraving Machine",
+   "vefexp": 22,
+   "gl_id": 2142435,
+   "pdf": "https://5.imimg.com/data5/SELLER/Doc/2026/9/641985244/ON/UP/JH/2142435/sm-0915.pdf",
+   "imgc": 2,
+   "srch_id": 332775321,
+   "gst_v": 1,
+   "gst_no": 1,
+   "vf_sp": false,
+   "m_sn": "16 yrs",
+   "d_in": 0,
+   "ds": "",
+   "hnpd": 2,
+   "mv": 1,
+   "ev": 1,
+   "iil_display": 1
+  },
+  {
+   "photo": "https://5.imimg.com/data5/TM/VB/MY-949553/servo-controlled-5-axis-micro-drilling-spm-1000x1000.jpg",
+   "s_url": "https://www.patsonmachines.com/",
+   "ts": "patsonmachines",
+   "pr": "₹ 45,00,000/Piece",
+   "prd_price": "4500000",
+   "isq": [
+    {
+     "MASTER_DESC": "Model",
+     "OPTIONS_DESC": " 886"
+    },
+    {
+     "MASTER_DESC": "Brand",
+     "OPTIONS_DESC": " Patson"
+    },
+    {
+     "MASTER_DESC": "Component",
+     "OPTIONS_DESC": " Starter Jet"
+    },
+    {
+     "MASTER_DESC": "Operation",
+     "OPTIONS_DESC": " Drilling in rows, 4 Way, 0.4 - 0.6 mm"
+    },
+    {
+     "MASTER_DESC": "Cycle Time",
+     "OPTIONS_DESC": " 12 seconds"
+    },
+    {
+     "MASTER_DESC": "Machine Type",
+     "OPTIONS_DESC": " Automatic"
+    },
+    {
+     "MASTER_DESC": "Capacity",
+     "OPTIONS_DESC": " 300 pieces/hour"
+    },
+    {
+     "MASTER_DESC": "Phase",
+     "OPTIONS_DESC": " 3 Phase"
+    },
+    {
+     "MASTER_DESC": "Country of Origin",
+     "OPTIONS_DESC": " Made in India"
+    }
+   ],
+   "CMP": "Patson Machines Private Limited",
+   "c_ct": "8047551306",
+   "c_vl": 1,
+   "f_ad": "",
+   "p_url": "https://www.indiamart.com/proddetail/servo-controlled-five-axis-micro-drilling-spm-11558293730.html",
+   "city": "Pune",
+   "ad": "Pune",
+   "disp_id": 11558293730,
+   "PF": "91",
+   "cw_o": 149,
+   "g_s": "",
+   "g_c": "India",
+   "g_cn": "LEADER",
+   "wt_avg": 4.1,
+   "tr_c": 15,
+   "more_prod": [
+    {
+     "photo": "https://5.imimg.com/data5/SELLER/Default/2023/12/370751610/NE/CR/XK/949553/cnc-spm-for-shift-fork-operations-1000x1000.jpg",
+     "s_url": "https://www.patsonmachines.com/",
+     "ts": "patsonmachines",
+     "pr": "₹ 85,00,000/Piece",
+     "isq": [
+      {
+       "MASTER_DESC": "Component",
+       "OPTIONS_DESC": " Shifter Fork"
+      },
+      {
+       "MASTER_DESC": "Frequency",
+       "OPTIONS_DESC": " 50 Hz"
+      },
+      {
+       "MASTER_DESC": "Model Name/Number",
+       "OPTIONS_DESC": " 914"
+      },
+      {
+       "MASTER_DESC": "Operation",
+       "OPTIONS_DESC": " O.D. Turning, Grooving, Boring, Facing & Pad Milling"
+      },
+      {
+       "MASTER_DESC": "Capacity",
+       "OPTIONS_DESC": " 20 pieces/hour"
+      },
+      {
+       "MASTER_DESC": "Cycle Time",
+       "OPTIONS_DESC": " 180 seconds"
+      },
+      {
+       "MASTER_DESC": "Automation Grade",
+       "OPTIONS_DESC": " Automatic"
+      },
+      {
+       "MASTER_DESC": "Phase",
+       "OPTIONS_DESC": " Three Phase"
+      },
+      {
+       "MASTER_DESC": "Material",
+       "OPTIONS_DESC": " Aluminum"
+      },
+      {
+       "MASTER_DESC": "Power Source",
+       "OPTIONS_DESC": " Electric"
+      },
+      {
+       "MASTER_DESC": "Voltage",
+       "OPTIONS_DESC": " 415V"
+      },
+      {
+       "MASTER_DESC": "Brand",
+       "OPTIONS_DESC": " Patson"
+      },
+      {
+       "MASTER_DESC": "Country of Origin",
+       "OPTIONS_DESC": " Made in India"
+      }
+     ],
+     "CMP": "Patson Machines Private Limited",
+     "c_ct": "8047551306",
+     "c_vl": 1,
+     "f_ad": "",
+     "p_url": "https://www.indiamart.com/proddetail/cnc-spm-for-shift-fork-operations-11558212648.html",
+     "city": "Pune",
+     "ad": "Pune",
+     "disp_id": 11558212648,
+     "PF": "91",
+     "cw_o": 149,
+     "g_s": "",
+     "g_c": "India",
+     "g_cn": "LEADER",
+     "wt_avg": 4.1,
+     "tr_c": 15,
+     "p_nm": "Automatic CNC SPM For Shift Fork Operations",
+     "f_nm": "CNC SPM For Shift Fork Operations",
+     "srch_id": 77198119,
+     "ds": "",
+     "gl_id": 949553,
+     "iil_display": 1,
+     "d_in": 0
+    },
+    {
+     "photo": "https://5.imimg.com/data5/BO/IT/XH/SELLER-949553/cnc-milling-and-deburring-machine-for-twist-beam-1000x1000.jpg",
+     "s_url": "https://www.patsonmachines.com/",
+     "ts": "patsonmachines",
+     "pr": "₹ 85,00,000/Piece",
+     "isq": [
+      {
+       "MASTER_DESC": "Component",
+       "OPTIONS_DESC": " Twist Beam Welded Structure Assy"
+      },
+      {
+       "MASTER_DESC": "Operation",
+       "OPTIONS_DESC": " Milling & Deburring of At Both Ends Camber Plate"
+      },
+      {
+       "MASTER_DESC": "Cycle Time",
+       "OPTIONS_DESC": " 120 seconds"
+      },
+      {
+       "MASTER_DESC": "Usage/Application",
+       "OPTIONS_DESC": " Industrial"
+      },
+      {
+       "MASTER_DESC": "Machine Capacity",
+       "OPTIONS_DESC": " 30 pieces/hour"
+      },
+      {
+       "MASTER_DESC": "Model Name/Number",
+       "OPTIONS_DESC": " 1021"
+      },
+      {
+       "MASTER_DESC": "Material",
+       "OPTIONS_DESC": " Mild Steel"
+      },
+      {
+       "MASTER_DESC": "Voltage",
+       "OPTIONS_DESC": " 415V"
+      },
+      {
+       "MASTER_DESC": "Weight",
+       "OPTIONS_DESC": " 8000 kg"
+      },
+      {
+       "MASTER_DESC": "Automation Grade",
+       "OPTIONS_DESC": " Automatic"
+      },
+      {
+       "MASTER_DESC": "Brand",
+       "OPTIONS_DESC": " Patson"
+      },
+      {
+       "MASTER_DESC": "Frequency",
+       "OPTIONS_DESC": " 50 Hz"
+      },
+      {
+       "MASTER_DESC": "Country of Origin",
+       "OPTIONS_DESC": " Made in India"
+      }
+     ],
+     "CMP": "Patson Machines Private Limited",
+     "c_ct": "8047551306",
+     "c_vl": 1,
+     "f_ad": "",
+     "p_url": "https://www.indiamart.com/proddetail/cnc-milling-deburring-spm-11558361073.html",
+     "city": "Pune",
+     "ad": "Pune",
+     "disp_id": 11558361073,
+     "PF": "91",
+     "cw_o": 149,
+     "g_s": "",
+     "g_c": "India",
+     "g_cn": "LEADER",
+     "wt_avg": 4.1,
+     "tr_c": 15,
+     "p_nm": "Model Name/Number: 1021 Mild Steel CNC Milling & Deburring SPM, 415V, 8000 kg",
+     "f_nm": "CNC Milling & Deburring SPM",
+     "srch_id": 77198791,
+     "ds": "",
+     "gl_id": 949553,
+     "iil_display": 1,
+     "d_in": 0
+    },
+    {
+     "photo": "https://4.imimg.com/data4/IV/EW/MY-949553/4-axis-cnc-engraving-machine-1000x1000.jpg",
+     "s_url": "https://www.patsonmachines.com/",
+     "ts": "patsonmachines",
+     "pr": "₹ 30,00,000/Piece",
+     "isq": [
+      {
+       "MASTER_DESC": "Brand",
+       "OPTIONS_DESC": " Patson"
+      },
+      {
+       "MASTER_DESC": "Table Size",
+       "OPTIONS_DESC": " 500 x 400 mm"
+      },
+      {
+       "MASTER_DESC": "Axis",
+       "OPTIONS_DESC": " 450 (X) x 350 (Y) x 100 (Z) mm + Rotary"
+      },
+      {
+       "MASTER_DESC": "Model",
+       "OPTIONS_DESC": " 990"
+      },
+      {
+       "MASTER_DESC": "Machine Type",
+       "OPTIONS_DESC": " 4 Axis"
+      },
+      {
+       "MASTER_DESC": "Spindle Speed",
+       "OPTIONS_DESC": " 24000 RPM"
+      },
+      {
+       "MASTER_DESC": "Country of Origin",
+       "OPTIONS_DESC": " Made in India"
+      }
+     ],
+     "CMP": "Patson Machines Private Limited",
+     "c_ct": "8047551306",
+     "c_vl": 1,
+     "f_ad": "",
+     "p_url": "https://www.indiamart.com/proddetail/4-axis-cnc-engraving-machine-11808891333.html",
+     "city": "Pune",
+     "ad": "Pune",
+     "disp_id": 11808891333,
+     "PF": "91",
+     "cw_o": 149,
+     "g_s": "",
+     "g_c": "India",
+     "g_cn": "LEADER",
+     "wt_avg": 4.1,
+     "tr_c": 15,
+     "p_nm": "990 4 Axis CNC Engraving Machine",
+     "f_nm": "4 Axis CNC Engraving Machine",
+     "srch_id": 78889815,
+     "ds": "",
+     "gl_id": 949553,
+     "iil_display": 1,
+     "d_in": 0
+    }
+   ],
+   "p_nm": "Patson Automatic Servo Controlled Five Axis Micro Drilling SPM, Capacity: 250 Pcs/Hr, Model: 886",
+   "f_nm": "Servo Controlled Five Axis Micro Drilling SPM",
+   "vefexp": "0",
+   "gl_id": 949553,
+   "pdf": "https://5.imimg.com/data5/TB/QO/MY-949553/servo-controlled-five-axis-micro-drilling-spm.pdf",
+   "imgc": 2,
+   "srch_id": 77198540,
+   "gst_v": 1,
+   "gst_no": 1,
+   "vf_sp": false,
+   "m_sn": "19 yrs",
+   "d_in": 0,
+   "ds": "",
+   "hnpd": 2,
+   "mv": 1,
+   "ev": 1,
+   "iil_display": 1
+  },
+  {
+   "photo": "https://5.imimg.com/data5/SELLER/Default/2022/4/RT/VD/KT/6188971/cnc-router-machine-1000x1000.jpg",
+   "s_url": "https://www.quicksoftpro.in/",
+   "ts": "quicksoftpro",
+   "pr": "₹ 4,87,870/Piece",
+   "prd_price": "487870",
+   "isq": [
+    {
+     "MASTER_DESC": "Machine Type",
+     "OPTIONS_DESC": " Milling Machine"
+    },
+    {
+     "MASTER_DESC": "Working Area (X*Y)",
+     "OPTIONS_DESC": " 4x8 ft"
+    },
+    {
+     "MASTER_DESC": "Number of Axes",
+     "OPTIONS_DESC": " 3 Axis"
+    },
+    {
+     "MASTER_DESC": "Automation Grade",
+     "OPTIONS_DESC": " Fully Automatic"
+    },
+    {
+     "MASTER_DESC": "Spindle Power",
+     "OPTIONS_DESC": " 3.5 kW"
+    },
+    {
+     "MASTER_DESC": "Suitable For",
+     "OPTIONS_DESC": " Glass, MDF, Stone, Wood, Metal, Plywood, Acrylic"
+    },
+    {
+     "MASTER_DESC": "Control System",
+     "OPTIONS_DESC": " DSP Controller"
+    },
+    {
+     "MASTER_DESC": "Model Name/Number",
+     "OPTIONS_DESC": " QSP 1212,1325,1530,2030,2040"
+    },
+    {
+     "MASTER_DESC": "Usage/Application",
+     "OPTIONS_DESC": " wood working , interior design, Sign making"
+    },
+    {
+     "MASTER_DESC": "Power",
+     "OPTIONS_DESC": " 220V , 380V"
+    },
+    {
+     "MASTER_DESC": "Motor Type",
+     "OPTIONS_DESC": " Stepper Motor"
+    },
+    {
+     "MASTER_DESC": "Tool Changer Type",
+     "OPTIONS_DESC": " Manual"
+    },
+    {
+     "MASTER_DESC": "Spindle Speed",
+     "OPTIONS_DESC": " 18000 RPM"
+    },
+    {
+     "MASTER_DESC": "Material",
+     "OPTIONS_DESC": " wood, MDF, Plywood, Corian, ACP, Acrylic, many soft material"
+    },
+    {
+     "MASTER_DESC": "Table Size",
+     "OPTIONS_DESC": " as per requirement"
+    }
+   ],
+   "CMP": "Quicksoftpro",
+   "c_ct": "7942611370",
+   "c_vl": 1,
+   "f_ad": "",
+   "p_url": "https://www.indiamart.com/proddetail/wood-working-machines-25456642148.html",
+   "city": "Thane",
+   "ad": "Thane",
+   "disp_id": 25456642148,
+   "PF": "81",
+   "cw_o": 199,
+   "g_s": "",
+   "g_c": "India",
+   "g_cn": "LEADER",
+   "wt_avg": 4.6,
+   "tr_c": 80,
+   "more_prod": [
+    {
+     "photo": "https://5.imimg.com/data5/SELLER/Default/2026/5/608695101/SJ/YW/IS/6188971/cnc-router-1000x1000.png",
+     "s_url": "https://www.quicksoftpro.in/",
+     "ts": "quicksoftpro",
+     "pr": "₹ 4,87,870/Piece",
+     "isq": [
+      {
+       "MASTER_DESC": "Working Area",
+       "OPTIONS_DESC": " 1300×2500 mm"
+      },
+      {
+       "MASTER_DESC": "Application",
+       "OPTIONS_DESC": " Stone, MDF, Wood, Aluminium, Signage, Acrylic"
+      },
+      {
+       "MASTER_DESC": "Spindle Power",
+       "OPTIONS_DESC": " 3 kW"
+      },
+      {
+       "MASTER_DESC": "Axis Count",
+       "OPTIONS_DESC": " 3 Axis"
+      },
+      {
+       "MASTER_DESC": "Table Type",
+       "OPTIONS_DESC": " T Slot Table"
+      },
+      {
+       "MASTER_DESC": "Number Of Spindles",
+       "OPTIONS_DESC": " Single"
+      },
+      {
+       "MASTER_DESC": "Control System",
+       "OPTIONS_DESC": " DSP"
+      },
+      {
+       "MASTER_DESC": "Supported Material",
+       "OPTIONS_DESC": " PVC, ACP, Plywood, Solid Wood, MDF"
+      }
+     ],
+     "CMP": "Quicksoftpro",
+     "c_ct": "7942611370",
+     "c_vl": 1,
+     "f_ad": "",
+     "p_url": "https://www.indiamart.com/proddetail/cnc-router-2859046585873.html",
+     "city": "Thane",
+     "ad": "Thane",
+     "disp_id": 2859046585873,
+     "PF": "81",
+     "cw_o": 199,
+     "g_s": "",
+     "g_c": "India",
+     "g_cn": "LEADER",
+     "wt_avg": 4.6,
+     "tr_c": 80,
+     "p_nm": "Cnc Router",
+     "f_nm": "Cnc Router",
+     "srch_id": 325064856,
+     "ds": "",
+     "gl_id": 6188971,
+     "iil_display": 1,
+     "d_in": 0
+    },
+    {
+     "photo": "https://5.imimg.com/data5/SELLER/Default/2022/4/JK/JG/GV/6188971/wood-mdf-acrylic-cnc-router-machine-1000x1000.jpg",
+     "s_url": "https://www.quicksoftpro.in/",
+     "ts": "quicksoftpro",
+     "pr": "₹ 6,87,870/Piece",
+     "isq": [
+      {
+       "MASTER_DESC": "Maximum Working Speed",
+       "OPTIONS_DESC": " 35 m/min"
+      },
+      {
+       "MASTER_DESC": "Working Area",
+       "OPTIONS_DESC": " 900×1200 mm"
+      },
+      {
+       "MASTER_DESC": "Spindle Power",
+       "OPTIONS_DESC": " 2.2 kW"
+      },
+      {
+       "MASTER_DESC": "Application",
+       "OPTIONS_DESC": " Door Design, Jaali Work, 3D Carving, Furniture"
+      },
+      {
+       "MASTER_DESC": "Axis Count",
+       "OPTIONS_DESC": " 3 Axis"
+      },
+      {
+       "MASTER_DESC": "Table Type",
+       "OPTIONS_DESC": " T Slot Table"
+      },
+      {
+       "MASTER_DESC": "Supported Material",
+       "OPTIONS_DESC": " MDF, Plywood, PVC, Acrylic, Teak Wood"
+      },
+      {
+       "MASTER_DESC": "Machine Type",
+       "OPTIONS_DESC": " 3 Axis"
+      },
+      {
+       "MASTER_DESC": "X-Y Axis Working Area",
+       "OPTIONS_DESC": " 1200 x 1200 mm"
+      },
+      {
+       "MASTER_DESC": "Z Axis Working Area",
+       "OPTIONS_DESC": " 300 mm"
+      },
+      {
+       "MASTER_DESC": "Model",
+       "OPTIONS_DESC": " Q1212, Q1313, Q-1325, Q-1530"
+      },
+      {
+       "MASTER_DESC": "Job Material",
+       "OPTIONS_DESC": " Plywood, Plastic, Acrylic, Sign Board, MDF, PVC, Wood"
+      },
+      {
+       "MASTER_DESC": "Spindle Speed",
+       "OPTIONS_DESC": " 6000~18000RPM & 6000-24000 RPM"
+      },
+      {
+       "MASTER_DESC": "Spindle Head Type",
+       "OPTIONS_DESC": " Single Spindle"
+      },
+      {
+       "MASTER_DESC": "Number Of Spindles",
+       "OPTIONS_DESC": " Single"
+      },
+      {
+       "MASTER_DESC": "Machine Condition",
+       "OPTIONS_DESC": " New"
+      },
+      {
+       "MASTER_DESC": "Maximum Cutting Speed",
+       "OPTIONS_DESC": " 50 m/min"
+      },
+      {
+       "MASTER_DESC": "Machine Dimension",
+       "OPTIONS_DESC": " as per machine working size"
+      },
+      {
+       "MASTER_DESC": "Control System",
+       "OPTIONS_DESC": " DSP / NC Studio"
+      },
+      {
+       "MASTER_DESC": "Repositioning Accuracy",
+       "OPTIONS_DESC": " +- 0.05 mm"
+      },
+      {
+       "MASTER_DESC": "Machine Weight",
+       "OPTIONS_DESC": " 1000~ 1200 kgs"
+      },
+      {
+       "MASTER_DESC": "Power Consumption",
+       "OPTIONS_DESC": " 1 phase"
+      },
+      {
+       "MASTER_DESC": "Z movement",
+       "OPTIONS_DESC": " Ball Screw Transmission"
+      },
+      {
+       "MASTER_DESC": "Repeated Location",
+       "OPTIONS_DESC": " +-0.03"
+      },
+      {
+       "MASTER_DESC": "Command Code",
+       "OPTIONS_DESC": " G Code, G Code*u00.mmg*.plt"
+      },
+      {
+       "MASTER_DESC": "Cutting Tool Diameter",
+       "OPTIONS_DESC": " 3mm ~ 16mm"
+      },
+      {
+       "MASTER_DESC": "Driven Motor",
+       "OPTIONS_DESC": " Stepper Motor"
+      },
+      {
+       "MASTER_DESC": "X-Y Movement",
+       "OPTIONS_DESC": " Rack & Pinion"
+      },
+      {
+       "MASTER_DESC": "Condition",
+       "OPTIONS_DESC": " New"
+      },
+      {
+       "MASTER_DESC": "Table Size",
+       "OPTIONS_DESC": " 1650*2500 mm"
+      },
+      {
+       "MASTER_DESC": "Country of Origin",
+       "OPTIONS_DESC": " Made in India"
+      }
+     ],
+     "CMP": "Quicksoftpro",
+     "c_ct": "7942611370",
+     "c_vl": 1,
+     "f_ad": "",
+     "p_url": "https://www.indiamart.com/proddetail/cnc-router-wood-carving-machine-12079777288.html",
+     "city": "Thane",
+     "ad": "Thane",
+     "disp_id": 12079777288,
+     "PF": "81",
+     "cw_o": 199,
+     "g_s": "",
+     "g_c": "India",
+     "g_cn": "LEADER",
+     "wt_avg": 4.6,
+     "tr_c": 80,
+     "p_nm": "Cnc Router Wood Carving Machine, 3 Axis",
+     "f_nm": "Cnc Router Wood Carving Machine",
+     "srch_id": 81054461,
+     "ds": "",
+     "gl_id": 6188971,
+     "iil_display": 1,
+     "d_in": 0
+    },
+    {
+     "photo": "https://5.imimg.com/data5/FR/TG/LS/SELLER-6188971/cnc-router-machine-1000x1000.jpg",
+     "s_url": "https://www.quicksoftpro.in/",
+     "ts": "quicksoftpro",
+     "pr": "₹ 7,00,000/Piece",
+     "isq": [],
+     "CMP": "Quicksoftpro",
+     "c_ct": "7942611370",
+     "c_vl": 1,
+     "f_ad": "",
+     "p_url": "https://www.indiamart.com/proddetail/cnc-vacum-router-machine-2856351275812.html",
+     "city": "Thane",
+     "ad": "Thane",
+     "disp_id": 2856351275812,
+     "PF": "81",
+     "cw_o": 199,
+     "g_s": "",
+     "g_c": "India",
+     "g_cn": "LEADER",
+     "wt_avg": 4.6,
+     "tr_c": 80,
+     "p_nm": "CNC Vacum Router Machine",
+     "f_nm": "CNC Vacum Router Machine",
+     "srch_id": 298111756,
+     "ds": "Quicksoftpro is a widely reputed and renowned organization known for its operations of Manufacturer, Importer And Exporter unmatched quality plethora of products which include CNC Router Machine, Laser Cutting Machine, Laser Tube & other Spares. Aluminium Channel Letter Rolls available 30mm,40mm,50mm,60mm, 70mm, 80mm,100mm as per need.",
+     "gl_id": 6188971,
+     "iil_display": 1,
+     "d_in": 0
+    }
+   ],
+   "p_nm": "3 Axis Wood Working Machines, Milling Machine, 4x8 ft",
+   "f_nm": "Wood Working Machines",
+   "vefexp": "0",
+   "gl_id": 6188971,
+   "pdf": "",
+   "imgc": 7,
+   "srch_id": 183674902,
+   "gst_v": 1,
+   "gst_no": 1,
+   "vf_sp": false,
+   "m_sn": "13 yrs",
+   "d_in": 0,
+   "ds": "",
+   "hnpd": 2,
+   "mv": 1,
+   "ev": 1,
+   "iil_display": 1
+  },
+  {
+   "photo": "https://5.imimg.com/data5/SELLER/Default/2023/11/361964166/VO/RR/GX/18420437/prod-20231120-1723469026220130784134948-jpg-1000x1000.jpeg",
+   "s_url": "https://www.indiamart.com/rstechnologyjodhpur/",
+   "ts": "rstechnologyjodhpur",
+   "pr": "₹ 4,70,000/Piece",
+   "prd_price": "470000",
+   "isq": [
+    {
+     "MASTER_DESC": "XY Axis Working Area",
+     "OPTIONS_DESC": " 1300 x 2500 mm"
+    }
+   ],
+   "CMP": "R.S. Technology",
+   "c_ct": "8047652409",
+   "c_vl": 1,
+   "f_ad": "",
+   "p_url": "https://www.indiamart.com/proddetail/cnc-router-machine-2851767938333.html",
+   "city": "Jodhpur",
+   "ad": "Jodhpur",
+   "disp_id": 2851767938333,
+   "PF": "89",
+   "cw_o": 199,
+   "g_s": "",
+   "g_c": "India",
+   "g_cn": "LEADER",
+   "wt_avg": 4,
+   "tr_c": 45,
+   "more_prod": [
+    {
+     "photo": "https://5.imimg.com/data5/SELLER/Default/2023/5/309390293/MW/NG/VI/18420437/cnc-pattern-making-machine-1000x1000.jpg",
+     "s_url": "https://www.indiamart.com/rstechnologyjodhpur/",
+     "ts": "rstechnologyjodhpur",
+     "pr": "₹ 11,50,000/Piece",
+     "isq": [
+      {
+       "MASTER_DESC": "X-Y Axis Working Area",
+       "OPTIONS_DESC": " 2000 x 4000 mm"
+      },
+      {
+       "MASTER_DESC": "Z Axis Working Area",
+       "OPTIONS_DESC": " 500 mm"
+      },
+      {
+       "MASTER_DESC": "Spindle Power",
+       "OPTIONS_DESC": " 9 kW"
+      },
+      {
+       "MASTER_DESC": "Machine Type",
+       "OPTIONS_DESC": " 3 Axis"
+      },
+      {
+       "MASTER_DESC": "Job Material",
+       "OPTIONS_DESC": " Plywood, Foam Board, Acrylic, Aluminium Composite Panel (ACP), Wood, Sign Board, Brass, HDF, STONE, Plastic, MDF"
+      },
+      {
+       "MASTER_DESC": "Spindle Head Type",
+       "OPTIONS_DESC": " Double Head Spindle"
+      },
+      {
+       "MASTER_DESC": "Maximum Engraving Speed",
+       "OPTIONS_DESC": " 30000"
+      },
+      {
+       "MASTER_DESC": "Maximum Working Speed",
+       "OPTIONS_DESC": " 30000"
+      },
+      {
+       "MASTER_DESC": "Spindle Speed",
+       "OPTIONS_DESC": " 24000 RPM"
+      },
+      {
+       "MASTER_DESC": "Command Code",
+       "OPTIONS_DESC": " G Code"
+      }
+     ],
+     "CMP": "R.S. Technology",
+     "c_ct": "8047652409",
+     "c_vl": 1,
+     "f_ad": "",
+     "p_url": "https://www.indiamart.com/proddetail/cnc-pattern-making-machine-2850822077855.html",
+     "city": "Jodhpur",
+     "ad": "Jodhpur",
+     "disp_id": 2850822077855,
+     "PF": "89",
+     "cw_o": 199,
+     "g_s": "",
+     "g_c": "India",
+     "g_cn": "LEADER",
+     "wt_avg": 4,
+     "tr_c": 45,
+     "p_nm": "Cnc Pattern Making Machine, 9 kW",
+     "f_nm": "Cnc Pattern Making Machine",
+     "srch_id": 242819779,
+     "ds": "",
+     "gl_id": 18420437,
+     "iil_display": 1,
+     "d_in": 0
+    },
+    {
+     "photo": "https://5.imimg.com/data5/SELLER/Default/2023/5/308988646/IT/ES/QK/18420437/wood-pattern-cnc-router-1000x1000.jpeg",
+     "s_url": "https://www.indiamart.com/rstechnologyjodhpur/",
+     "ts": "rstechnologyjodhpur",
+     "pr": "₹ 6,70,000/Piece",
+     "isq": [
+      {
+       "MASTER_DESC": "X-Y Axis Working Area",
+       "OPTIONS_DESC": " 1500 x 3000 mm"
+      },
+      {
+       "MASTER_DESC": "Z Axis Working Area",
+       "OPTIONS_DESC": " 200 mm"
+      },
+      {
+       "MASTER_DESC": "Spindle Power",
+       "OPTIONS_DESC": " 6 kW"
+      },
+      {
+       "MASTER_DESC": "Spindle Head Type",
+       "OPTIONS_DESC": " Single Spindle"
+      },
+      {
+       "MASTER_DESC": "Driven Motor",
+       "OPTIONS_DESC": " Servo Motor"
+      },
+      {
+       "MASTER_DESC": "Job Material",
+       "OPTIONS_DESC": " Wood"
+      }
+     ],
+     "CMP": "R.S. Technology",
+     "c_ct": "8047652409",
+     "c_vl": 1,
+     "f_ad": "",
+     "p_url": "https://www.indiamart.com/proddetail/double-head-cnc-wood-acrylic-carving-machine-2856506869148.html",
+     "city": "Jodhpur",
+     "ad": "Jodhpur",
+     "disp_id": 2856506869148,
+     "PF": "89",
+     "cw_o": 199,
+     "g_s": "",
+     "g_c": "India",
+     "g_cn": "LEADER",
+     "wt_avg": 4,
+     "tr_c": 45,
+     "p_nm": "Double Head CNC Wood & Acrylic Carving Machine, 6 kW, 1500 x 3000 mm",
+     "f_nm": "Double Head CNC Wood & Acrylic Carving Machine",
+     "srch_id": 299667689,
+     "ds": "",
+     "gl_id": 18420437,
+     "iil_display": 1,
+     "d_in": 0
+    },
+    {
+     "photo": "https://5.imimg.com/data5/SELLER/Default/2023/5/309365832/EN/QL/PE/18420437/acrylic-cnc-router-machine-1000x1000.jpg",
+     "s_url": "https://www.indiamart.com/rstechnologyjodhpur/",
+     "ts": "rstechnologyjodhpur",
+     "pr": "₹ 5,55,000/Piece",
+     "isq": [
+      {
+       "MASTER_DESC": "Spindle Power",
+       "OPTIONS_DESC": " 6 kW"
+      },
+      {
+       "MASTER_DESC": "Machine Type",
+       "OPTIONS_DESC": " 3 Axis"
+      },
+      {
+       "MASTER_DESC": "Job Material",
+       "OPTIONS_DESC": " Aluminum, Acrylic, Rubber, Foam Board, Wood, Stone, Plastic, Brass"
+      },
+      {
+       "MASTER_DESC": "Spindle Head Type",
+       "OPTIONS_DESC": " Single Spindle"
+      },
+      {
+       "MASTER_DESC": "Maximum Cutting Speed",
+       "OPTIONS_DESC": " 30000"
+      },
+      {
+       "MASTER_DESC": "Spindle Speed",
+       "OPTIONS_DESC": " 18000 RPM"
+      },
+      {
+       "MASTER_DESC": "Repositioning Accuracy",
+       "OPTIONS_DESC": " 0.002"
+      },
+      {
+       "MASTER_DESC": "X-Y Movement",
+       "OPTIONS_DESC": " Planetary Gear Box"
+      },
+      {
+       "MASTER_DESC": "Command Code",
+       "OPTIONS_DESC": " G Code"
+      }
+     ],
+     "CMP": "R.S. Technology",
+     "c_ct": "8047652409",
+     "c_vl": 1,
+     "f_ad": "",
+     "p_url": "https://www.indiamart.com/proddetail/acrylic-cnc-router-machine-2851228219312.html",
+     "city": "Jodhpur",
+     "ad": "Jodhpur",
+     "disp_id": 2851228219312,
+     "PF": "89",
+     "cw_o": 199,
+     "g_s": "",
+     "g_c": "India",
+     "g_cn": "LEADER",
+     "wt_avg": 4,
+     "tr_c": 45,
+     "p_nm": "Acrylic Cnc Router Machine, 6 kW",
+     "f_nm": "Acrylic Cnc Router Machine",
+     "srch_id": 246881194,
+     "ds": "",
+     "gl_id": 18420437,
+     "iil_display": 1,
+     "d_in": 0
+    }
+   ],
+   "p_nm": "Cnc Router Machine",
+   "f_nm": "Cnc Router Machine",
+   "vefexp": "0",
+   "gl_id": 18420437,
+   "pdf": "https://5.imimg.com/data5/SELLER/Doc/2023/11/362415030/FQ/BV/JU/18420437/cnc-router-machine.pdf",
+   "imgc": 3,
+   "srch_id": 252278384,
+   "gst_v": 1,
+   "gst_no": 1,
+   "vf_sp": false,
+   "m_sn": "11 yrs",
+   "d_in": 0,
+   "ds": "CNC routers are machines used to cut many types of materials, such as wood, plastic, aluminum, and high-density foam. CNC stands for computer numerical control, which indicates computer software and electronics controlled machines instead of a direct human operato",
+   "hnpd": 2,
+   "mv": 1,
+   "ev": 1,
+   "iil_display": 1
+  },
+  {
+   "photo": "https://5.imimg.com/data5/SELLER/Default/2024/1/376728305/GD/DJ/OT/65193787/cnc-wood-carving-machine-1000x1000.jpeg",
+   "s_url": "https://www.indiamart.com/aaradhana-machineries/",
+   "ts": "aaradhana-machineries",
+   "pr": "₹ 3,75,000/Piece",
+   "prd_price": "375000",
+   "isq": [
+    {
+     "MASTER_DESC": "Machine Type",
+     "OPTIONS_DESC": " Router"
+    },
+    {
+     "MASTER_DESC": "X-Y Axis Working Area",
+     "OPTIONS_DESC": " 1300 x 2500 mm"
+    },
+    {
+     "MASTER_DESC": "XY Axis Working Area",
+     "OPTIONS_DESC": " 1300 x 2500 mm"
+    },
+    {
+     "MASTER_DESC": "Working Area (X*Y)",
+     "OPTIONS_DESC": " 4x8 ft"
+    },
+    {
+     "MASTER_DESC": "Number of Axes",
+     "OPTIONS_DESC": " 3 Axis"
+    },
+    {
+     "MASTER_DESC": "Spindle Power",
+     "OPTIONS_DESC": " 3.5 kW"
+    },
+    {
+     "MASTER_DESC": "Z Axis Working Area",
+     "OPTIONS_DESC": " 250 mm"
+    },
+    {
+     "MASTER_DESC": "Suitable For",
+     "OPTIONS_DESC": " MDF, Plywood, Wood, Acrylic"
+    },
+    {
+     "MASTER_DESC": "Control System",
+     "OPTIONS_DESC": " DSP Controller"
+    },
+    {
+     "MASTER_DESC": "Job Material",
+     "OPTIONS_DESC": " MDF"
+    },
+    {
+     "MASTER_DESC": "Spindle Head Type",
+     "OPTIONS_DESC": " Single Spindle"
+    },
+    {
+     "MASTER_DESC": "Driven Motor",
+     "OPTIONS_DESC": " Stepper Motor"
+    },
+    {
+     "MASTER_DESC": "Motor Type",
+     "OPTIONS_DESC": " Stepper Motor"
+    },
+    {
+     "MASTER_DESC": "Tool Changer Type",
+     "OPTIONS_DESC": " Manual"
+    },
+    {
+     "MASTER_DESC": "Spindle Speed",
+     "OPTIONS_DESC": " 18000 RPM"
+    },
+    {
+     "MASTER_DESC": "Table Type",
+     "OPTIONS_DESC": " T-Slot"
+    }
+   ],
+   "CMP": "Aaradhana Machineries Private Limited",
+   "c_ct": "8047303078",
+   "c_vl": 1,
+   "f_ad": "",
+   "p_url": "https://www.indiamart.com/proddetail/cnc-wood-carving-machine-2853232906848.html",
+   "city": "Pune",
+   "ad": "Pune",
+   "disp_id": 2853232906848,
+   "PF": "90",
+   "cw_o": 199,
+   "g_s": "",
+   "g_c": "India",
+   "g_cn": "LEADER",
+   "wt_avg": 3.4,
+   "tr_c": 21,
+   "more_prod": [
+    {
+     "photo": "https://5.imimg.com/data5/SELLER/Default/2023/11/362213839/NA/OL/VK/65193787/whatsapp-image-2023-10-05-at-4-44-22-pm-1000x1000.jpeg",
+     "s_url": "https://www.indiamart.com/aaradhana-machineries/",
+     "ts": "aaradhana-machineries",
+     "pr": "₹ 3,75,000/Piece",
+     "isq": [
+      {
+       "MASTER_DESC": "XY Axis Working Area",
+       "OPTIONS_DESC": " 1300 x 2500 mm"
+      },
+      {
+       "MASTER_DESC": "Working Area (X*Y)",
+       "OPTIONS_DESC": " 4x8 ft"
+      },
+      {
+       "MASTER_DESC": "Number of Axes",
+       "OPTIONS_DESC": " 3 Axis"
+      },
+      {
+       "MASTER_DESC": "Machine Type",
+       "OPTIONS_DESC": " 3 Axis"
+      },
+      {
+       "MASTER_DESC": "Spindle Power",
+       "OPTIONS_DESC": " 3.5 kW"
+      },
+      {
+       "MASTER_DESC": "Suitable For",
+       "OPTIONS_DESC": " Wood, MDF, Acrylic, Plywood"
+      },
+      {
+       "MASTER_DESC": "Control System",
+       "OPTIONS_DESC": " DSP Controller"
+      },
+      {
+       "MASTER_DESC": "X-Y Axis Working Area",
+       "OPTIONS_DESC": " 1300 x 2500 mm"
+      },
+      {
+       "MASTER_DESC": "Z Axis Working Area",
+       "OPTIONS_DESC": " 250 mm"
+      },
+      {
+       "MASTER_DESC": "Model",
+       "OPTIONS_DESC": " 1325"
+      },
+      {
+       "MASTER_DESC": "Spindle Speed",
+       "OPTIONS_DESC": " 18000RPM"
+      },
+      {
+       "MASTER_DESC": "Job Material",
+       "OPTIONS_DESC": " HDF, PVC, Sign Board, MDF, Wood, Acrylic, Plywood"
+      },
+      {
+       "MASTER_DESC": "Spindle Head Type",
+       "OPTIONS_DESC": " Single Spindle"
+      },
+      {
+       "MASTER_DESC": "Motor Type",
+       "OPTIONS_DESC": " Stepper Motor"
+      },
+      {
+       "MASTER_DESC": "Tool Changer Type",
+       "OPTIONS_DESC": " Manual"
+      },
+      {
+       "MASTER_DESC": "Table Type",
+       "OPTIONS_DESC": " T-Slot"
+      },
+      {
+       "MASTER_DESC": "X-Y Movement",
+       "OPTIONS_DESC": " Rack & Pinion Transmission"
+      },
+      {
+       "MASTER_DESC": "Z Movement",
+       "OPTIONS_DESC": " Ball Screw Transmission"
+      }
+     ],
+     "CMP": "Aaradhana Machineries Private Limited",
+     "c_ct": "8047303078",
+     "c_vl": 1,
+     "f_ad": "",
+     "p_url": "https://www.indiamart.com/proddetail/cnc-wood-router-2852898140788.html",
+     "city": "Pune",
+     "ad": "Pune",
+     "disp_id": 2852898140788,
+     "PF": "90",
+     "cw_o": 199,
+     "g_s": "",
+     "g_c": "India",
+     "g_cn": "LEADER",
+     "wt_avg": 3.4,
+     "tr_c": 21,
+     "p_nm": "Cnc Wood Router, 3 Axis, 4x8 ft",
+     "f_nm": "Cnc Wood Router",
+     "srch_id": 263580408,
+     "ds": "",
+     "gl_id": 65193787,
+     "iil_display": 1,
+     "d_in": 0
+    },
+    {
+     "photo": "https://5.imimg.com/data5/SELLER/Default/2026/9/647495941/WJ/KQ/DH/65193787/ar-3015-cnc-stone-router-5-5-kw-1000x1000.jpeg",
+     "s_url": "https://www.indiamart.com/aaradhana-machineries/",
+     "ts": "aaradhana-machineries",
+     "pr": "₹ 8,00,000/Piece",
+     "isq": [
+      {
+       "MASTER_DESC": "Working Area",
+       "OPTIONS_DESC": " 1300×2500 mm"
+      },
+      {
+       "MASTER_DESC": "Spindle Power",
+       "OPTIONS_DESC": " 5.5 kW"
+      },
+      {
+       "MASTER_DESC": "Supported Material",
+       "OPTIONS_DESC": " Granite, Sandstone, Marble"
+      },
+      {
+       "MASTER_DESC": "Table Type",
+       "OPTIONS_DESC": " Water Bed"
+      },
+      {
+       "MASTER_DESC": "Axis Count",
+       "OPTIONS_DESC": " 3 Axis"
+      },
+      {
+       "MASTER_DESC": "Max Cutting Thickness",
+       "OPTIONS_DESC": " 100 mm"
+      },
+      {
+       "MASTER_DESC": "X-Y Axis Working Area",
+       "OPTIONS_DESC": " 3000 x 1500 mm"
+      },
+      {
+       "MASTER_DESC": "Model",
+       "OPTIONS_DESC": " AR 3015"
+      },
+      {
+       "MASTER_DESC": "Job Material",
+       "OPTIONS_DESC": " Stone"
+      },
+      {
+       "MASTER_DESC": "Cooling Type",
+       "OPTIONS_DESC": " Water Cooling"
+      },
+      {
+       "MASTER_DESC": "Maximum Cutting Speed",
+       "OPTIONS_DESC": " 24000 RPM"
+      },
+      {
+       "MASTER_DESC": "Spindle Speed",
+       "OPTIONS_DESC": " 0–18000 rpm"
+      },
+      {
+       "MASTER_DESC": "Repositioning Accuracy",
+       "OPTIONS_DESC": " 0.02 mm"
+      }
+     ],
+     "CMP": "Aaradhana Machineries Private Limited",
+     "c_ct": "8047303078",
+     "c_vl": 1,
+     "f_ad": "",
+     "p_url": "https://www.indiamart.com/proddetail/ar-3015-cnc-stone-router-5-5-kw-25565303391.html",
+     "city": "Pune",
+     "ad": "Pune",
+     "disp_id": 25565303391,
+     "PF": "90",
+     "cw_o": 199,
+     "g_s": "",
+     "g_c": "India",
+     "g_cn": "LEADER",
+     "wt_avg": 3.4,
+     "tr_c": 21,
+     "p_nm": "AR 3015 CNC Stone Router, 5.5 kW",
+     "f_nm": "AR 3015 CNC Stone Router, 5.5 kW",
+     "srch_id": 184761514,
+     "ds": "",
+     "gl_id": 65193787,
+     "iil_display": 1,
+     "d_in": 0
+    },
+    {
+     "photo": "https://5.imimg.com/data5/SELLER/Default/2022/2/BC/AL/QN/65193787/ar-1325r-wood-router-with-rotary-1000x1000.PNG",
+     "s_url": "https://www.indiamart.com/aaradhana-machineries/",
+     "ts": "aaradhana-machineries",
+     "pr": "₹ 4,50,000/Unit",
+     "isq": [
+      {
+       "MASTER_DESC": "Spindle",
+       "OPTIONS_DESC": " 3.5KW Air / Water-Cooling Spindle"
+      },
+      {
+       "MASTER_DESC": "Working Table",
+       "OPTIONS_DESC": " Aluminum Profile Working Table with T-Slot PVC Plate, Vaccum Bed"
+      },
+      {
+       "MASTER_DESC": "Resolution",
+       "OPTIONS_DESC": " +- 0.05 mm"
+      },
+      {
+       "MASTER_DESC": "Tool Diameter",
+       "OPTIONS_DESC": " 3.175 mm"
+      },
+      {
+       "MASTER_DESC": "Working Voltage",
+       "OPTIONS_DESC": " AC 220V, 50 Hz"
+      },
+      {
+       "MASTER_DESC": "Engraving Speed",
+       "OPTIONS_DESC": " 12000 mm / min"
+      },
+      {
+       "MASTER_DESC": "Feeding Height",
+       "OPTIONS_DESC": " 220 mm"
+      },
+      {
+       "MASTER_DESC": "Working Dictate",
+       "OPTIONS_DESC": " HPGL, G Code"
+      },
+      {
+       "MASTER_DESC": "Model Name/Number",
+       "OPTIONS_DESC": " AR-1325R"
+      },
+      {
+       "MASTER_DESC": "Control System",
+       "OPTIONS_DESC": " DSP Rich Auto A 11, NK105"
+      },
+      {
+       "MASTER_DESC": "Spindle Speed",
+       "OPTIONS_DESC": " 18000 rpm"
+      },
+      {
+       "MASTER_DESC": "Working Area",
+       "OPTIONS_DESC": " 1300 X 2500 mm, Rotary Dia 250 X 2500 mm"
+      }
+     ],
+     "CMP": "Aaradhana Machineries Private Limited",
+     "c_ct": "8047303078",
+     "c_vl": 1,
+     "f_ad": "",
+     "p_url": "https://www.indiamart.com/proddetail/ar-1325r-wood-router-with-rotary-24872098448.html",
+     "city": "Pune",
+     "ad": "Pune",
+     "disp_id": 24872098448,
+     "PF": "90",
+     "cw_o": 199,
+     "g_s": "",
+     "g_c": "India",
+     "g_cn": "LEADER",
+     "wt_avg": 3.4,
+     "tr_c": 21,
+     "p_nm": "AR-1325R Wood Router With Rotary, Dsp Rich Auto A 11,Nk105",
+     "f_nm": "AR-1325R Wood Router With Rotary",
+     "srch_id": 177829465,
+     "ds": "",
+     "gl_id": 65193787,
+     "iil_display": 1,
+     "d_in": 0
+    }
+   ],
+   "p_nm": "3 Axis Cnc Wood Carving Machine, 4x8 ft, Router",
+   "f_nm": "Cnc Wood Carving Machine",
+   "vefexp": "0",
+   "gl_id": 65193787,
+   "pdf": "https://5.imimg.com/data5/SELLER/Doc/2026/4/599014324/MH/ZT/TG/65193787/cnc-wood-carving-machine.pdf",
+   "imgc": 12,
+   "srch_id": 266928069,
+   "gst_v": 1,
+   "gst_no": 1,
+   "vf_sp": false,
+   "m_sn": "8 yrs",
+   "d_in": 0,
+   "ds": "",
+   "hnpd": 2,
+   "mv": 1,
+   "ev": 1,
+   "iil_display": 1
+  },
+  {
+   "photo": "https://5.imimg.com/data5/SELLER/Default/2023/1/DH/RM/ZO/26357162/cnc-router-machine-1000x1000.jpg",
+   "s_url": "https://www.mtechlasersolution.com/",
+   "ts": "mtechlasersolution",
+   "pr": "₹ 2,65,000/Piece",
+   "prd_price": "265000",
+   "isq": [
+    {
+     "MASTER_DESC": "Working Area (feet x feet)",
+     "OPTIONS_DESC": " 2 x 3"
+    },
+    {
+     "MASTER_DESC": "Spindle Power",
+     "OPTIONS_DESC": " 2.2 kW"
+    },
+    {
+     "MASTER_DESC": "Model",
+     "OPTIONS_DESC": " MT-6090"
+    },
+    {
+     "MASTER_DESC": "Machine Type",
+     "OPTIONS_DESC": " 3 Axis"
+    },
+    {
+     "MASTER_DESC": "Job Material",
+     "OPTIONS_DESC": " Acrylic, Wood, Plastic, Rubber, Foam Board, Aluminum"
+    },
+    {
+     "MASTER_DESC": "Spindle Head Type",
+     "OPTIONS_DESC": " Single Spindle"
+    },
+    {
+     "MASTER_DESC": "Maximum Cutting Speed",
+     "OPTIONS_DESC": " 18 MIN/METRE"
+    },
+    {
+     "MASTER_DESC": "Spindle Speed",
+     "OPTIONS_DESC": " 24000 RPM"
+    },
+    {
+     "MASTER_DESC": "Repositioning Accuracy",
+     "OPTIONS_DESC": " 0.02MM"
+    },
+    {
+     "MASTER_DESC": "X-Y Movement",
+     "OPTIONS_DESC": " BOLT SCREW"
+    },
+    {
+     "MASTER_DESC": "Command Code",
+     "OPTIONS_DESC": " G Code"
+    }
+   ],
+   "CMP": "Mtech Laser India Private Limited",
+   "c_ct": "7949359025",
+   "c_vl": 1,
+   "f_ad": "",
+   "p_url": "https://www.indiamart.com/proddetail/cnc-router-machine-2849600292762.html",
+   "city": "Ahmedabad",
+   "ad": "Ahmedabad",
+   "disp_id": 2849600292762,
+   "PF": "89",
+   "cw_o": 199,
+   "g_s": "",
+   "g_c": "India",
+   "g_cn": "LEADER",
+   "wt_avg": 4.3,
+   "tr_c": 75,
+   "more_prod": [
+    {
+     "photo": "https://5.imimg.com/data5/SELLER/Default/2025/1/478070055/SV/EH/XV/26357162/stone-cnc-and-wood-engraving-router-1000x1000.jpg",
+     "s_url": "https://www.mtechlasersolution.com/",
+     "ts": "mtechlasersolution",
+     "pr": "₹ 6,50,000/Piece",
+     "isq": [
+      {
+       "MASTER_DESC": "X-Y Axis Working Area",
+       "OPTIONS_DESC": " 1300 x 2500 mm"
+      },
+      {
+       "MASTER_DESC": "Z Axis Working Area",
+       "OPTIONS_DESC": " 300 mm"
+      },
+      {
+       "MASTER_DESC": "Spindle Power",
+       "OPTIONS_DESC": " 6 kW"
+      },
+      {
+       "MASTER_DESC": "Model",
+       "OPTIONS_DESC": " MT-1325SW"
+      },
+      {
+       "MASTER_DESC": "Machine Type",
+       "OPTIONS_DESC": " 3 Axis"
+      },
+      {
+       "MASTER_DESC": "Job Material",
+       "OPTIONS_DESC": " Acrylic, Rubber, Wood, Aluminum, Foam Board, Plastic, Brass, Stone"
+      },
+      {
+       "MASTER_DESC": "Spindle Head Type",
+       "OPTIONS_DESC": " Single Spindle"
+      },
+      {
+       "MASTER_DESC": "Maximum Cutting Speed",
+       "OPTIONS_DESC": " 18 MIN/METRE"
+      },
+      {
+       "MASTER_DESC": "Spindle Speed",
+       "OPTIONS_DESC": " 24000 RPM"
+      },
+      {
+       "MASTER_DESC": "Repositioning Accuracy",
+       "OPTIONS_DESC": " 0.02MM"
+      },
+      {
+       "MASTER_DESC": "X-Y Movement",
+       "OPTIONS_DESC": " Rack & Pinion Transmission"
+      },
+      {
+       "MASTER_DESC": "Command Code",
+       "OPTIONS_DESC": " G Code"
+      }
+     ],
+     "CMP": "Mtech Laser India Private Limited",
+     "c_ct": "7949359025",
+     "c_vl": 1,
+     "f_ad": "",
+     "p_url": "https://www.indiamart.com/proddetail/stone-cnc-and-wood-engraving-router-2849601900712.html",
+     "city": "Ahmedabad",
+     "ad": "Ahmedabad",
+     "disp_id": 2849601900712,
+     "PF": "89",
+     "cw_o": 199,
+     "g_s": "",
+     "g_c": "India",
+     "g_cn": "LEADER",
+     "wt_avg": 4.3,
+     "tr_c": 75,
+     "p_nm": "Stone Cnc And Wood Engraving Router, 6 kW",
+     "f_nm": "Stone Cnc And Wood Engraving Router",
+     "srch_id": 230618008,
+     "ds": "",
+     "gl_id": 26357162,
+     "iil_display": 1,
+     "d_in": 0
+    },
+    {
+     "photo": "https://5.imimg.com/data5/SELLER/Default/2025/7/527034050/YA/AF/JP/26357162/cnc-wood-carving-machine-1000x1000.jpg",
+     "s_url": "https://www.mtechlasersolution.com/",
+     "ts": "mtechlasersolution",
+     "pr": "₹ 4,35,000/Piece",
+     "isq": [
+      {
+       "MASTER_DESC": "X-Y Axis Working Area",
+       "OPTIONS_DESC": " 1300 x 2500 mm"
+      },
+      {
+       "MASTER_DESC": "Z Axis Working Area",
+       "OPTIONS_DESC": " 300 mm"
+      },
+      {
+       "MASTER_DESC": "Spindle Power",
+       "OPTIONS_DESC": " 3.5 kW"
+      },
+      {
+       "MASTER_DESC": "Brand",
+       "OPTIONS_DESC": " MTECHCNC"
+      },
+      {
+       "MASTER_DESC": "Packaging Size",
+       "OPTIONS_DESC": " WOODEN"
+      },
+      {
+       "MASTER_DESC": "Model Name/Number",
+       "OPTIONS_DESC": " MT-1325"
+      },
+      {
+       "MASTER_DESC": "Automation Grade",
+       "OPTIONS_DESC": " Fully Automatic"
+      },
+      {
+       "MASTER_DESC": "Job Material",
+       "OPTIONS_DESC": " Foam Board, Sign Board, MDF, PVC, Acrylic, Plywood, Plastic, Wood"
+      },
+      {
+       "MASTER_DESC": "Command Code",
+       "OPTIONS_DESC": " G Code"
+      },
+      {
+       "MASTER_DESC": "Machine Capacity",
+       "OPTIONS_DESC": " INDUSTRIL"
+      },
+      {
+       "MASTER_DESC": "Power",
+       "OPTIONS_DESC": " 3PHASE"
+      },
+      {
+       "MASTER_DESC": "Usage/Application",
+       "OPTIONS_DESC": " WOOD, ACRYLIC, ACP, MDF"
+      },
+      {
+       "MASTER_DESC": "Material",
+       "OPTIONS_DESC": " WOOD, ARYLIC, MDF, ACP"
+      }
+     ],
+     "CMP": "Mtech Laser India Private Limited",
+     "c_ct": "7949359025",
+     "c_vl": 1,
+     "f_ad": "",
+     "p_url": "https://www.indiamart.com/proddetail/cnc-wood-carving-machine-25440847912.html",
+     "city": "Ahmedabad",
+     "ad": "Ahmedabad",
+     "disp_id": 25440847912,
+     "PF": "89",
+     "cw_o": 199,
+     "g_s": "",
+     "g_c": "India",
+     "g_cn": "LEADER",
+     "wt_avg": 4.3,
+     "tr_c": 75,
+     "p_nm": "CNC Wood Carving Machine, 3.5 kW",
+     "f_nm": "CNC Wood Carving Machine",
+     "srch_id": 183516960,
+     "ds": "",
+     "gl_id": 26357162,
+     "iil_display": 1,
+     "d_in": 0
+    },
+    {
+     "photo": "https://5.imimg.com/data5/SELLER/Default/2023/1/LF/AX/RC/26357162/1325t-wood-cnc-1-1000x1000.jpg",
+     "s_url": "https://www.mtechlasersolution.com/",
+     "ts": "mtechlasersolution",
+     "pr": "₹ 5,85,000/Piece",
+     "isq": [
+      {
+       "MASTER_DESC": "X-Y Axis Working Area",
+       "OPTIONS_DESC": " 1300 x 2500 mm"
+      },
+      {
+       "MASTER_DESC": "Z Axis Working Area",
+       "OPTIONS_DESC": " 200 mm"
+      },
+      {
+       "MASTER_DESC": "Spindle Power",
+       "OPTIONS_DESC": " 6 kW"
+      },
+      {
+       "MASTER_DESC": "Model",
+       "OPTIONS_DESC": " MT-1325T"
+      },
+      {
+       "MASTER_DESC": "Usage/Application",
+       "OPTIONS_DESC": " SIGNAGE, WOODE DOOR CARWING"
+      },
+      {
+       "MASTER_DESC": "Material",
+       "OPTIONS_DESC": " WOOD, ARYLIC, MDF, ACP"
+      },
+      {
+       "MASTER_DESC": "Automation Grade",
+       "OPTIONS_DESC": " Automatic"
+      },
+      {
+       "MASTER_DESC": "LH and RH Spindle Up Down Movement",
+       "OPTIONS_DESC": " 200MM"
+      },
+      {
+       "MASTER_DESC": "Job Material",
+       "OPTIONS_DESC": " Plywood, Acrylic, Wood, PVC, Sign Board, Plastic, MDF, Foam Board, HDF"
+      },
+      {
+       "MASTER_DESC": "Top Spindle Up Down Movement",
+       "OPTIONS_DESC": " 200MM"
+      },
+      {
+       "MASTER_DESC": "Height From Floor To Table",
+       "OPTIONS_DESC": " 1350MM"
+      },
+      {
+       "MASTER_DESC": "Top Spindle Cutter Max Diameter",
+       "OPTIONS_DESC": " 12MM"
+      },
+      {
+       "MASTER_DESC": "Max Circular Saw Diameter",
+       "OPTIONS_DESC": " 10MM"
+      },
+      {
+       "MASTER_DESC": "Max Size For Mortiser",
+       "OPTIONS_DESC": " 30MM"
+      },
+      {
+       "MASTER_DESC": "Command Code",
+       "OPTIONS_DESC": " G Code"
+      },
+      {
+       "MASTER_DESC": "Country of Origin",
+       "OPTIONS_DESC": " Made in India"
+      }
+     ],
+     "CMP": "Mtech Laser India Private Limited",
+     "c_ct": "7949359025",
+     "c_vl": 1,
+     "f_ad": "",
+     "p_url": "https://www.indiamart.com/proddetail/double-head-cnc-woodworking-router-2849601623473.html",
+     "city": "Ahmedabad",
+     "ad": "Ahmedabad",
+     "disp_id": 2849601623473,
+     "PF": "89",
+     "cw_o": 199,
+     "g_s": "",
+     "g_c": "India",
+     "g_cn": "LEADER",
+     "wt_avg": 4.3,
+     "tr_c": 75,
+     "p_nm": "MT-1325T Double Head Cnc Woodworking Router, For Signage,Woode Door Carwing, 6 kW",
+     "f_nm": "Double Head Cnc Woodworking Router",
+     "srch_id": 230615235,
+     "ds": "",
+     "gl_id": 26357162,
+     "iil_display": 1,
+     "d_in": 0
+    }
+   ],
+   "p_nm": "Cnc Router Machine",
+   "f_nm": "Cnc Router Machine",
+   "vefexp": 22,
+   "gl_id": 26357162,
+   "pdf": "https://5.imimg.com/data5/SELLER/Doc/2023/1/KV/GX/LZ/26357162/cnc-router-machine.pdf",
+   "imgc": 12,
+   "srch_id": 230601928,
+   "gst_v": 1,
+   "gst_no": 1,
+   "vf_sp": false,
+   "m_sn": "10 yrs",
+   "d_in": 0,
+   "ds": "",
+   "hnpd": 2,
+   "mv": 1,
+   "ev": 1,
+   "iil_display": 1
+  }
+ ],
+ "localSellers": [],
+ "ecom_filter": null,
+ "city_tier": "",
+ "catid": "587",
+ "mcatid": "3878",
+ "mcatprod": "P",
+ "mcat_img": "https://5.imimg.com/data5/GLADMIN/Default/2022/6/JH/EP/JL/87939/cnc-machines-500x500.png",
+ "mcatsingular_name": "CNC Machine",
+ "VIDEO_DATA": {
+  "DATA": []
+ },
+ "is_pricewidget": "1",
+ "isq_filter": {},
+ "isqPrsntInUrl": false,
+ "url": "/mcatAjaxRequest/ajaxData/?flname=cnc-machines&isqId=0&biz=0",
+ "quesId": null,
+ "optId": "",
+ "bizSelected": 0,
+ "biz_filter": [
+  {
+   "FK_PBIZ_ID": 20,
+   "GL_PRIMARY_BIZ_TYPE": "Exporter"
+  },
+  {
+   "FK_PBIZ_ID": 10,
+   "GL_PRIMARY_BIZ_TYPE": "Manufacturer"
+  },
+  {
+   "FK_PBIZ_ID": 40,
+   "GL_PRIMARY_BIZ_TYPE": "Retailer"
+  },
+  {
+   "FK_PBIZ_ID": 50,
+   "GL_PRIMARY_BIZ_TYPE": "Service Provider"
+  },
+  {
+   "FK_PBIZ_ID": 30,
+   "GL_PRIMARY_BIZ_TYPE": "Wholesaler/Distributor"
+  }
+ ],
+ "plaWidgetData": [
+  {
+   "GLCAT_CAT_ID": "163",
+   "MCAT_ID": "142301",
+   "GLCAT_MCAT_NAME": "Twin Screw Machine",
+   "ITEM_NAME": "Jaewoo ARTIS 165+ CNC Machine",
+   "PC_ITEM_DISPLAY_NAME": "3 Axis Jaewoo Artis 165+ Cnc Machine, Router",
+   "DISPLAY_ID": 2853758604530,
+   "IMAGE_250X250": "https://5.imimg.com/data5/SELLER/Default/2026/7/626056568/MA/MK/JR/36510394/jaewoo-artis-165-cnc-machine-250x250.png",
+   "IMAGE_500X500": "https://5.imimg.com/data5/SELLER/Default/2026/7/626056568/MA/MK/JR/36510394/jaewoo-artis-165-cnc-machine-500x500.png",
+   "IMAGE_ORIGINAL": "https://5.imimg.com/data5/SELLER/Default/2026/7/626056568/MA/MK/JR/36510394/jaewoo-artis-165-cnc-machine.png",
+   "PRICE_F": "₹ 12.13 Lakh / Piece",
+   "PRICE_SEO": "₹ 12,12,999/Piece",
+   "COMPANYNAME": "Bharat Machine Tools",
+   "CITY_NAME": "Pune",
+   "STATE_NAME": "",
+   "GLUSR_ID": 36510394,
+   "PDP_URL": "https://www.indiamart.com/proddetail/jaewoo-artis-165-cnc-machine-2853758604530.html?pos=1&nh=Y",
+   "PNS_RATIO": "",
+   "SELLER_RATING_COUNTS": "",
+   "CONTACT_NUMBER": "+91-7942646189",
+   "newly_hosted": 1
+  }
+ ],
+ "relatedStdProducts": [],
+ "enqFormParam": {},
+ "ImgenqFormParam": {},
+ "openPopup": false,
+ "openBLPopup": false,
+ "openImgPopup": false,
+ "showLocalisationPopup": false,
+ "inlineBl": true,
+ "is_generic_flag": 1,
+ "relCat": [
+  {
+   "GLCAT_MCAT_NAME": "Numerically Controlled Machine",
+   "URL": "/impcat/numerically-controlled-machine.html",
+   "GLCAT_MCAT_FLNAME": "numerically-controlled-machine",
+   "IMG": "https://3.imimg.com/data3/MI/SU/GLADMIN-32889/numerically-controlled-machine-125x125.jpg"
+  },
+  {
+   "GLCAT_MCAT_NAME": "Vertical Machining Center",
+   "URL": "/impcat/vertical-machining-center.html",
+   "GLCAT_MCAT_FLNAME": "vertical-machining-center",
+   "IMG": "https://5.imimg.com/data5/GLADMIN/Default/2022/6/FX/XC/EI/87939/vertical-machining-center-125x125.jpg"
+  },
+  {
+   "GLCAT_MCAT_NAME": "CNC Stone Engraving Machine",
+   "URL": "/impcat/cnc-stone-engraving-machine.html",
+   "GLCAT_MCAT_FLNAME": "cnc-stone-engraving-machine",
+   "IMG": "https://3.imimg.com/data3/PP/XW/GLADMIN-158971/cnc-stone-engraving-machine-125x125.jpg"
+  },
+  {
+   "GLCAT_MCAT_NAME": "CNC Machining Centre",
+   "URL": "/impcat/cnc-machining-centre.html",
+   "GLCAT_MCAT_FLNAME": "cnc-machining-centre",
+   "IMG": "https://3.imimg.com/data3/UO/VN/GLADMIN-65133/cnc-machining-centre-125x125.jpg"
+  },
+  {
+   "GLCAT_MCAT_NAME": "CNC Wood Router",
+   "URL": "/impcat/cnc-wood-router.html",
+   "GLCAT_MCAT_FLNAME": "cnc-wood-router",
+   "IMG": "https://3.imimg.com/data3/RC/BQ/GLADMIN-157213/cnc-wood-router-125x125.jpg"
+  },
+  {
+   "GLCAT_MCAT_NAME": "CNC Drilling Machine",
+   "URL": "/impcat/cnc-drilling-machine.html",
+   "GLCAT_MCAT_FLNAME": "cnc-drilling-machine",
+   "IMG": "https://3.imimg.com/data3/UW/RG/GLADMIN-25052/cnc-drilling-machine-125x125.jpg"
+  },
+  {
+   "GLCAT_MCAT_NAME": "Horizontal Machining Centers",
+   "URL": "/impcat/horizontal-machining-centers.html",
+   "GLCAT_MCAT_FLNAME": "horizontal-machining-centers",
+   "IMG": "https://3.imimg.com/data3/DA/RI/GLADMIN-29491/horizontal-machining-centers-125x125.jpg"
+  },
+  {
+   "GLCAT_MCAT_NAME": "Automatic CNC Machine",
+   "URL": "/impcat/automatic-cnc-machine.html",
+   "GLCAT_MCAT_FLNAME": "automatic-cnc-machine",
+   "IMG": "https://5.imimg.com/data5/GLADMIN/Default/2022/6/ZR/JB/UL/87939/automatic-cnc-machine-125x125.jpg"
+  },
+  {
+   "GLCAT_MCAT_NAME": "CNC Cutting Machine",
+   "URL": "/impcat/cnc-cutting-machine.html",
+   "GLCAT_MCAT_FLNAME": "cnc-cutting-machine",
+   "IMG": "https://3.imimg.com/data3/PI/SA/GLADMIN-68338/cnc-cutting-machine-125x125.jpg"
+  }
+ ],
+ "relBrand": [
+  {
+   "GLCAT_MCAT_NAME": "LMW CNC Machine",
+   "URL": "/impcat/lmw-cnc-machine.html",
+   "GLCAT_MCAT_FLNAME": "lmw-cnc-machine",
+   "IMG": "https://5.imimg.com/data5/GLADMIN/BrandMcat/2024/6/426103931/WE/JO/NC/96317/lmw-125x125.png"
+  },
+  {
+   "GLCAT_MCAT_NAME": "Ace Micromatic CNC Turning Machine",
+   "URL": "/impcat/ace-micromatic-cnc-turning-machine.html",
+   "GLCAT_MCAT_FLNAME": "ace-micromatic-cnc-turning-machine",
+   "IMG": "https://5.imimg.com/data5/GLADMIN/BrandMcat/2021/3/AA/YB/XS/81953/ace-micromatic-125x125.jpg"
+  },
+  {
+   "GLCAT_MCAT_NAME": "BFW VMC",
+   "URL": "/impcat/bfw-vmc.html",
+   "GLCAT_MCAT_FLNAME": "bfw-vmc",
+   "IMG": "https://5.imimg.com/data5/BrandMcat/FY/EJ/UB/GLADMIN-81953/bfw-125x125.jpg"
+  }
+ ],
+ "catstoexplore": [
+  {
+   "IMG": "https://3.imimg.com/data3/AT/UY/GLADMIN-25062/cnc-turning-centers-125x125.jpg",
+   "ch": "CNC Turning Centers",
+   "FL": "cnc-turning-centers"
+  },
+  {
+   "IMG": "https://3.imimg.com/data3/GF/OT/GLADMIN-25065/cnc-vertical-machining-centers-125x125.jpg",
+   "ch": "Machining Center",
+   "FL": "cnc-vertical-machining-centers"
+  },
+  {
+   "IMG": "https://5.imimg.com/data5/GLADMIN/Default/2022/6/HK/XH/GJ/87939/cnc-routers-125x125.png",
+   "ch": "CNC Routers",
+   "FL": "cnc-routers"
+  },
+  {
+   "IMG": "https://5.imimg.com/data5/GLADMIN/Default/2022/6/MW/VE/VZ/87939/cnc-lathe-machine-125x125.png",
+   "ch": "CNC Lathe Machine",
+   "FL": "cnc-lathe-machine"
+  },
+  {
+   "IMG": "https://3.imimg.com/data3/GN/JW/GLADMIN-156451/cnc-edm-machines-125x125.jpg",
+   "ch": "CNC EDM Machines",
+   "FL": "cnc-edm-machines"
+  },
+  {
+   "IMG": "https://3.imimg.com/data3/SR/PD/GLADMIN-25057/cnc-milling-machine-125x125.jpg",
+   "ch": "CNC Milling Machine",
+   "FL": "cnc-milling-machine"
+  }
+ ],
+ "adult_flag": "0",
+ "is_district": "",
+ "glcat_mcat_no_price": "2",
+ "template_id": "80",
+ "map_ctotal": "20890",
+ "groupid": "34",
+ "loader": false,
+ "vidfilter": false,
+ "containsVideo": false,
+ "cityflname": "impcat",
+ "srcParam": "mcat-all",
+ "hdcityname": "McatAjaxRequest",
+ "hindiMcatUrl": "https://hindi.indiamart.com/impcat/cnc-machines/",
+ "hindiName": "CNC मशीनें",
+ "abtest": false,
+ "isForeign": false,
+ "glbCountry": "IN",
+ "iplocCountry": "",
+ "clusterExpType": "",
+ "experimentTrack": "",
+ "ea": "DIR_MCAT_pmcat_allindia",
+ "Abexperiment": "Exp2",
+ "imageAndIsqNotimp": false,
+ "Company_Important": false,
+ "isInactive": false,
+ "totalResults": "20890",
+ "page": 1,
+ "priceWidgetData": [],
+ "cityImgIsqFlag": "_CT0_IG4_IQ3_PF2_TID80_CF2",
+ "CD_title": "/vpv/indianexporters/plant-machinery/cnc-lathes/React-generic-impcat/cnc-machines.html",
+ "CD_Group": "34",
+ "CD_Subcat": "587",
+ "CD_MCAT": "3878",
+ "CD_List-Count": "20890",
+ "CD_Miscellaneous": "DIR-Mcat-c-SSx|FilterNAVG_CT0_IG4_IQ3_PF2_TID80_CF2|Typ-PG|Sold-2|React|PLA=0|Abexp=Exp2",
+ "priceData": [
+  {
+   "displayName": "Below ₹30,000",
+   "maxPrice": 30000,
+   "minPrice": 0,
+   "unit": "Piece"
+  },
+  {
+   "displayName": "Above ₹30,001",
+   "maxPrice": null,
+   "minPrice": 30001,
+   "unit": "Piece"
+  }
+ ],
+ "index": 1,
+ "index_orig": 1,
+ "randomizer": 462,
+ "questions": [],
+ "selectedForCompare": [],
+ "comparePopupData": null,
+ "compareMode": false,
+ "compareMcatEnabled": false
+}

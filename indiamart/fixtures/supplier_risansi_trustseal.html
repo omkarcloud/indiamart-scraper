@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Business Trust Profile of Risansi Industries Limited</title>
+  <style>
+  /* Responsive TrustSeal Certificate Styles */
+
+.trustseal-cert {
+  width: 100%;
+  max-width: 620px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  box-sizing: border-box;
+}
+
+.trustseal-cert__container {
+  display: flex;
+  width: 100%;
+  position: relative;
+  background-color: #ffffff;
+}
+
+.trustseal-cert__border {
+  flex: 0 0 20px;
+  width: 20px;
+  min-height: 100%;
+}
+
+.trustseal-cert__border img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  display: block;
+}
+
+.trustseal-cert__body {
+  flex: 1;
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/* Header section */
+.trustseal-cert__logo-wrapper {
+  margin-bottom: 5px;
+}
+
+.trustseal-cert__logo {
+  max-width: 165px;
+  height: auto;
+  display: block;
+}
+
+.trustseal-cert__id {
+  font-family: 'Inter', liberation-sans, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  color: #6b7381;
+  margin-bottom: 31px;
+}
+
+/* Award Titles */
+.trustseal-cert__award-title {
+  font-family: 'Inter', liberation-sans, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  color: #6b7381;
+  letter-spacing: 0.5px;
+  margin: 0 0 15px 0;
+}
+
+.trustseal-cert__award-to {
+  font-family: 'Inter', liberation-sans, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  color: #6b7381;
+  letter-spacing: 0.5px;
+  margin: 0 0 28px 0;
+}
+
+/* Recipient info */
+.trustseal-cert__recipient {
+  margin-bottom: 32px;
+  width: 100%;
+}
+
+.trustseal-cert__name {
+  font-family: 'Liberation Serif', sans-serif;;
+  font-style: normal;
+  font-weight: 400;
+  font-size: clamp(24px, 7vw, 42px);
+  line-height: 1.2;
+  color: #1b375e;
+  margin: 0 0 12px 0;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.trustseal-cert__location {
+  font-family: 'Inter', liberation-sans, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  color: #6b7381;
+  margin: 0;
+}
+
+/* Details columns */
+.trustseal-cert__details {
+  display: flex;
+  width: 100%;
+  max-width: 420px;
+  margin: 0 auto 25px auto;
+  border-collapse: collapse;
+}
+
+.trustseal-cert__details-col {
+  flex: 1;
+  padding: 0 10px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.trustseal-cert__details-col:not(:last-child) {
+  border-right: 1px solid #1b375e;
+}
+
+.trustseal-cert__details-label {
+  font-family: 'Inter', liberation-sans, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  color: #6b7381;
+  margin-bottom: 4px;
+  text-transform: uppercase;
+}
+
+.trustseal-cert__details-value {
+  font-family: 'Inter', liberation-sans, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  color: #1b375e;
+}
+
+/* Rating Section */
+.trustseal-cert__rating-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #cecece;
+  border-radius: 10px;
+  padding: 10px 15px;
+  width: 100%;
+  max-width: 320px;
+  margin: 0 auto 50px auto;
+  box-sizing: border-box;
+}
+
+.trustseal-cert__stars {
+  display: flex;
+  gap: 6px;
+  margin-right: 15px;
+}
+
+.trustseal-cert__star-icon {
+  width: 32px;
+  height: 32px;
+  display: block;
+}
+
+.trustseal-cert__rating-value-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.trustseal-cert__rating-number {
+  font-family: 'Inter', liberation-sans, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  color: #1b375e;
+  line-height: 1.1;
+}
+
+.trustseal-cert__rating-label {
+  font-family: 'Inter', liberation-sans, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  color: #1b375e;
+  text-transform: uppercase;
+}
+
+/* Verification Section */
+.trustseal-cert__verification {
+  display: flex;
+  width: 100%;
+  max-width: 550px;
+  margin: 0 auto 25px auto;
+  justify-content: space-between;
+  align-items: stretch;
+  box-sizing: border-box;
+}
+
+.trustseal-cert__verification-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.trustseal-cert__qr-title {
+  font-family: 'Inter', liberation-sans, sans-serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 16px;
+  color: #1b375e;
+  margin: 0 0 25px 0;
+  text-align: center;
+}
+
+.trustseal-cert__qr-container {
+  width: 160px;
+  height: 160px;
+  border: 1px solid #f1f3f3;
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 5px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.trustseal-cert__qr-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  cursor: pointer;
+}
+
+.trustseal-cert__divider {
+  flex: 0 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.trustseal-cert__divider-line {
+  height: 150px;
+  width: 1px;
+  background-color: #e0e0e0;
+}
+
+.trustseal-cert__verification-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 10px 0 25px;
+  box-sizing: border-box;
+}
+
+/* No QR code (paidshowroom_url unavailable): center the verification content */
+.trustseal-cert__verification--no-qr {
+  justify-content: center;
+}
+
+.trustseal-cert__verification--no-qr .trustseal-cert__verification-right {
+  flex: 0 1 auto;
+  align-items: center;
+  text-align: center;
+  padding: 0;
+  max-width: 420px;
+}
+
+.trustseal-cert__verification--no-qr .trustseal-cert__verified-title {
+  text-align: center;
+  width: 100%;
+}
+
+.trustseal-cert__verification--no-qr .trustseal-cert__checklist {
+  width: auto;
+}
+
+.trustseal-cert__verification--no-qr .trustseal-cert__check-item {
+  text-align: left;
+}
+
+.trustseal-cert__verified-title {
+  font-family: 'Inter', liberation-sans, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #1b375e;
+  margin: 0 0 25px 0;
+}
+
+.trustseal-cert__checklist {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.trustseal-cert__check-item {
+  display: flex;
+  align-items: center;
+  font-family: 'Inter', liberation-sans, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #1b375e;
+  text-align: left;
+}
+
+.trustseal-cert__tick-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+  flex-shrink: 0;
+}
+
+/* Footer Section */
+.trustseal-cert__footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.trustseal-cert__footer-logo {
+  max-height: 40px;
+  width: auto;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.trustseal-cert__footer-text {
+  font-family: 'Inter', liberation-sans, sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 1.5;
+  color: #6d6f71;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+/* Responsive Media Queries */
+@media screen and (max-width: 600px) {
+  .trustseal-cert__border {
+    flex: 0 0 12px;
+    width: 12px;
+  }
+  
+  .trustseal-cert__body {
+    padding: 15px 5px;
+  }
+  
+  .trustseal-cert__logo {
+    max-width: 130px;
+  }
+  
+  .trustseal-cert__id {
+    margin-bottom: 20px;
+  }
+  
+  .trustseal-cert__award-title {
+    margin-bottom: 10px;
+  }
+  
+  .trustseal-cert__award-to {
+    margin-bottom: 20px;
+  }
+  
+  .trustseal-cert__recipient {
+    margin-bottom: 24px;
+  }
+  
+  .trustseal-cert__details {
+    max-width: 90%;
+    margin-bottom: 20px;
+  }
+  
+  .trustseal-cert__details-col {
+    padding: 0 5px;
+  }
+  
+  .trustseal-cert__details-label {
+    font-size: 8px;
+  }
+  
+  .trustseal-cert__details-value {
+    font-size: 10px;
+  }
+  
+  .trustseal-cert__rating-box {
+    margin-bottom: 35px;
+    padding: 8px 12px;
+    max-width: 280px;
+  }
+  
+  .trustseal-cert__stars {
+    gap: 4px;
+    margin-right: 10px;
+  }
+  
+  .trustseal-cert__star-icon {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .trustseal-cert__rating-number {
+    font-size: 18px;
+  }
+  
+  .trustseal-cert__verification {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .trustseal-cert__verification-left,
+  .trustseal-cert__verification-right {
+    flex: none;
+    width: 100%;
+    align-items: center;
+    padding: 0;
+  }
+  
+  .trustseal-cert__verification-right {
+    max-width: 250px;
+  }
+  
+  .trustseal-cert__qr-title {
+    margin-bottom: 15px;
+  }
+  
+  .trustseal-cert__divider {
+    display: none; /* Hide vertical line on mobile stack */
+  }
+  
+  .trustseal-cert__verified-title {
+    margin-bottom: 15px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .trustseal-cert__checklist {
+    align-items: flex-start;
+    gap: 15px;
+  }
+  
+  .trustseal-cert__check-item {
+    font-size: 14px;
+  }
+  
+  .trustseal-cert__tick-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 12px;
+  }
+  
+  .trustseal-cert__footer {
+    margin-top: 15px;
+  }
+  
+  .trustseal-cert__footer-logo {
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .trustseal-cert__border {
+    flex: 0 0 8px;
+    width: 8px;
+  }
+  
+  .trustseal-cert__details-label {
+    font-size: 7px;
+  }
+  
+  .trustseal-cert__details-value {
+    font-size: 9px;
+  }
+}
+
+
+  </style>
+</head>
+<body>
+    <div class="trustseal-cert">
+      <div class="trustseal-cert__container">
+        <div class="trustseal-cert__border"><img src="https://hm.imimg.com/dist/client/gifs/trustseal/leftmdpi.png" aria-hidden="true"/></div>
+        <div class="trustseal-cert__body">
+          <div class="trustseal-cert__logo-wrapper"><img src="https://hm.imimg.com/dist/client/gifs/trustseal/trustseal-logomdpi.png" alt="IndiaMART TrustSEAL" class="trustseal-cert__logo"/></div>
+          <div class="trustseal-cert__id">Certificate ID: 36450</div>
+          <h2 class="trustseal-cert__award-title">CERTIFICATE OF TRUST</h2>
+          <h2 class="trustseal-cert__award-to">AWARDED TO</h2>
+          <div class="trustseal-cert__recipient">
+            <h1 class="trustseal-cert__name">Risansi Industries Limited</h1>
+            <p class="trustseal-cert__location">Uttar Pradesh, India</p>
+          </div>
+
+          <div class="trustseal-cert__details">
+            <div class="trustseal-cert__details-col"><div class="trustseal-cert__details-label">ISSUE DATE</div><div class="trustseal-cert__details-value">April 2018</div></div>
+            <div class="trustseal-cert__details-col"><div class="trustseal-cert__details-label">VALID TILL</div><div class="trustseal-cert__details-value">April 2027</div></div>
+            <div class="trustseal-cert__details-col"><div class="trustseal-cert__details-label">GST</div><div class="trustseal-cert__details-value">09***********Z4</div></div>
+          </div>
+
+          <div class="trustseal-cert__rating-box">
+            <div class="trustseal-cert__stars"><svg class="trustseal-cert__star-icon" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-label="Full Star" role="img"><polygon points="16,2 20.5,11.5 31,13 23,20.5 25,31 16,26 7,31 9,20.5 1,13 11.5,11.5" fill="#F5A623" stroke="#F5A623" stroke-width="1" stroke-linejoin="round"/></svg><svg class="trustseal-cert__star-icon" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-label="Full Star" role="img"><polygon points="16,2 20.5,11.5 31,13 23,20.5 25,31 16,26 7,31 9,20.5 1,13 11.5,11.5" fill="#F5A623" stroke="#F5A623" stroke-width="1" stroke-linejoin="round"/></svg><svg class="trustseal-cert__star-icon" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-label="Partial Star" role="img">
+      <defs><clipPath id="star-partial-2"><rect x="0" y="0" width="28.800" height="32"/></clipPath></defs>
+      <polygon points="16,2 20.5,11.5 31,13 23,20.5 25,31 16,26 7,31 9,20.5 1,13 11.5,11.5" fill="#e0e0e0" stroke="#e0e0e0" stroke-width="1" stroke-linejoin="round"/>
+      <polygon points="16,2 20.5,11.5 31,13 23,20.5 25,31 16,26 7,31 9,20.5 1,13 11.5,11.5" fill="#F5A623" stroke="#F5A623" stroke-width="1" stroke-linejoin="round" clip-path="url(#star-partial-2)"/>
+    </svg><svg class="trustseal-cert__star-icon" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-label="Empty Star" role="img"><polygon points="16,2 20.5,11.5 31,13 23,20.5 25,31 16,26 7,31 9,20.5 1,13 11.5,11.5" fill="#e0e0e0" stroke="#e0e0e0" stroke-width="1" stroke-linejoin="round"/></svg><svg class="trustseal-cert__star-icon" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-label="Empty Star" role="img"><polygon points="16,2 20.5,11.5 31,13 23,20.5 25,31 16,26 7,31 9,20.5 1,13 11.5,11.5" fill="#e0e0e0" stroke="#e0e0e0" stroke-width="1" stroke-linejoin="round"/></svg></div>
+            <div class="trustseal-cert__rating-value-box"><span class="trustseal-cert__rating-number">2.9</span><span class="trustseal-cert__rating-label">Rating</span></div>
+          </div>
+
+          <div class="trustseal-cert__verification">
+            <div class="trustseal-cert__verification-left">
+              <h3 class="trustseal-cert__qr-title">Scan Here For Catalogue</h3>
+              <div class="trustseal-cert__qr-container"><a href="https://www.indiamart.com/risansi/" target="_blank" rel="noopener noreferrer"><img src="https://api.qrserver.com/v1/create-qr-code/?size=141x141&data=https%3A%2F%2Fwww.indiamart.com%2Frisansi%2F" alt="QR Code" class="trustseal-cert__qr-image"/></a></div>
+            </div>
+            <div class="trustseal-cert__divider" aria-hidden="true"><div class="trustseal-cert__divider-line"></div></div>
+            <div class="trustseal-cert__verification-right">
+              <h3 class="trustseal-cert__verified-title">Verified</h3>
+              <ul class="trustseal-cert__checklist">
+                <li class="trustseal-cert__check-item"><img src="https://hm.imimg.com/dist/client/gifs/trustseal/tickmdpi.png" class="trustseal-cert__tick-icon" aria-hidden="true"/>GST Registration</li><li class="trustseal-cert__check-item"><img src="https://hm.imimg.com/dist/client/gifs/trustseal/tickmdpi.png" class="trustseal-cert__tick-icon" aria-hidden="true"/>Bank Account</li><li class="trustseal-cert__check-item"><img src="https://hm.imimg.com/dist/client/gifs/trustseal/tickmdpi.png" class="trustseal-cert__tick-icon" aria-hidden="true"/>Business Address</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="trustseal-cert__footer">
+            <img src="https://hm.imimg.com/dist/client/gifs/trustseal/Asset-8mdpi.png" alt="IndiaMART Logo" class="trustseal-cert__footer-logo" loading="eager" decoding="async"/>
+            <p class="trustseal-cert__footer-text">This is a system-generated Certificate valid upon Official IndiaMART Verification.</p>
+          </div>
+        </div>
+        <div class="trustseal-cert__border"><img src="https://hm.imimg.com/dist/client/gifs/trustseal/rightmdpi.png" aria-hidden="true"/></div>
+      </div>
+    </div>
+</body>
+</html>

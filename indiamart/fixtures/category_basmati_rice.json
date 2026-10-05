@@ -1,0 +1,2160 @@
+{
+ "breadcrumb": [
+  {
+   "CAT": {
+    "catflName": "m_rcmach",
+    "catName": "Cereals & Food Grains"
+   }
+  },
+  {
+   "PARENT_MCAT": {
+    "pmcatflName": "rice",
+    "pmcatName": "Rice"
+   }
+  },
+  {
+   "MCAT_DATA": {
+    "mcatflName": "basmati-rice",
+    "mcatName": "Basmati Rice"
+   }
+  }
+ ],
+ "title": "Basmati Rice",
+ "citybar": [
+  {
+   "cityName": "Delhi",
+   "cityFlName": "delhi",
+   "stateName": "Delhi",
+   "stateFlName": "delhi"
+  },
+  {
+   "cityName": "Bengaluru",
+   "cityFlName": "bengaluru",
+   "stateName": "Karnataka",
+   "stateFlName": "karnataka"
+  },
+  {
+   "cityName": "Hyderabad",
+   "cityFlName": "hyderabad",
+   "stateName": "Telangana",
+   "stateFlName": "telangana"
+  },
+  {
+   "cityName": "Chennai",
+   "cityFlName": "chennai",
+   "stateName": "Tamil Nadu",
+   "stateFlName": "tamil-nadu"
+  },
+  {
+   "cityName": "Thane",
+   "cityFlName": "thane",
+   "stateName": "Maharashtra",
+   "stateFlName": "maharashtra"
+  },
+  {
+   "cityName": "Mumbai",
+   "cityFlName": "mumbai",
+   "stateName": "Maharashtra",
+   "stateFlName": "maharashtra"
+  },
+  {
+   "cityName": "Pune",
+   "cityFlName": "pune",
+   "stateName": "Maharashtra",
+   "stateFlName": "maharashtra"
+  },
+  {
+   "cityName": "Muzaffarpur",
+   "cityFlName": "muzaffarpur",
+   "stateName": "Bihar",
+   "stateFlName": "bihar"
+  },
+  {
+   "cityName": "Coimbatore",
+   "cityFlName": "coimbatore",
+   "stateName": "Tamil Nadu",
+   "stateFlName": "tamil-nadu"
+  },
+  {
+   "cityName": "Ahmedabad",
+   "cityFlName": "ahmedabad",
+   "stateName": "Gujarat",
+   "stateFlName": "gujarat"
+  },
+  {
+   "cityName": "Kolkata",
+   "cityFlName": "kolkata",
+   "stateName": "West Bengal",
+   "stateFlName": "west-bengal"
+  },
+  {
+   "cityName": "Lucknow",
+   "cityFlName": "lucknow",
+   "stateName": "Uttar Pradesh",
+   "stateFlName": "uttar-pradesh"
+  },
+  {
+   "cityName": "Karnal",
+   "cityFlName": "karnal",
+   "stateName": "Haryana",
+   "stateFlName": "haryana"
+  },
+  {
+   "cityName": "Jaipur",
+   "cityFlName": "jaipur",
+   "stateName": "Rajasthan",
+   "stateFlName": "rajasthan"
+  },
+  {
+   "cityName": "Patna",
+   "cityFlName": "patna",
+   "stateName": "Bihar",
+   "stateFlName": "bihar"
+  },
+  {
+   "cityName": "East Godavari",
+   "cityFlName": "east-godavari",
+   "stateName": "Andhra Pradesh",
+   "stateFlName": "andhra-pradesh"
+  },
+  {
+   "cityName": "Rohtas",
+   "cityFlName": "rohtas",
+   "stateName": "Bihar",
+   "stateFlName": "bihar"
+  },
+  {
+   "cityName": "Visakhapatnam",
+   "cityFlName": "visakhapatnam",
+   "stateName": "Andhra Pradesh",
+   "stateFlName": "andhra-pradesh"
+  },
+  {
+   "cityName": "Gurugram",
+   "cityFlName": "gurgaon",
+   "stateName": "Haryana",
+   "stateFlName": "haryana"
+  },
+  {
+   "cityName": "Krishna",
+   "cityFlName": "krishna",
+   "stateName": "Andhra Pradesh",
+   "stateFlName": "andhra-pradesh"
+  },
+  {
+   "cityName": "Guntur",
+   "cityFlName": "guntur",
+   "stateName": "Andhra Pradesh",
+   "stateFlName": "andhra-pradesh"
+  },
+  {
+   "cityName": "Indore",
+   "cityFlName": "indore",
+   "stateName": "Madhya Pradesh",
+   "stateFlName": "madhya-pradesh"
+  },
+  {
+   "cityName": "Surat",
+   "cityFlName": "surat",
+   "stateName": "Gujarat",
+   "stateFlName": "gujarat"
+  },
+  {
+   "cityName": "Nagpur",
+   "cityFlName": "nagpur",
+   "stateName": "Maharashtra",
+   "stateFlName": "maharashtra"
+  },
+  {
+   "cityName": "Greater Noida",
+   "cityFlName": "greater-noida",
+   "stateName": "Uttar Pradesh",
+   "stateFlName": "uttar-pradesh"
+  },
+  {
+   "cityName": "Ghaziabad",
+   "cityFlName": "ghaziabad",
+   "stateName": "Uttar Pradesh",
+   "stateFlName": "uttar-pradesh"
+  },
+  {
+   "cityName": "Tiruchirappalli",
+   "cityFlName": "tiruchirappalli",
+   "stateName": "Tamil Nadu",
+   "stateFlName": "tamil-nadu"
+  },
+  {
+   "cityName": "Ernakulam",
+   "cityFlName": "ernakulam",
+   "stateName": "Kerala",
+   "stateFlName": "kerala"
+  },
+  {
+   "cityName": "Bardhaman",
+   "cityFlName": "bardhaman",
+   "stateName": "West Bengal",
+   "stateFlName": "west-bengal"
+  },
+  {
+   "cityName": "Vellore",
+   "cityFlName": "vellore",
+   "stateName": "Tamil Nadu",
+   "stateFlName": "tamil-nadu"
+  },
+  {
+   "cityName": "Ludhiana",
+   "cityFlName": "ludhiana",
+   "stateName": "Punjab",
+   "stateFlName": "punjab"
+  },
+  {
+   "cityName": "Kamrup",
+   "cityFlName": "kamrup",
+   "stateName": "Assam",
+   "stateFlName": "assam"
+  },
+  {
+   "cityName": "Gorakhpur",
+   "cityFlName": "gorakhpur",
+   "stateName": "Uttar Pradesh",
+   "stateFlName": "uttar-pradesh"
+  },
+  {
+   "cityName": "Madurai",
+   "cityFlName": "madurai",
+   "stateName": "Tamil Nadu",
+   "stateFlName": "tamil-nadu"
+  },
+  {
+   "cityName": "Bareilly",
+   "cityFlName": "bareilly",
+   "stateName": "Uttar Pradesh",
+   "stateFlName": "uttar-pradesh"
+  },
+  {
+   "cityName": "Kancheepuram",
+   "cityFlName": "kanchipuram",
+   "stateName": "Tamil Nadu",
+   "stateFlName": "tamil-nadu"
+  },
+  {
+   "cityName": "Chittoor",
+   "cityFlName": "chittoor",
+   "stateName": "Andhra Pradesh",
+   "stateFlName": "andhra-pradesh"
+  },
+  {
+   "cityName": "Kanpur",
+   "cityFlName": "kanpur",
+   "stateName": "Uttar Pradesh",
+   "stateFlName": "uttar-pradesh"
+  },
+  {
+   "cityName": "West Godavari",
+   "cityFlName": "west-godavari",
+   "stateName": "Andhra Pradesh",
+   "stateFlName": "andhra-pradesh"
+  },
+  {
+   "cityName": "Nashik",
+   "cityFlName": "nashik",
+   "stateName": "Maharashtra",
+   "stateFlName": "maharashtra"
+  },
+  {
+   "cityName": "Prayagraj",
+   "cityFlName": "allahabad",
+   "stateName": "Uttar Pradesh",
+   "stateFlName": "uttar-pradesh"
+  },
+  {
+   "cityName": "Karimnagar",
+   "cityFlName": "karimnagar",
+   "stateName": "Telangana",
+   "stateFlName": "telangana"
+  },
+  {
+   "cityName": "Gaya",
+   "cityFlName": "gaya",
+   "stateName": "Bihar",
+   "stateFlName": "bihar"
+  },
+  {
+   "cityName": "Erode",
+   "cityFlName": "erode",
+   "stateName": "Tamil Nadu",
+   "stateFlName": "tamil-nadu"
+  },
+  {
+   "cityName": "Udham Singh Nagar",
+   "cityFlName": "udham-singh-nagar",
+   "stateName": "Uttarakhand",
+   "stateFlName": "uttarakhand"
+  },
+  {
+   "cityName": "Navi Mumbai",
+   "cityFlName": "navi-mumbai",
+   "stateName": "Maharashtra",
+   "stateFlName": "maharashtra"
+  },
+  {
+   "cityName": "Thrissur",
+   "cityFlName": "thrissur",
+   "stateName": "Kerala",
+   "stateFlName": "kerala"
+  },
+  {
+   "cityName": "Salem",
+   "cityFlName": "salem",
+   "stateName": "Tamil Nadu",
+   "stateFlName": "tamil-nadu"
+  },
+  {
+   "cityName": "Koppal",
+   "cityFlName": "koppal",
+   "stateName": "Karnataka",
+   "stateFlName": "karnataka"
+  },
+  {
+   "cityName": "East Champaran",
+   "cityFlName": "east-hamparan",
+   "stateName": "Bihar",
+   "stateFlName": "bihar"
+  }
+ ],
+ "grp_link": "agro-farm",
+ "cat_link": "m_rcmach",
+ "is_brand": "0",
+ "show_disclaimer": 0,
+ "disclaimer_text": "",
+ "mcatname": "Basmati Rice",
+ "mcatflname": "basmati-rice",
+ "prodsAvailable": "71291",
+ "sold_flag": "",
+ "ecom": 0,
+ "ecomtype": "non-ecom",
+ "cityid": "",
+ "pmcatflname": "rice",
+ "image_flag": 3,
+ "seller_isq_flag": 2,
+ "related_service_data": [],
+ "company_display_flag": "3",
+ "McatMetaData": {
+  "title": "Basmati Rice - Wholesale Price & Mandi Rate for Basmati in India",
+  "desc": "Find here details of companies selling Basmati Rice, for your purchase requirements. Get latest info on Basmati Rice, Basmati, Indian Basmati Rice, suppliers, manufacturers, wholesalers, traders, wholesale suppliers with Basmati Rice prices for buying.",
+  "keyword": "Basmati Rice, Basmati, Indian Basmati Rice, Basmati Chawal, manufacturers, suppliers, exporters, traders, dealers, manufacturing companies, retailers, producers, Cereals & Food Grains India"
+ },
+ "urls": {
+  "canonical_url": "https://dir.indiamart.com/impcat/basmati-rice.html",
+  "alternate_mobile_url": "https://m.indiamart.com/impcat/basmati-rice.html",
+  "alternate_android_url": "android-app://com.indiamart.m/https/m.indiamart.com/impcat/basmati-rice.html"
+ },
+ "viewtype": {
+  "list_view": false,
+  "grid_view": true,
+  "default_grid_view": true,
+  "default_list_view": false,
+  "url_list_view": false
+ },
+ "data": [
+  {
+   "photo": "https://5.imimg.com/data5/SELLER/Default/2026/1/574282801/HH/AX/TU/136587731/basmati-rice-1121-creamy-1000x1000.png",
+   "s_url": "https://www.bsfoods.net/",
+   "ts": "bsfoods",
+   "pr": "₹ 65/Kg",
+   "prd_price": "65",
+   "isq": [
+    {
+     "MASTER_DESC": "Variety",
+     "OPTIONS_DESC": " 1121"
+    },
+    {
+     "MASTER_DESC": "Type",
+     "OPTIONS_DESC": " Golden Sella"
+    },
+    {
+     "MASTER_DESC": "Processing Type",
+     "OPTIONS_DESC": " Steam"
+    },
+    {
+     "MASTER_DESC": "Packaging Size",
+     "OPTIONS_DESC": " 1 kg"
+    },
+    {
+     "MASTER_DESC": "Broken Percentage",
+     "OPTIONS_DESC": " 2% Max"
+    },
+    {
+     "MASTER_DESC": "Average Grain Length",
+     "OPTIONS_DESC": " 8.35 mm"
+    },
+    {
+     "MASTER_DESC": "Moisture Content",
+     "OPTIONS_DESC": " 12.5% Max"
+    },
+    {
+     "MASTER_DESC": "Pesticide Treatment",
+     "OPTIONS_DESC": " Regular"
+    },
+    {
+     "MASTER_DESC": "Purity",
+     "OPTIONS_DESC": " 95% Min"
+    },
+    {
+     "MASTER_DESC": "Sortex",
+     "OPTIONS_DESC": " 100% Cleaned"
+    },
+    {
+     "MASTER_DESC": "Crop Year",
+     "OPTIONS_DESC": " Latest"
+    }
+   ],
+   "CMP": "BS Foods",
+   "c_ct": "7942614854",
+   "c_vl": 1,
+   "f_ad": "",
+   "p_url": "https://www.indiamart.com/proddetail/basmati-rice-1121-creamy-2858239332273.html",
+   "city": "Jaipur",
+   "ad": "Jaipur",
+   "disp_id": 2858239332273,
+   "PF": "57",
+   "cw_o": 179,
+   "g_s": "",
+   "g_c": "India",
+   "g_cn": "STAR",
+   "wt_avg": 4.1,
+   "tr_c": 190,
+   "more_prod": [
+    {
+     "photo": "https://5.imimg.com/data5/SELLER/Default/2026/1/574536854/GN/PE/YA/136587731/basmati-rice-1509-creamy-1000x1000.jpg",
+     "s_url": "https://www.bsfoods.net/",
+     "ts": "bsfoods",
+     "pr": "₹ 60/Kg",
+     "isq": [
+      {
+       "MASTER_DESC": "Variety",
+       "OPTIONS_DESC": " 1121"
+      },
+      {
+       "MASTER_DESC": "Rice Type",
+       "OPTIONS_DESC": " Steam"
+      },
+      {
+       "MASTER_DESC": "Processing Type",
+       "OPTIONS_DESC": " Steam"
+      },
+      {
+       "MASTER_DESC": "Grain Length",
+       "OPTIONS_DESC": " Extra Long"
+      },
+      {
+       "MASTER_DESC": "Packaging Size",
+       "OPTIONS_DESC": " 1 Kg"
+      },
+      {
+       "MASTER_DESC": "Polishing",
+       "OPTIONS_DESC": " Silky Polished"
+      },
+      {
+       "MASTER_DESC": "Broken Percentage",
+       "OPTIONS_DESC": " Below 1%"
+      },
+      {
+       "MASTER_DESC": "Rice Color",
+       "OPTIONS_DESC": " White"
+      },
+      {
+       "MASTER_DESC": "Fragrance",
+       "OPTIONS_DESC": " Strong Aroma"
+      },
+      {
+       "MASTER_DESC": "Cultivation Type",
+       "OPTIONS_DESC": " Common"
+      },
+      {
+       "MASTER_DESC": "Usage",
+       "OPTIONS_DESC": " Household"
+      },
+      {
+       "MASTER_DESC": "Packaging Type",
+       "OPTIONS_DESC": " PP Bag"
+      }
+     ],
+     "CMP": "BS Foods",
+     "c_ct": "7942614854",
+     "c_vl": 1,
+     "f_ad": "",
+     "p_url": "https://www.indiamart.com/proddetail/basmati-rice-1509-creamy-2858239338730.html",
+     "city": "Jaipur",
+     "ad": "Jaipur",
+     "disp_id": 2858239338730,
+     "PF": "57",
+     "cw_o": 179,
+     "g_s": "",
+     "g_c": "India",
+     "g_cn": "STAR",
+     "wt_avg": 4.1,
+     "tr_c": 190,
+     "p_nm": "Basmati Rice 1509 Creamy, 1121, Steam",
+     "f_nm": "Basmati Rice 1509 Creamy",
+     "srch_id": 316992385,
+     "ds": "",
+     "gl_id": 136587731,
+     "iil_display": 1,
+     "d_in": 0
+    },
+    {
+     "photo": "https://5.imimg.com/data5/SELLER/Default/2026/1/574283536/IU/UL/KT/136587731/basmati-rice-1509-golden-1000x1000.jpg",
+     "s_url": "https://www.bsfoods.net/",
+     "ts": "bsfoods",
+     "pr": "₹ 60/Kg",
+     "isq": [
+      {
+       "MASTER_DESC": "Variety",
+       "OPTIONS_DESC": " 1121"
+      },
+      {
+       "MASTER_DESC": "Rice Type",
+       "OPTIONS_DESC": " Sella"
+      },
+      {
+       "MASTER_DESC": "Processing Type",
+       "OPTIONS_DESC": " Steam"
+      },
+      {
+       "MASTER_DESC": "Grain Length",
+       "OPTIONS_DESC": " Extra Long"
+      },
+      {
+       "MASTER_DESC": "Packaging Size",
+       "OPTIONS_DESC": " 1kg"
+      },
+      {
+       "MASTER_DESC": "Polishing",
+       "OPTIONS_DESC": " Silky Polished"
+      },
+      {
+       "MASTER_DESC": "Broken Percentage",
+       "OPTIONS_DESC": " Below 1%"
+      },
+      {
+       "MASTER_DESC": "Rice Color",
+       "OPTIONS_DESC": " White"
+      },
+      {
+       "MASTER_DESC": "Fragrance",
+       "OPTIONS_DESC": " Strong Aroma"
+      },
+      {
+       "MASTER_DESC": "Cultivation Type",
+       "OPTIONS_DESC": " Common"
+      },
+      {
+       "MASTER_DESC": "Usage",
+       "OPTIONS_DESC": " Household"
+      }
+     ],
+     "CMP": "BS Foods",
+     "c_ct": "7942614854",
+     "c_vl": 1,
+     "f_ad": "",
+     "p_url": "https://www.indiamart.com/proddetail/basmati-rice-1509-golden-2858239340673.html",
+     "city": "Jaipur",
+     "ad": "Jaipur",
+     "disp_id": 2858239340673,
+     "PF": "57",
+     "cw_o": 179,
+     "g_s": "",
+     "g_c": "India",
+     "g_cn": "STAR",
+     "wt_avg": 4.1,
+     "tr_c": 190,
+     "p_nm": "Basmati Rice 1509 Golden, 1121",
+     "f_nm": "Basmati Rice 1509 Golden",
+     "srch_id": 316992404,
+     "ds": "",
+     "gl_id": 136587731,
+     "iil_display": 1,
+     "d_in": 0
+    },
+    {
+     "photo": "https://5.imimg.com/data5/SELLER/Default/2026/1/574313809/YK/HI/EO/136587731/basmati-rice-1509-steam-1000x1000.jpg",
+     "s_url": "https://www.bsfoods.net/",
+     "ts": "bsfoods",
+     "pr": "₹ 60/Kg",
+     "isq": [
+      {
+       "MASTER_DESC": "Variety",
+       "OPTIONS_DESC": " 1121"
+      },
+      {
+       "MASTER_DESC": "Rice Type",
+       "OPTIONS_DESC": " Sella"
+      },
+      {
+       "MASTER_DESC": "Processing Type",
+       "OPTIONS_DESC": " Steam"
+      },
+      {
+       "MASTER_DESC": "Grain Length",
+       "OPTIONS_DESC": " Extra Long"
+      },
+      {
+       "MASTER_DESC": "Packaging Size",
+       "OPTIONS_DESC": " 1 Kg"
+      },
+      {
+       "MASTER_DESC": "Polishing",
+       "OPTIONS_DESC": " Silky Polished"
+      },
+      {
+       "MASTER_DESC": "Broken Percentage",
+       "OPTIONS_DESC": " Below 1%"
+      },
+      {
+       "MASTER_DESC": "Rice Color",
+       "OPTIONS_DESC": " White"
+      },
+      {
+       "MASTER_DESC": "Fragrance",
+       "OPTIONS_DESC": " Strong Aroma"
+      },
+      {
+       "MASTER_DESC": "Cultivation Type",
+       "OPTIONS_DESC": " Common"
+      }
+     ],
+     "CMP": "BS Foods",
+     "c_ct": "7942614854",
+     "c_vl": 1,
+     "f_ad": "",
+     "p_url": "https://www.indiamart.com/proddetail/basmati-rice-1509-steam-2858239343355.html",
+     "city": "Jaipur",
+     "ad": "Jaipur",
+     "disp_id": 2858239343355,
+     "PF": "57",
+     "cw_o": 179,
+     "g_s": "",
+     "g_c": "India",
+     "g_cn": "STAR",
+     "wt_avg": 4.1,
+     "tr_c": 190,
+     "p_nm": "Basmati Rice 1509 Steam, 1121",
+     "f_nm": "Basmati Rice 1509 Steam",
+     "srch_id": 316992431,
+     "ds": "",
+     "gl_id": 136587731,
+     "iil_display": 1,
+     "d_in": 0
+    }
+   ],
+   "p_nm": "Basmati Rice 1121 Creamy, Steam",
+   "f_nm": "Basmati Rice 1121 Creamy",
+   "vefexp": 22,
+   "gl_id": 136587731,
+   "pdf": "",
+   "imgc": 0,
+   "srch_id": 316992320,
+   "gst_v": 1,
+   "gst_no": 1,
+   "vf_sp": false,
+   "m_sn": "5 yrs",
+   "d_in": 0,
+   "ds": "",
+   "hnpd": 2,
+   "mv": 1,
+   "ev": 1,
+   "iil_display": 1
+  },
+  {
+   "photo": "https://5.imimg.com/data5/SELLER/Default/2025/3/496899245/XY/BP/UM/242590414/basmati-rice-1000x1000.jpg",
+   "s_url": "https://www.indiamart.com/bhaskarinternationalagrifoods/",
+   "ts": "bhaskarinternationalagrifoods",
+   "pr": "₹ 90/Kg",
+   "prd_price": "90",
+   "isq": [
+    {
+     "MASTER_DESC": "Natural Admixture",
+     "OPTIONS_DESC": " 5%"
+    },
+    {
+     "MASTER_DESC": "Average Grain Length",
+     "OPTIONS_DESC": " 7.82 mm"
+    },
+    {
+     "MASTER_DESC": "Moisture",
+     "OPTIONS_DESC": " 12.5%"
+    },
+    {
+     "MASTER_DESC": "Brand",
+     "OPTIONS_DESC": " Ilahi"
+    },
+    {
+     "MASTER_DESC": "Elongation",
+     "OPTIONS_DESC": " 19 mm"
+    },
+    {
+     "MASTER_DESC": "Purity",
+     "OPTIONS_DESC": " 95%"
+    },
+    {
+     "MASTER_DESC": "Broken Grain",
+     "OPTIONS_DESC": " 0.5%"
+    },
+    {
+     "MASTER_DESC": "Immature Grain",
+     "OPTIONS_DESC": " 1.5%"
+    },
+    {
+     "MASTER_DESC": "Rice Type",
+     "OPTIONS_DESC": " XXXL Basmati"
+    },
+    {
+     "MASTER_DESC": "Packaging Type",
+     "OPTIONS_DESC": " PP Bag"
+    },
+    {
+     "MASTER_DESC": "Packaging Size",
+     "OPTIONS_DESC": " 25 Kg"
+    },
+    {
+     "MASTER_DESC": "Shelf Life",
+     "OPTIONS_DESC": " 3 Years"
+    }
+   ],
+   "CMP": "Bhaskar International Agri Foods",
+   "c_ct": "7942545268",
+   "c_vl": 1,
+   "f_ad": "",
+   "p_url": "https://www.indiamart.com/proddetail/30kg-ilahi-classic-xxxl-basmati-rice-2856185180688.html",
+   "city": "Karnal",
+   "ad": "Karnal",
+   "disp_id": 2856185180688,
+   "PF": "88",
+   "cw_o": 199,
+   "g_s": "",
+   "g_c": "India",
+   "g_cn": "TSCATALOG",
+   "wt_avg": 4.8,
+   "tr_c": 25,
+   "more_prod": [
+    {
+     "photo": "https://5.imimg.com/data5/SELLER/Default/2025/3/495089578/HN/GX/DT/242590414/pb1-raw-1000x1000.jpg",
+     "s_url": "https://www.indiamart.com/bhaskarinternationalagrifoods/",
+     "ts": "bhaskarinternationalagrifoods",
+     "pr": "₹ 80/Kg",
+     "isq": [
+      {
+       "MASTER_DESC": "Purity",
+       "OPTIONS_DESC": " 95%"
+      },
+      {
+       "MASTER_DESC": "Color",
+       "OPTIONS_DESC": " White"
+      },
+      {
+       "MASTER_DESC": "Natural Admixture",
+       "OPTIONS_DESC": " 5%"
+      },
+      {
+       "MASTER_DESC": "Average Grain Length",
+       "OPTIONS_DESC": " 7.40 mm"
+      },
+      {
+       "MASTER_DESC": "Elongation",
+       "OPTIONS_DESC": " 16.5 mm"
+      },
+      {
+       "MASTER_DESC": "Moisture",
+       "OPTIONS_DESC": " 12.5%"
+      },
+      {
+       "MASTER_DESC": "Broken Grain",
+       "OPTIONS_DESC": " 1%"
+      },
+      {
+       "MASTER_DESC": "Immature Grain",
+       "OPTIONS_DESC": " 1.1%"
+      },
+      {
+       "MASTER_DESC": "Rice Type",
+       "OPTIONS_DESC": " Raw Basmati"
+      },
+      {
+       "MASTER_DESC": "Variety",
+       "OPTIONS_DESC": " PB1"
+      },
+      {
+       "MASTER_DESC": "Rice Variety",
+       "OPTIONS_DESC": " Pusa"
+      },
+      {
+       "MASTER_DESC": "Processing Type",
+       "OPTIONS_DESC": " Raw"
+      },
+      {
+       "MASTER_DESC": "Packaging Size",
+       "OPTIONS_DESC": " 50 kg"
+      },
+      {
+       "MASTER_DESC": "Packaging Type",
+       "OPTIONS_DESC": " PP Bag"
+      },
+      {
+       "MASTER_DESC": "Grain Size",
+       "OPTIONS_DESC": " 7.45 mm"
+      },
+      {
+       "MASTER_DESC": "Broken Percentage",
+       "OPTIONS_DESC": " 1% Max"
+      },
+      {
+       "MASTER_DESC": "Cultivation Type",
+       "OPTIONS_DESC": " Conventional"
+      },
+      {
+       "MASTER_DESC": "Shelf Life",
+       "OPTIONS_DESC": " 3 Years"
+      }
+     ],
+     "CMP": "Bhaskar International Agri Foods",
+     "c_ct": "7942545268",
+     "c_vl": 1,
+     "f_ad": "",
+     "p_url": "https://www.indiamart.com/proddetail/white-pb1-raw-basmati-rice-2856040213633.html",
+     "city": "Karnal",
+     "ad": "Karnal",
+     "disp_id": 2856040213633,
+     "PF": "88",
+     "cw_o": 199,
+     "g_s": "",
+     "g_c": "India",
+     "g_cn": "TSCATALOG",
+     "wt_avg": 4.8,
+     "tr_c": 25,
+     "p_nm": "White PB1 Raw Basmati Rice",
+     "f_nm": "White PB1 Raw Basmati Rice",
+     "srch_id": 295001134,
+     "ds": "",
+     "gl_id": 242590414,
+     "iil_display": 1,
+     "d_in": 0
+    },
+    {
+     "photo": "https://5.imimg.com/data5/IOS/Default/2025/7/527028758/BG/ZB/XO/242590414/product-jpeg-1000x1000.jpeg",
+     "s_url": "https://www.indiamart.com/bhaskarinternationalagrifoods/",
+     "ts": "bhaskarinternationalagrifoods",
+     "pr": "₹ 90/Kg",
+     "isq": [
+      {
+       "MASTER_DESC": "Purity",
+       "OPTIONS_DESC": " 95%"
+      },
+      {
+       "MASTER_DESC": "Natural Admixture",
+       "OPTIONS_DESC": " 5%"
+      },
+      {
+       "MASTER_DESC": "Average Grain Length",
+       "OPTIONS_DESC": " 8.60 mm"
+      },
+      {
+       "MASTER_DESC": "Broken Grain",
+       "OPTIONS_DESC": " 0.5%"
+      },
+      {
+       "MASTER_DESC": "Brand",
+       "OPTIONS_DESC": " Ilahi"
+      },
+      {
+       "MASTER_DESC": "Rice Type",
+       "OPTIONS_DESC": " XXXL Basmati"
+      },
+      {
+       "MASTER_DESC": "Immature Grain",
+       "OPTIONS_DESC": " 1.5%"
+      },
+      {
+       "MASTER_DESC": "Elongation",
+       "OPTIONS_DESC": " 22 mm"
+      },
+      {
+       "MASTER_DESC": "Moisture",
+       "OPTIONS_DESC": " 12.5%"
+      },
+      {
+       "MASTER_DESC": "Rice Variety",
+       "OPTIONS_DESC": " 1121"
+      },
+      {
+       "MASTER_DESC": "Processing Type",
+       "OPTIONS_DESC": " Steam"
+      },
+      {
+       "MASTER_DESC": "Packaging Size",
+       "OPTIONS_DESC": " 30 Kg"
+      },
+      {
+       "MASTER_DESC": "Packaging Type",
+       "OPTIONS_DESC": " BOPP"
+      },
+      {
+       "MASTER_DESC": "Grain Size",
+       "OPTIONS_DESC": " 8.40 mm"
+      },
+      {
+       "MASTER_DESC": "Broken Percentage",
+       "OPTIONS_DESC": " 1% Max"
+      },
+      {
+       "MASTER_DESC": "Shelf Life",
+       "OPTIONS_DESC": " 3 Years"
+      },
+      {
+       "MASTER_DESC": "Cultivation Type",
+       "OPTIONS_DESC": " Conventional"
+      },
+      {
+       "MASTER_DESC": "Color",
+       "OPTIONS_DESC": " White"
+      }
+     ],
+     "CMP": "Bhaskar International Agri Foods",
+     "c_ct": "7942545268",
+     "c_vl": 1,
+     "f_ad": "",
+     "p_url": "https://www.indiamart.com/proddetail/30kg-ilahi-select-xxxl-basmati-rice-2856185182930.html",
+     "city": "Karnal",
+     "ad": "Karnal",
+     "disp_id": 2856185182930,
+     "PF": "88",
+     "cw_o": 199,
+     "g_s": "",
+     "g_c": "India",
+     "g_cn": "TSCATALOG",
+     "wt_avg": 4.8,
+     "tr_c": 25,
+     "p_nm": "30Kg Ilahi Select Xxxl Basmati Rice",
+     "f_nm": "30Kg Ilahi Select Xxxl Basmati Rice",
+     "srch_id": 296450827,
+     "ds": "",
+     "gl_id": 242590414,
+     "iil_display": 1,
+     "d_in": 0
+    },
+    {
+     "photo": "https://5.imimg.com/data5/IOS/Default/2025/7/527033963/VN/RK/HX/242590414/product-jpeg-1000x1000.jpeg",
+     "s_url": "https://www.indiamart.com/bhaskarinternationalagrifoods/",
+     "ts": "bhaskarinternationalagrifoods",
+     "pr": "₹ 62/Kg",
+     "isq": [
+      {
+       "MASTER_DESC": "Rice Variety",
+       "OPTIONS_DESC": " 1121"
+      },
+      {
+       "MASTER_DESC": "Processing Type",
+       "OPTIONS_DESC": " Golden Sella"
+      },
+      {
+       "MASTER_DESC": "Packaging Size",
+       "OPTIONS_DESC": " 50 kg"
+      },
+      {
+       "MASTER_DESC": "Packaging Type",
+       "OPTIONS_DESC": " PP Bag"
+      },
+      {
+       "MASTER_DESC": "Grain Size",
+       "OPTIONS_DESC": " 8.30 mm"
+      },
+      {
+       "MASTER_DESC": "Broken Percentage",
+       "OPTIONS_DESC": " 1% Max"
+      },
+      {
+       "MASTER_DESC": "Moisture Content",
+       "OPTIONS_DESC": " 13% Max"
+      },
+      {
+       "MASTER_DESC": "Cultivation Type",
+       "OPTIONS_DESC": " Conventional"
+      },
+      {
+       "MASTER_DESC": "Purity",
+       "OPTIONS_DESC": " 95% Min"
+      },
+      {
+       "MASTER_DESC": "Color",
+       "OPTIONS_DESC": " Golden"
+      },
+      {
+       "MASTER_DESC": "Country of Origin",
+       "OPTIONS_DESC": " Made in India"
+      }
+     ],
+     "CMP": "Bhaskar International Agri Foods",
+     "c_ct": "7942545268",
+     "c_vl": 1,
+     "f_ad": "",
+     "p_url": "https://www.indiamart.com/proddetail/basmati-rice-manufacturer-2856711355688.html",
+     "city": "Karnal",
+     "ad": "Karnal",
+     "disp_id": 2856711355688,
+     "PF": "88",
+     "cw_o": 199,
+     "g_s": "",
+     "g_c": "India",
+     "g_cn": "TSCATALOG",
+     "wt_avg": 4.8,
+     "tr_c": 25,
+     "p_nm": "Basmati Rice Manufacturer",
+     "f_nm": "Basmati Rice Manufacturer",
+     "srch_id": 301712554,
+     "ds": "",
+     "gl_id": 242590414,
+     "iil_display": 1,
+     "d_in": 0
+    }
+   ],
+   "p_nm": "30Kg Ilahi Classic Xxxl Basmati Rice, PP Bag",
+   "f_nm": "30Kg Ilahi Classic Xxxl Basmati Rice",
+   "vefexp": "0",
+   "gl_id": 242590414,
+   "pdf": "https://5.imimg.com/data5/SELLER/Doc/2026/3/592525847/RD/OA/WA/242590414/30kg-ilahi-classic-xxxl-basmati-rice.pdf",
+   "imgc": 2,
+   "srch_id": 296450804,
+   "gst_v": 1,
+   "gst_no": 1,
+   "vf_sp": false,
+   "m_sn": "1 yr",
+   "d_in": 0,
+   "ds": "",
+   "hnpd": 2,
+   "mv": 1,
+   "ev": 1,
+   "iil_display": 1
+  },
+  {
+   "photo": "https://5.imimg.com/data5/SELLER/Default/2026/6/614654137/DF/UJ/LW/73518290/1401-raw-basmati-rice-1000x1000.png",
+   "s_url": "https://www.indiamart.com/verticalsupports/",
+   "ts": "verticalsupports",
+   "pr": "₹ 95/Kg",
+   "prd_price": "95",
+   "isq": [
+    {
+     "MASTER_DESC": "Rice Variety",
+     "OPTIONS_DESC": " 1401"
+    },
+    {
+     "MASTER_DESC": "Processing Type",
+     "OPTIONS_DESC": " Raw"
+    },
+    {
+     "MASTER_DESC": "Packaging Size",
+     "OPTIONS_DESC": " 50 kg"
+    },
+    {
+     "MASTER_DESC": "Grain Size",
+     "OPTIONS_DESC": " 7.8 mm"
+    },
+    {
+     "MASTER_DESC": "Broken Percentage",
+     "OPTIONS_DESC": " 1% Max"
+    },
+    {
+     "MASTER_DESC": "Moisture Content",
+     "OPTIONS_DESC": " 12.5% Max"
+    },
+    {
+     "MASTER_DESC": "Purity",
+     "OPTIONS_DESC": " 93% Min"
+    },
+    {
+     "MASTER_DESC": "Color",
+     "OPTIONS_DESC": " White"
+    }
+   ],
+   "CMP": "Vertical Supports",
+   "c_ct": "8047632910",
+   "c_vl": 1,
+   "f_ad": "",
+   "p_url": "https://www.indiamart.com/proddetail/1401-raw-basmati-rice-2859362609412.html",
+   "city": "New Delhi",
+   "ad": "New Delhi",
+   "disp_id": 2859362609412,
+   "PF": "88",
+   "cw_o": 199,
+   "g_s": "",
+   "g_c": "India",
+   "g_cn": "ExportTS",
+   "wt_avg": 4.2,
+   "tr_c": 251,
+   "more_prod": [
+    {
+     "photo": "https://5.imimg.com/data5/SELLER/Default/2026/6/614660102/PL/SE/WL/73518290/1121-golden-sella-1000x1000.jpeg",
+     "s_url": "https://www.indiamart.com/verticalsupports/",
+     "ts": "verticalsupports",
+     "pr": "₹ 86/Kg",
+     "isq": [
+      {
+       "MASTER_DESC": "Rice Variety",
+       "OPTIONS_DESC": " 1121"
+      },
+      {
+       "MASTER_DESC": "Packaging Size",
+       "OPTIONS_DESC": " 50 kg"
+      },
+      {
+       "MASTER_DESC": "Grain Length",
+       "OPTIONS_DESC": " 8.35 mm"
+      },
+      {
+       "MASTER_DESC": "Broken Percentage",
+       "OPTIONS_DESC": " 1 % Max"
+      },
+      {
+       "MASTER_DESC": "Purity",
+       "OPTIONS_DESC": " 93 % Min"
+      },
+      {
+       "MASTER_DESC": "Average Length",
+       "OPTIONS_DESC": " 8.3 mm"
+      },
+      {
+       "MASTER_DESC": "Cuisine",
+       "OPTIONS_DESC": " Indian,Mughlai,Biryani"
+      },
+      {
+       "MASTER_DESC": "Type",
+       "OPTIONS_DESC": " 1121 Golden Sella"
+      },
+      {
+       "MASTER_DESC": "Variety Available",
+       "OPTIONS_DESC": " Long-Grain Rice"
+      },
+      {
+       "MASTER_DESC": "Brand",
+       "OPTIONS_DESC": " Any"
+      },
+      {
+       "MASTER_DESC": "Moisture",
+       "OPTIONS_DESC": " 12% maximum"
+      },
+      {
+       "MASTER_DESC": "Color",
+       "OPTIONS_DESC": " Golden"
+      },
+      {
+       "MASTER_DESC": "Packaging Material Type",
+       "OPTIONS_DESC": " PP Bag"
+      },
+      {
+       "MASTER_DESC": "Quality Available",
+       "OPTIONS_DESC": " Premium Export quality"
+      },
+      {
+       "MASTER_DESC": "Moisture Content",
+       "OPTIONS_DESC": " 12.5 % Max"
+      },
+      {
+       "MASTER_DESC": "Grain",
+       "OPTIONS_DESC": " 8.3 mm"
+      },
+      {
+       "MASTER_DESC": "Region Of Origin",
+       "OPTIONS_DESC": " Punjab"
+      },
+      {
+       "MASTER_DESC": "Polished",
+       "OPTIONS_DESC": " Fully Polished"
+      },
+      {
+       "MASTER_DESC": "Packaging Type",
+       "OPTIONS_DESC": " PP Bag"
+      }
+     ],
+     "CMP": "Vertical Supports",
+     "c_ct": "8047632910",
+     "c_vl": 1,
+     "f_ad": "",
+     "p_url": "https://www.indiamart.com/proddetail/golden-sella-basmati-rice-1121-21625255062.html",
+     "city": "New Delhi",
+     "ad": "New Delhi",
+     "disp_id": 21625255062,
+     "PF": "88",
+     "cw_o": 199,
+     "g_s": "",
+     "g_c": "India",
+     "g_cn": "ExportTS",
+     "wt_avg": 4.2,
+     "tr_c": 251,
+     "p_nm": "Golden Sella Basmati Rice 1121",
+     "f_nm": "Golden Sella Basmati Rice 1121",
+     "srch_id": 145361028,
+     "ds": "",
+     "gl_id": 73518290,
+     "iil_display": 1,
+     "d_in": 0
+    },
+    {
+     "photo": "https://5.imimg.com/data5/SELLER/Default/2026/6/614509153/WV/SD/KD/73518290/1121-steam-basmati-rice-1000x1000.jpg",
+     "s_url": "https://www.indiamart.com/verticalsupports/",
+     "ts": "verticalsupports",
+     "pr": "₹ 91/Kg",
+     "isq": [
+      {
+       "MASTER_DESC": "Processing Type",
+       "OPTIONS_DESC": " Steam"
+      },
+      {
+       "MASTER_DESC": "Packaging Size",
+       "OPTIONS_DESC": " 50 kg"
+      },
+      {
+       "MASTER_DESC": "Type",
+       "OPTIONS_DESC": " 1121 Basmati"
+      },
+      {
+       "MASTER_DESC": "Broken Percentage",
+       "OPTIONS_DESC": " 1% Max"
+      },
+      {
+       "MASTER_DESC": "Packaging Type",
+       "OPTIONS_DESC": " PP Bag"
+      },
+      {
+       "MASTER_DESC": "Grain Length",
+       "OPTIONS_DESC": " 8.35 mm"
+      },
+      {
+       "MASTER_DESC": "Color",
+       "OPTIONS_DESC": " White"
+      },
+      {
+       "MASTER_DESC": "Average Grain Length",
+       "OPTIONS_DESC": " 8.35 mm"
+      },
+      {
+       "MASTER_DESC": "Variety",
+       "OPTIONS_DESC": " Long-Grain Rice"
+      },
+      {
+       "MASTER_DESC": "Moisture Content",
+       "OPTIONS_DESC": " 12.5% Max"
+      },
+      {
+       "MASTER_DESC": "Brand",
+       "OPTIONS_DESC": " Any"
+      },
+      {
+       "MASTER_DESC": "Polished",
+       "OPTIONS_DESC": " Fully Polished"
+      },
+      {
+       "MASTER_DESC": "Pesticide Treatment",
+       "OPTIONS_DESC": " Regular"
+      },
+      {
+       "MASTER_DESC": "Broken",
+       "OPTIONS_DESC": " 1% Maximum"
+      },
+      {
+       "MASTER_DESC": "Texture",
+       "OPTIONS_DESC": " Hard"
+      },
+      {
+       "MASTER_DESC": "Sortex",
+       "OPTIONS_DESC": " 100% Cleaned"
+      },
+      {
+       "MASTER_DESC": "Cuisine Type",
+       "OPTIONS_DESC": " Indian"
+      },
+      {
+       "MASTER_DESC": "Grain",
+       "OPTIONS_DESC": " 8.35 mm"
+      },
+      {
+       "MASTER_DESC": "Storage Instructions",
+       "OPTIONS_DESC": " Standard"
+      },
+      {
+       "MASTER_DESC": "Purity",
+       "OPTIONS_DESC": " 95%"
+      },
+      {
+       "MASTER_DESC": "Packing",
+       "OPTIONS_DESC": " PP Bags"
+      },
+      {
+       "MASTER_DESC": "Payment Terms",
+       "OPTIONS_DESC": " To be discussed with buyers"
+      },
+      {
+       "MASTER_DESC": "Delivery Time",
+       "OPTIONS_DESC": " Immidiate availability"
+      },
+      {
+       "MASTER_DESC": "Crop Year",
+       "OPTIONS_DESC": " Latest available"
+      },
+      {
+       "MASTER_DESC": "Moisture",
+       "OPTIONS_DESC": " 14% Max"
+      },
+      {
+       "MASTER_DESC": "Minimum Order Quantity",
+       "OPTIONS_DESC": " 25 MT"
+      },
+      {
+       "MASTER_DESC": "Average Length",
+       "OPTIONS_DESC": " 8.35 MM"
+      },
+      {
+       "MASTER_DESC": "Speciality",
+       "OPTIONS_DESC": " Long grain Premium Rice"
+      }
+     ],
+     "CMP": "Vertical Supports",
+     "c_ct": "8047632910",
+     "c_vl": 1,
+     "f_ad": "",
+     "p_url": "https://www.indiamart.com/proddetail/1121-steam-basmati-rice-21625096230.html",
+     "city": "New Delhi",
+     "ad": "New Delhi",
+     "disp_id": 21625096230,
+     "PF": "88",
+     "cw_o": 199,
+     "g_s": "",
+     "g_c": "India",
+     "g_cn": "ExportTS",
+     "wt_avg": 4.2,
+     "tr_c": 251,
+     "p_nm": "1121 Steam Basmati Rice",
+     "f_nm": "1121 Steam Basmati Rice",
+     "srch_id": 145359440,
+     "ds": "",
+     "gl_id": 73518290,
+     "iil_display": 1,
+     "d_in": 0
+    },
+    {
+     "photo": "https://5.imimg.com/data5/YQ/EQ/SY/SELLER-73518290/1121-basmati-steam-rice-1000x1000.jpeg",
+     "s_url": "https://www.indiamart.com/verticalsupports/",
+     "ts": "verticalsupports",
+     "pr": "₹ 80/Kg",
+     "isq": [
+      {
+       "MASTER_DESC": "Rice Variety",
+       "OPTIONS_DESC": " Pusa"
+      },
+      {
+       "MASTER_DESC": "Grain Length",
+       "OPTIONS_DESC": " 7.80 mm"
+      },
+      {
+       "MASTER_DESC": "Grain Length (AGL)",
+       "OPTIONS_DESC": " 7.80 mm"
+      },
+      {
+       "MASTER_DESC": "Type",
+       "OPTIONS_DESC": " Pusa Basmati"
+      },
+      {
+       "MASTER_DESC": "Processing Type",
+       "OPTIONS_DESC": " Golden Sella"
+      },
+      {
+       "MASTER_DESC": "Packaging Type",
+       "OPTIONS_DESC": " Jute Bag"
+      },
+      {
+       "MASTER_DESC": "Broken Percentage",
+       "OPTIONS_DESC": " 1% Max"
+      },
+      {
+       "MASTER_DESC": "Color",
+       "OPTIONS_DESC": " Golden"
+      },
+      {
+       "MASTER_DESC": "Variety",
+       "OPTIONS_DESC": " Long-Grain Rice"
+      },
+      {
+       "MASTER_DESC": "Polished",
+       "OPTIONS_DESC": " Fully Polished"
+      },
+      {
+       "MASTER_DESC": "Moisture Content",
+       "OPTIONS_DESC": " 12.5% Max"
+      },
+      {
+       "MASTER_DESC": "Cleaning Process",
+       "OPTIONS_DESC": " Sortex Cleaned"
+      },
+      {
+       "MASTER_DESC": "Rice Age",
+       "OPTIONS_DESC": " 1 Year Old"
+      },
+      {
+       "MASTER_DESC": "Crop Year",
+       "OPTIONS_DESC": " 1 Year Old"
+      },
+      {
+       "MASTER_DESC": "Origin",
+       "OPTIONS_DESC": " India"
+      }
+     ],
+     "CMP": "Vertical Supports",
+     "c_ct": "8047632910",
+     "c_vl": 1,
+     "f_ad": "",
+     "p_url": "https://www.indiamart.com/proddetail/basmati-parboiled-rice-2852680378591.html",
+     "city": "New Delhi",
+     "ad": "New Delhi",
+     "disp_id": 2852680378591,
+     "PF": "88",
+     "cw_o": 199,
+     "g_s": "",
+     "g_c": "India",
+     "g_cn": "ExportTS",
+     "wt_avg": 4.2,
+     "tr_c": 251,
+     "p_nm": "Basmati Parboiled Rice",
+     "f_nm": "Basmati Parboiled Rice",
+     "srch_id": 261402786,
+     "ds": "",
+     "gl_id": 73518290,
+     "iil_display": 1,
+     "d_in": 0
+    }
+   ],
+   "p_nm": "1401 RAW BASMATI RICE",
+   "f_nm": "1401 RAW BASMATI RICE",
+   "vefexp": 22,
+   "gl_id": 73518290,
+   "pdf": "https://5.imimg.com/data5/SELLER/Doc/2026/6/614654899/IW/HV/XO/73518290/1121-steam-basmati-rice.pdf",
+   "imgc": 4,
+   "srch_id": 328225092,
+   "gst_v": 1,
+   "gst_no": 1,
+   "vf_sp": false,
+   "m_sn": "8 yrs",
+   "d_in": 0,
+   "ds": "",
+   "hnpd": 2,
+   "mv": 1,
+   "ev": 1,
+   "iil_display": 1
+  },
+  {
+   "photo": "https://5.imimg.com/data5/SELLER/Default/2025/12/569441079/JI/BX/TQ/184403682/premium-1509-steam-basmati-rice-1000x1000.png",
+   "s_url": "https://www.indiamart.com/sreebalaagro/",
+   "ts": "sreebalaagro",
+   "pr": "₹ 90/Kg",
+   "prd_price": "90",
+   "isq": [
+    {
+     "MASTER_DESC": "Rice Variety",
+     "OPTIONS_DESC": " 1509"
+    },
+    {
+     "MASTER_DESC": "Processing Type",
+     "OPTIONS_DESC": " Steam"
+    },
+    {
+     "MASTER_DESC": "Rice Type",
+     "OPTIONS_DESC": " Steam"
+    },
+    {
+     "MASTER_DESC": "Grain Length",
+     "OPTIONS_DESC": " Extra Long"
+    },
+    {
+     "MASTER_DESC": "Type",
+     "OPTIONS_DESC": " Steam"
+    },
+    {
+     "MASTER_DESC": "Packaging Size",
+     "OPTIONS_DESC": " 25 Kg"
+    },
+    {
+     "MASTER_DESC": "Grain Size",
+     "OPTIONS_DESC": " 8.30 mm"
+    },
+    {
+     "MASTER_DESC": "Polishing",
+     "OPTIONS_DESC": " Single Polished"
+    },
+    {
+     "MASTER_DESC": "Broken Percentage",
+     "OPTIONS_DESC": " Up to 2%"
+    },
+    {
+     "MASTER_DESC": "Rice Color",
+     "OPTIONS_DESC": " Creamy White"
+    },
+    {
+     "MASTER_DESC": "Region Of Origin",
+     "OPTIONS_DESC": " Punjab"
+    },
+    {
+     "MASTER_DESC": "Polished",
+     "OPTIONS_DESC": " Partial Polished"
+    },
+    {
+     "MASTER_DESC": "Packaging Type",
+     "OPTIONS_DESC": " PP Bag"
+    },
+    {
+     "MASTER_DESC": "Country of Origin",
+     "OPTIONS_DESC": " Made in India"
+    }
+   ],
+   "CMP": "Sree Bala Agro",
+   "c_ct": "7949323840",
+   "c_vl": 1,
+   "f_ad": "",
+   "p_url": "https://www.indiamart.com/proddetail/1509-extra-long-creamy-white-steam-basmati-rice-2857738646030.html",
+   "city": "Kolkata",
+   "ad": "Kolkata",
+   "disp_id": 2857738646030,
+   "PF": "86",
+   "cw_o": 199,
+   "g_s": "",
+   "g_c": "India",
+   "g_cn": "STAR",
+   "wt_avg": 4.4,
+   "tr_c": 110,
+   "more_prod": [
+    {
+     "photo": "https://5.imimg.com/data5/SELLER/Default/2025/12/569101068/DT/TA/BO/184403682/1121-white-sella-basmati-rice-1000x1000.png",
+     "s_url": "https://www.indiamart.com/sreebalaagro/",
+     "ts": "sreebalaagro",
+     "pr": "₹ 98/Kg",
+     "isq": [
+      {
+       "MASTER_DESC": "Broken Percentage",
+       "OPTIONS_DESC": " 2%"
+      },
+      {
+       "MASTER_DESC": "Length",
+       "OPTIONS_DESC": " 8.40mm"
+      },
+      {
+       "MASTER_DESC": "Rice Code",
+       "OPTIONS_DESC": " 1121"
+      },
+      {
+       "MASTER_DESC": "Processing Type",
+       "OPTIONS_DESC": " White Sella (Parboiled)"
+      },
+      {
+       "MASTER_DESC": "Type",
+       "OPTIONS_DESC": " White Sella"
+      },
+      {
+       "MASTER_DESC": "Packaging Type",
+       "OPTIONS_DESC": " PP Bag"
+      },
+      {
+       "MASTER_DESC": "Grain Length",
+       "OPTIONS_DESC": " 8.40 mm"
+      },
+      {
+       "MASTER_DESC": "Variety",
+       "OPTIONS_DESC": " Long-Grain Rice"
+      },
+      {
+       "MASTER_DESC": "Average Grain Length",
+       "OPTIONS_DESC": " 8.40 mm"
+      },
+      {
+       "MASTER_DESC": "Color",
+       "OPTIONS_DESC": " Creamy White"
+      },
+      {
+       "MASTER_DESC": "Moisture Content",
+       "OPTIONS_DESC": " 14% Max"
+      },
+      {
+       "MASTER_DESC": "Region Of Origin",
+       "OPTIONS_DESC": " Punjab"
+      },
+      {
+       "MASTER_DESC": "Polished",
+       "OPTIONS_DESC": " Fully Polished"
+      },
+      {
+       "MASTER_DESC": "Purity",
+       "OPTIONS_DESC": " 95% Min"
+      },
+      {
+       "MASTER_DESC": "Shelf Life",
+       "OPTIONS_DESC": " 12 Months"
+      },
+      {
+       "MASTER_DESC": "Sortex",
+       "OPTIONS_DESC": " 100% Cleaned"
+      },
+      {
+       "MASTER_DESC": "Country of Origin",
+       "OPTIONS_DESC": " Made in India"
+      },
+      {
+       "MASTER_DESC": "Packaging Size",
+       "OPTIONS_DESC": " 5lbs, 10lbs, 20 lbs, 1kg, 5kg, 10kg, 20kg, 25kg, 30kg, 50 kg."
+      }
+     ],
+     "CMP": "Sree Bala Agro",
+     "c_ct": "7949323840",
+     "c_vl": 1,
+     "f_ad": "",
+     "p_url": "https://www.indiamart.com/proddetail/1121-white-sella-basmati-rice-2854509084891.html",
+     "city": "Kolkata",
+     "ad": "Kolkata",
+     "disp_id": 2854509084891,
+     "PF": "86",
+     "cw_o": 199,
+     "g_s": "",
+     "g_c": "India",
+     "g_cn": "STAR",
+     "wt_avg": 4.4,
+     "tr_c": 110,
+     "p_nm": "1121 White Sella Basmati Rice",
+     "f_nm": "1121 White Sella Basmati Rice",
+     "srch_id": 279689848,
+     "ds": "",
+     "gl_id": 184403682,
+     "iil_display": 1,
+     "d_in": 0
+    },
+    {
+     "photo": "https://5.imimg.com/data5/SELLER/Default/2025/12/569440355/JU/RZ/UR/184403682/premium-1509-basmati-steam-rice-1000x1000.png",
+     "s_url": "https://www.indiamart.com/sreebalaagro/",
+     "ts": "sreebalaagro",
+     "pr": "₹ 105/Kg",
+     "isq": [
+      {
+       "MASTER_DESC": "Variety Available",
+       "OPTIONS_DESC": " Long Grain"
+      },
+      {
+       "MASTER_DESC": "Processing Type",
+       "OPTIONS_DESC": " Sella"
+      },
+      {
+       "MASTER_DESC": "Rice Type",
+       "OPTIONS_DESC": " Steam"
+      },
+      {
+       "MASTER_DESC": "Grain Length",
+       "OPTIONS_DESC": " Long Grain"
+      },
+      {
+       "MASTER_DESC": "Packaging Size",
+       "OPTIONS_DESC": " 50 Kg"
+      },
+      {
+       "MASTER_DESC": "Type",
+       "OPTIONS_DESC": " 1509 Steam Basmati"
+      },
+      {
+       "MASTER_DESC": "Packaging Type",
+       "OPTIONS_DESC": " Loose"
+      },
+      {
+       "MASTER_DESC": "Polishing",
+       "OPTIONS_DESC": " Single Polished"
+      },
+      {
+       "MASTER_DESC": "Broken Percentage",
+       "OPTIONS_DESC": " Up to 2%"
+      },
+      {
+       "MASTER_DESC": "Rice Color",
+       "OPTIONS_DESC": " Creamy White"
+      },
+      {
+       "MASTER_DESC": "Region Of Origin",
+       "OPTIONS_DESC": " Haryana"
+      },
+      {
+       "MASTER_DESC": "Polished",
+       "OPTIONS_DESC": " Fully Polished"
+      },
+      {
+       "MASTER_DESC": "Shelf Life",
+       "OPTIONS_DESC": " 1 Year"
+      },
+      {
+       "MASTER_DESC": "Usage",
+       "OPTIONS_DESC": " Household, Restaurant, Catering, Export"
+      },
+      {
+       "MASTER_DESC": "Country of Origin",
+       "OPTIONS_DESC": " Made in India"
+      }
+     ],
+     "CMP": "Sree Bala Agro",
+     "c_ct": "7949323840",
+     "c_vl": 1,
+     "f_ad": "",
+     "p_url": "https://www.indiamart.com/proddetail/1509-long-grain-creamy-white-steam-basmati-rice-2855705729130.html",
+     "city": "Kolkata",
+     "ad": "Kolkata",
+     "disp_id": 2855705729130,
+     "PF": "86",
+     "cw_o": 199,
+     "g_s": "",
+     "g_c": "India",
+     "g_cn": "STAR",
+     "wt_avg": 4.4,
+     "tr_c": 110,
+     "p_nm": "1509 Long Grain Creamy White Steam Basmati Rice",
+     "f_nm": "1509 Long Grain Creamy White Steam Basmati Rice",
+     "srch_id": 291656289,
+     "ds": "",
+     "gl_id": 184403682,
+     "iil_display": 1,
+     "d_in": 0
+    },
+    {
+     "photo": "https://5.imimg.com/data5/SELLER/Default/2025/12/569102327/ZR/EU/KW/184403682/1121-premium-basmati-sella-rice-1000x1000.png",
+     "s_url": "https://www.indiamart.com/sreebalaagro/",
+     "ts": "sreebalaagro",
+     "pr": "₹ 98/Kg",
+     "isq": [
+      {
+       "MASTER_DESC": "Processing Type",
+       "OPTIONS_DESC": " White Sella"
+      },
+      {
+       "MASTER_DESC": "Type",
+       "OPTIONS_DESC": " White Sella"
+      },
+      {
+       "MASTER_DESC": "Packaging Size",
+       "OPTIONS_DESC": " 50 kg"
+      },
+      {
+       "MASTER_DESC": "Broken Percentage",
+       "OPTIONS_DESC": " 1% Max"
+      },
+      {
+       "MASTER_DESC": "Grain Length",
+       "OPTIONS_DESC": " 8.40 mm"
+      },
+      {
+       "MASTER_DESC": "Average Grain Length",
+       "OPTIONS_DESC": " 8.40 mm"
+      },
+      {
+       "MASTER_DESC": "Crop Year",
+       "OPTIONS_DESC": " 1 Year Old"
+      },
+      {
+       "MASTER_DESC": "Moisture Content",
+       "OPTIONS_DESC": " 13% Max"
+      },
+      {
+       "MASTER_DESC": "Purity",
+       "OPTIONS_DESC": " 95% Min"
+      },
+      {
+       "MASTER_DESC": "Packaging Type",
+       "OPTIONS_DESC": " PP Bag"
+      },
+      {
+       "MASTER_DESC": "Damage & Discolored",
+       "OPTIONS_DESC": " 0.5% Max"
+      },
+      {
+       "MASTER_DESC": "Sortex",
+       "OPTIONS_DESC": " 100% Cleaned"
+      },
+      {
+       "MASTER_DESC": "Cleaning Process",
+       "OPTIONS_DESC": " 100% Sortex Cleaned"
+      },
+      {
+       "MASTER_DESC": "Branding",
+       "OPTIONS_DESC": " Unbranded"
+      }
+     ],
+     "CMP": "Sree Bala Agro",
+     "c_ct": "7949323840",
+     "c_vl": 1,
+     "f_ad": "",
+     "p_url": "https://www.indiamart.com/proddetail/1121-premium-basmati-sella-rice-2857734449048.html",
+     "city": "Kolkata",
+     "ad": "Kolkata",
+     "disp_id": 2857734449048,
+     "PF": "86",
+     "cw_o": 199,
+     "g_s": "",
+     "g_c": "India",
+     "g_cn": "STAR",
+     "wt_avg": 4.4,
+     "tr_c": 110,
+     "p_nm": "1121 Premium Basmati Sella Rice",
+     "f_nm": "1121 Premium Basmati Sella Rice",
+     "srch_id": 311943488,
+     "ds": "",
+     "gl_id": 184403682,
+     "iil_display": 1,
+     "d_in": 0
+    }
+   ],
+   "p_nm": "1509 Extra Long Creamy White Steam Basmati Rice",
+   "f_nm": "1509 Extra Long Creamy White Steam Basmati Rice",
+   "vefexp": 22,
+   "gl_id": 184403682,
+   "pdf": "",
+   "imgc": 7,
+   "srch_id": 311985458,
+   "gst_v": 1,
+   "gst_no": 1,
+   "vf_sp": false,
+   "m_sn": "3 yrs",
+   "d_in": 0,
+   "ds": "",
+   "hnpd": 2,
+   "mv": 1,
+   "ev": 1,
+   "iil_display": 1
+  }
+ ],
+ "localSellers": [],
+ "ecom_filter": null,
+ "city_tier": "",
+ "catid": "171",
+ "mcatid": "2093",
+ "mcatprod": "P",
+ "mcat_img": "https://5.imimg.com/data5/GLADMIN/Default/2022/6/JD/HA/CL/92368/basmati-rice-500x500.jpg",
+ "mcatsingular_name": "Basmati Rice",
+ "VIDEO_DATA": {
+  "DATA": []
+ },
+ "is_pricewidget": "1",
+ "isq_filter": {},
+ "isqPrsntInUrl": false,
+ "url": "/mcatAjaxRequest/ajaxData/?flname=basmati-rice&isqId=0&biz=0",
+ "quesId": null,
+ "optId": "",
+ "bizSelected": 0,
+ "biz_filter": [
+  {
+   "FK_PBIZ_ID": 20,
+   "GL_PRIMARY_BIZ_TYPE": "Exporter"
+  },
+  {
+   "FK_PBIZ_ID": 10,
+   "GL_PRIMARY_BIZ_TYPE": "Manufacturer"
+  },
+  {
+   "FK_PBIZ_ID": 40,
+   "GL_PRIMARY_BIZ_TYPE": "Retailer"
+  },
+  {
+   "FK_PBIZ_ID": 50,
+   "GL_PRIMARY_BIZ_TYPE": "Service Provider"
+  },
+  {
+   "FK_PBIZ_ID": 30,
+   "GL_PRIMARY_BIZ_TYPE": "Wholesaler/Distributor"
+  }
+ ],
+ "plaWidgetData": [
+  {
+   "GLCAT_CAT_ID": "171",
+   "MCAT_ID": "214602",
+   "GLCAT_MCAT_NAME": "Baskathi Rice",
+   "ITEM_NAME": "Baskati Rice",
+   "PC_ITEM_DISPLAY_NAME": "",
+   "DISPLAY_ID": 2858055832748,
+   "IMAGE_250X250": "https://5.imimg.com/data5/ANDROID/Default/2026/9/643288428/WL/TO/BY/253470019/product-jpeg-250x250.jpg",
+   "IMAGE_500X500": "https://5.imimg.com/data5/ANDROID/Default/2026/9/643288428/WL/TO/BY/253470019/product-jpeg-500x500.jpg",
+   "IMAGE_ORIGINAL": "https://5.imimg.com/data5/ANDROID/Default/2026/9/643288428/WL/TO/BY/253470019/product-jpeg.jpg",
+   "PRICE_F": "₹ 70 / Kg",
+   "PRICE_SEO": "₹ 70/Kg",
+   "COMPANYNAME": "Deltaa Export",
+   "CITY_NAME": "Bardhaman",
+   "STATE_NAME": "",
+   "GLUSR_ID": 253470019,
+   "PDP_URL": "https://www.indiamart.com/proddetail/baskati-rice-2858055832748.html?pos=1&nh=Y",
+   "PNS_RATIO": "",
+   "SELLER_RATING_COUNTS": "",
+   "CONTACT_NUMBER": "+91-8047634250",
+   "newly_hosted": 1
+  }
+ ],
+ "relatedStdProducts": [
+  {
+   "id": "258893",
+   "name": "India Gate Classic Basmati Rice",
+   "img": "http://5.imimg.com/data5/IQ/AH/JZ/GLADMIN-258893/india-gate-classic-basmati-rice-250x250.jpg",
+   "url": "/items/india-gate-classic-basmati-rice-s258893.html",
+   "minPrice": "216",
+   "maxPrice": ""
+  },
+  {
+   "id": "258899",
+   "name": "India Gate Super Basmati Rice",
+   "img": "http://5.imimg.com/data5/MX/EZ/AH/GLADMIN-258899/india-gate-super-basmati-rice-250x250.jpg",
+   "url": "/items/india-gate-super-basmati-rice-s258899.html",
+   "minPrice": "190",
+   "maxPrice": "4,250"
+  },
+  {
+   "id": "258910",
+   "name": "Daawat Super Basmati Rice",
+   "img": "http://5.imimg.com/data5/XK/HC/UQ/GLADMIN-3061/daawat-super-basmati-rice-250x250.png",
+   "url": "/items/daawat-super-basmati-rice-s258910.html",
+   "minPrice": "165",
+   "maxPrice": ""
+  },
+  {
+   "id": "258904",
+   "name": "Daawat Biryani Basmati Rice",
+   "img": "http://5.imimg.com/data5/XI/CO/EF/GLADMIN-258904/daawat-biryani-basmati-rice-250x250.jpg",
+   "url": "/items/daawat-biryani-basmati-rice-s258904.html",
+   "minPrice": "220",
+   "maxPrice": ""
+  },
+  {
+   "id": "258907",
+   "name": "India Gate Mogra Basmati Rice",
+   "img": "http://5.imimg.com/data5/HR/SR/RW/GLADMIN-3061/india-gate-mogra-basmati-rice-250x250.png",
+   "url": "/items/india-gate-mogra-basmati-rice-s258907.html",
+   "minPrice": "380",
+   "maxPrice": ""
+  },
+  {
+   "id": "258916",
+   "name": "Daawat Rozana Gold Basmati Rice",
+   "img": "http://5.imimg.com/data5/ED/LA/VP/GLADMIN-258916/daawat-rozaana-gold-basmati-rice-250x250.png",
+   "url": "/items/daawat-rozana-gold-basmati-rice-s258916.html",
+   "minPrice": "99",
+   "maxPrice": "2,250"
+  },
+  {
+   "id": "258913",
+   "name": "Daawat Traditional Basmati Rice",
+   "img": "http://5.imimg.com/data5/JA/GU/AJ/GLADMIN-258913/daawat-traditional-basmati-rice-250x250.jpg",
+   "url": "/items/daawat-traditional-basmati-rice-s258913.html",
+   "minPrice": "210",
+   "maxPrice": ""
+  },
+  {
+   "id": "258925",
+   "name": "Kohinoor Royale Authentic Biryani Basmati Rice",
+   "img": "http://5.imimg.com/data5/KL/NC/OI/GLADMIN-3061/kohinoor-royale-authentic-biryani-basmati-rice-250x250.png",
+   "url": "/items/kohinoor-royale-authentic-biryani-basmati-rice-s258925.html",
+   "minPrice": "95",
+   "maxPrice": "925"
+  },
+  {
+   "id": "258922",
+   "name": "Kohinoor Authentic Platinum Basmati Rice",
+   "img": "http://5.imimg.com/data5/IX/WT/UL/GLADMIN-3061/kohinoor-authentic-platinum-basmati-rice-250x250.jpg",
+   "url": "/items/kohinoor-authentic-platinum-basmati-rice-s258922.html",
+   "minPrice": "215",
+   "maxPrice": ""
+  },
+  {
+   "id": "258932",
+   "name": "Kohinoor Tibar Authentic Basmati Rice",
+   "img": "http://5.imimg.com/data5/QW/BK/IP/GLADMIN-258932/kohinoor-tibar-authentic-basmati-rice-250x250.png",
+   "url": "/items/kohinoor-tibar-authentic-basmati-rice-s258932.html",
+   "minPrice": "135",
+   "maxPrice": ""
+  }
+ ],
+ "enqFormParam": {},
+ "ImgenqFormParam": {},
+ "openPopup": false,
+ "openBLPopup": false,
+ "openImgPopup": false,
+ "showLocalisationPopup": false,
+ "inlineBl": true,
+ "is_generic_flag": 1,
+ "relCat": [
+  {
+   "GLCAT_MCAT_NAME": "1121 Basmati Rice",
+   "URL": "/impcat/1121-basmati-rice.html",
+   "GLCAT_MCAT_FLNAME": "1121-basmati-rice",
+   "IMG": "https://5.imimg.com/data5/GLADMIN/Default/2022/7/HW/ZW/BF/92368/1121-basmati-rice-125x125.jpg"
+  },
+  {
+   "GLCAT_MCAT_NAME": "White Sella Basmati Rice",
+   "URL": "/impcat/white-sella-basmati-rice.html",
+   "GLCAT_MCAT_FLNAME": "white-sella-basmati-rice",
+   "IMG": "https://4.imimg.com/data4/YY/YY/GLADMIN-/white-sella-basmati-rice-125x125.jpg"
+  },
+  {
+   "GLCAT_MCAT_NAME": "Golden Sella Basmati Rice",
+   "URL": "/impcat/golden-sella-basmati-rice.html",
+   "GLCAT_MCAT_FLNAME": "golden-sella-basmati-rice",
+   "IMG": "https://5.imimg.com/data5/GLADMIN/Default/2022/7/TH/HJ/HK/92368/golden-sella-basmati-rice-125x125.jpeg"
+  },
+  {
+   "GLCAT_MCAT_NAME": "Pusa Rice",
+   "URL": "/impcat/pusa-rice.html",
+   "GLCAT_MCAT_FLNAME": "pusa-rice",
+   "IMG": "https://4.imimg.com/data4/OO/OO/GLADMIN-/pusa-rice-125x125.jpg"
+  },
+  {
+   "GLCAT_MCAT_NAME": "Indian Sella Rice",
+   "URL": "/impcat/indian-sella-rice.html",
+   "GLCAT_MCAT_FLNAME": "indian-sella-rice",
+   "IMG": "https://3.imimg.com/data3/EA/CN/GLADMIN-132903/indian-sella-rice-125x125.jpg"
+  },
+  {
+   "GLCAT_MCAT_NAME": "Biryani Rice",
+   "URL": "/impcat/biryani-rice.html",
+   "GLCAT_MCAT_FLNAME": "biryani-rice",
+   "IMG": "https://4.imimg.com/data4/UE/QN/GLADMIN-183956/biryani-rice-125x125.jpg"
+  },
+  {
+   "GLCAT_MCAT_NAME": "Sugandha Basmati Rice",
+   "URL": "/impcat/sugandha-basmati-rice.html",
+   "GLCAT_MCAT_FLNAME": "sugandha-basmati-rice",
+   "IMG": "https://4.imimg.com/data4/OT/SW/GLADMIN-184406/sugandha-basmati-rice-125x125.jpg"
+  }
+ ],
+ "relBrand": [
+  {
+   "GLCAT_MCAT_NAME": "Patanjali Rice",
+   "URL": "/impcat/patanjali-rice.html",
+   "GLCAT_MCAT_FLNAME": "patanjali-rice",
+   "IMG": "https://5.imimg.com/data5/BrandMcat/YY/SE/IP/GLADMIN-60238/patanjali-125x125.jpg"
+  },
+  {
+   "GLCAT_MCAT_NAME": "Best Basmati Rice",
+   "URL": "/impcat/best-basmati-rice.html",
+   "GLCAT_MCAT_FLNAME": "best-basmati-rice",
+   "IMG": "https://5.imimg.com/data5/TM/MT/GLADMIN-2/best-basmati-rice-125x125.jpg"
+  },
+  {
+   "GLCAT_MCAT_NAME": "Aeroplane Basmati Rice",
+   "URL": "/impcat/aeroplane-basmati-rice.html",
+   "GLCAT_MCAT_FLNAME": "aeroplane-basmati-rice",
+   "IMG": "https://5.imimg.com/data5/AV/LP/GLADMIN-2/aeroplane-basmati-rice-125x125.jpg"
+  },
+  {
+   "GLCAT_MCAT_NAME": "Heritage Basmati Rice",
+   "URL": "/impcat/heritage-basmati-rice.html",
+   "GLCAT_MCAT_FLNAME": "heritage-basmati-rice",
+   "IMG": "https://5.imimg.com/data5/BrandMcat/GV/NW/IC/GLADMIN-60238/heritage-125x125.jpg"
+  },
+  {
+   "GLCAT_MCAT_NAME": "Tilda Basmati Rice",
+   "URL": "/impcat/tilda-basmati-rice.html",
+   "GLCAT_MCAT_FLNAME": "tilda-basmati-rice",
+   "IMG": "https://5.imimg.com/data5/BrandMcat/RZ/UX/ER/GLADMIN-60238/tilda-rice-125x125.jpg"
+  }
+ ],
+ "catstoexplore": [
+  {
+   "IMG": "https://4.imimg.com/data4/NB/HF/GLADMIN-183067/brown-basmati-rice-125x125.jpg",
+   "ch": "Brown Basmati Rice",
+   "FL": "brown-basmati-rice"
+  },
+  {
+   "IMG": "https://5.imimg.com/data5/AK/GS/QL/GLADMIN-74575/parboiled-basmati-rice-125x125.jpg",
+   "ch": "Parboiled Basmati Rice",
+   "FL": "parboiled-basmati-rice"
+  },
+  {
+   "IMG": "https://5.imimg.com/data5/XJ/GP/JA/GLADMIN-74575/dubar-basmati-rice-125x125.jpg",
+   "ch": "Dubar Basmati Rice",
+   "FL": "dubar-basmati-rice"
+  },
+  {
+   "IMG": "https://4.imimg.com/data4/GA/NC/GLADMIN-184706/organic-basmati-rice-125x125.jpg",
+   "ch": "Organic Basmati Rice",
+   "FL": "organic-basmati-rice"
+  },
+  {
+   "IMG": "https://4.imimg.com/data4/AF/ER/GLADMIN-178223/pussa-basmati-rice-sella-125x125.jpg",
+   "ch": "Pusa Basmati Rice Sella",
+   "FL": "pussa-basmati-rice-sella"
+  },
+  {
+   "IMG": "https://5.imimg.com/data5/TI/RI/WL/GLADMIN-74575/1509-basmati-rice-125x125.jpg",
+   "ch": "1509 Basmati Rice",
+   "FL": "1509-basmati-rice"
+  }
+ ],
+ "adult_flag": "0",
+ "is_district": "",
+ "glcat_mcat_no_price": "2",
+ "template_id": "24",
+ "map_ctotal": "71291",
+ "groupid": "16",
+ "loader": false,
+ "vidfilter": false,
+ "containsVideo": false,
+ "cityflname": "impcat",
+ "srcParam": "mcat-all",
+ "hdcityname": "McatAjaxRequest",
+ "hindiMcatUrl": "https://hindi.indiamart.com/impcat/basmati-rice/",
+ "hindiName": "बासमती चावल",
+ "abtest": false,
+ "isForeign": false,
+ "glbCountry": "IN",
+ "iplocCountry": "",
+ "clusterExpType": "",
+ "experimentTrack": "",
+ "ea": "DIR_MCAT_pmcat_allindia",
+ "Abexperiment": "Exp2",
+ "imageAndIsqNotimp": false,
+ "Company_Important": false,
+ "isInactive": false,
+ "totalResults": "71291",
+ "page": 1,
+ "priceWidgetData": [],
+ "cityImgIsqFlag": "_CT0_IG3_IQ2_PF2_TID24_CF3",
+ "CD_title": "/vpv/indianexporters/agro-farm/m_rcmach/React-generic-impcat/basmati-rice.html",
+ "CD_Group": "16",
+ "CD_Subcat": "171",
+ "CD_MCAT": "2093",
+ "CD_List-Count": "71291",
+ "CD_Miscellaneous": "DIR-Mcat-c-SSx|FilterNAVG_CT0_IG3_IQ2_PF2_TID24_CF3|Typ-PG|React|PLA=0|Abexp=Exp2",
+ "priceData": [
+  {
+   "displayName": "Below ₹70",
+   "maxPrice": 70,
+   "minPrice": 0,
+   "unit": "Kg"
+  },
+  {
+   "displayName": "₹71 - ₹90",
+   "maxPrice": 90,
+   "minPrice": 71,
+   "unit": "Kg"
+  },
+  {
+   "displayName": "₹91 - ₹100",
+   "maxPrice": 100,
+   "minPrice": 91,
+   "unit": "Kg"
+  },
+  {
+   "displayName": "Above ₹101",
+   "maxPrice": null,
+   "minPrice": 101,
+   "unit": "Kg"
+  }
+ ],
+ "index": 1,
+ "index_orig": 1,
+ "randomizer": 388,
+ "questions": [],
+ "selectedForCompare": [],
+ "comparePopupData": null,
+ "compareMode": false,
+ "compareMcatEnabled": false
+}

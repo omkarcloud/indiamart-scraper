@@ -1,0 +1,4 @@
+{
+ "error_msg": "Authentication Token is missing in the URL",
+ "res_code": "400"
+}

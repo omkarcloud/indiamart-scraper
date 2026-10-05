@@ -1,0 +1,44 @@
+{
+ "mcat": [
+  {
+   "value": "CNC Adapter",
+   "label": "CNC Adapter"
+  },
+  {
+   "value": "CNC Bangles",
+   "label": "CNC Bangles"
+  },
+  {
+   "value": "CNC Bender",
+   "label": "CNC Bender"
+  },
+  {
+   "value": "CNC Bush",
+   "label": "CNC Bush"
+  },
+  {
+   "value": "CNC Carvings",
+   "label": "CNC Carvings"
+  },
+  {
+   "value": "CNC Components",
+   "label": "CNC Components"
+  },
+  {
+   "value": "CNC Controllers",
+   "label": "CNC Controllers"
+  },
+  {
+   "value": "CNC Inserts",
+   "label": "CNC Inserts"
+  },
+  {
+   "value": "CNC Jaws",
+   "label": "CNC Jaws"
+  },
+  {
+   "value": "CNC Machines",
+   "label": "CNC Machines"
+  }
+ ]
+}

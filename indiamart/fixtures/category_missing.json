@@ -1,0 +1,132 @@
+{
+ "breadcrumb": [
+  {
+   "CAT": {
+    "catflName": ""
+   }
+  },
+  {
+   "PARENT_MCAT": {
+    "pmcatflName": "",
+    "pmcatName": ""
+   }
+  },
+  {
+   "MCAT_DATA": {
+    "mcatflName": "",
+    "mcatName": ""
+   }
+  }
+ ],
+ "title": "",
+ "citybar": [],
+ "grp_link": "",
+ "cat_link": "",
+ "is_brand": 0,
+ "show_disclaimer": 0,
+ "disclaimer_text": "",
+ "mcatname": "",
+ "mcatflname": "",
+ "prodsAvailable": 0,
+ "sold_flag": "",
+ "ecom": 0,
+ "ecomtype": "non-ecom",
+ "cityid": "",
+ "pmcatflname": "",
+ "image_flag": "",
+ "seller_isq_flag": "",
+ "related_service_data": [],
+ "company_display_flag": "",
+ "McatMetaData": {
+  "title": "",
+  "desc": "",
+  "keyword": ""
+ },
+ "urls": {
+  "canonical_url": "",
+  "alternate_mobile_url": "",
+  "alternate_android_url": ""
+ },
+ "viewtype": {
+  "list_view": true,
+  "grid_view": false,
+  "default_grid_view": false,
+  "default_list_view": true,
+  "url_list_view": false
+ },
+ "data": [],
+ "localSellers": [],
+ "ecom_filter": null,
+ "city_tier": "",
+ "catid": "",
+ "mcatid": "",
+ "mcatprod": "",
+ "mcat_img": "",
+ "mcatsingular_name": "",
+ "VIDEO_DATA": {
+  "DATA": []
+ },
+ "is_pricewidget": false,
+ "isq_filter": {},
+ "isqPrsntInUrl": false,
+ "url": "/mcatAjaxRequest/ajaxData/?flname=zz-not-a-category-qq&isqId=0&biz=0",
+ "quesId": null,
+ "optId": "",
+ "bizSelected": 0,
+ "biz_filter": [],
+ "plaWidgetData": [],
+ "relatedStdProducts": [],
+ "enqFormParam": {},
+ "ImgenqFormParam": {},
+ "openPopup": false,
+ "openBLPopup": false,
+ "openImgPopup": false,
+ "showLocalisationPopup": false,
+ "inlineBl": true,
+ "relCat": [],
+ "relBrand": [],
+ "catstoexplore": [],
+ "adult_flag": 0,
+ "is_district": "",
+ "glcat_mcat_no_price": "",
+ "template_id": "",
+ "map_ctotal": "",
+ "groupid": "",
+ "loader": false,
+ "vidfilter": false,
+ "containsVideo": false,
+ "cityflname": "impcat",
+ "srcParam": "mcat-all",
+ "hdcityname": "McatAjaxRequest",
+ "hindiMcatUrl": "",
+ "hindiName": "",
+ "abtest": false,
+ "isForeign": false,
+ "glbCountry": "IN",
+ "iplocCountry": "",
+ "clusterExpType": "",
+ "experimentTrack": "",
+ "ea": "DIR_MCAT_mcat_allindia",
+ "Abexperiment": "Exp2",
+ "imageAndIsqNotimp": false,
+ "Company_Important": false,
+ "isInactive": false,
+ "page": 1,
+ "priceWidgetData": [],
+ "cityImgIsqFlag": "_CTundefined",
+ "CD_title": "/vpv/indianexporters///React-impcat/.html",
+ "CD_Group": "",
+ "CD_Subcat": "",
+ "CD_MCAT": "",
+ "CD_List-Count": 0,
+ "CD_Miscellaneous": "DIR-Mcat-c-SSx|FilterNAVL_CTundefined|React|PLA=0|Abexp=Exp2",
+ "priceData": [],
+ "index": 0,
+ "index_orig": 0,
+ "randomizer": 0,
+ "questions": [],
+ "selectedForCompare": [],
+ "comparePopupData": null,
+ "compareMode": false,
+ "compareMcatEnabled": false
+}
