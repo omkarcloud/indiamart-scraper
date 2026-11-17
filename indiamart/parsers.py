@@ -58,6 +58,7 @@ Intentionally skipped raw fields (and why):
 import html as _html
 import re
 from datetime import date, datetime
+from scraper_utils.values import first_float as to_float, first_int as to_int
 
 WWW = "https://www.indiamart.com"
 DIR = "https://dir.indiamart.com"
@@ -121,37 +122,6 @@ def multiline(value):
     if not result or result.lower() in ("null", "none"):
         return None
     return result
-
-
-def to_int(value):
-    if value is None or isinstance(value, bool):
-        return None
-    if isinstance(value, int):
-        return value
-    if isinstance(value, float):
-        return int(value)
-    cleaned = str(value).replace(",", "").strip()
-    match = _NUM_RE.search(cleaned)
-    if not match:
-        return None
-    try:
-        return int(float(match.group(0)))
-    except ValueError:
-        return None
-
-
-def to_float(value):
-    if value is None or isinstance(value, bool):
-        return None
-    if isinstance(value, (int, float)):
-        return float(value)
-    match = _NUM_RE.search(str(value).replace(",", ""))
-    if not match:
-        return None
-    try:
-        return float(match.group(0))
-    except ValueError:
-        return None
 
 
 def number(value):

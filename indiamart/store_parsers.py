@@ -29,7 +29,7 @@ Intentionally skipped (and why):
   TrustSEAL page    QR code image, masked GST number (the full one is on the
                     profile), decorative certificate images
 """
-import json
+import fastjson
 import re
 
 from bs4 import BeautifulSoup
@@ -66,7 +66,7 @@ def island_props(doc, name):
         if not raw:
             continue
         try:
-            props = json.loads(raw)
+            props = fastjson.loads(raw)
         except ValueError:
             continue
         if isinstance(props, dict):
@@ -120,7 +120,7 @@ def company_blob(company_data):
 def _json_ld_org(doc):
     for node in doc.find_all("script", type="application/ld+json"):
         try:
-            data = json.loads(node.string or "")
+            data = fastjson.loads(node.string or "")
         except (TypeError, ValueError):
             continue
         for item in data if isinstance(data, list) else [data]:
@@ -314,7 +314,7 @@ def parse_about_facts(doc):
 
 def _data_images(node, attr):
     try:
-        items = json.loads(node.get(attr) or "[]")
+        items = fastjson.loads(node.get(attr) or "[]")
     except ValueError:
         return []
     out = []
@@ -466,7 +466,7 @@ def _card_media(card):
     images, videos = [], []
     for node in card.select('[data-island="CategoryImageGallery"]'):
         try:
-            props = json.loads(node.get("data-props") or "{}")
+            props = fastjson.loads(node.get("data-props") or "{}")
         except ValueError:
             continue
         for item in props.get("galleryMedia") or []:
@@ -501,7 +501,7 @@ def _card_enquiry(card):
     brochure, category_id, product_category_id = None, None, None
     for node in card.select('[data-island="EnquiryButton"], [data-island="PhoneReveal"]'):
         try:
-            props = json.loads(node.get("data-props") or "{}")
+            props = fastjson.loads(node.get("data-props") or "{}")
         except ValueError:
             continue
         brochure = brochure or P.media_link(props.get("pdfurl"))
@@ -586,7 +586,7 @@ def is_catalogue_page(doc):
 def _review_images(raw):
     if isinstance(raw, str):
         try:
-            raw = json.loads(raw)
+            raw = fastjson.loads(raw)
         except ValueError:
             return []
     out = []
@@ -604,7 +604,7 @@ def _review_aspects(raw):
     (key 1 lists what the buyer was satisfied with, key 0 what not)."""
     if isinstance(raw, str):
         try:
-            raw = json.loads(raw)
+            raw = fastjson.loads(raw)
         except ValueError:
             return []
     out = []
@@ -783,7 +783,7 @@ def parse_photos(doc):
         raw = props.get("initialGallery")
         if isinstance(raw, str):
             try:
-                raw = json.loads(raw)
+                raw = fastjson.loads(raw)
             except ValueError:
                 raw = []
         for item in raw if isinstance(raw, list) else []:
@@ -813,7 +813,7 @@ def _components(doc, name):
     out = []
     for node in doc.select(f'[data-component="{name}"]'):
         try:
-            props = json.loads(node.get("data-props") or "{}")
+            props = fastjson.loads(node.get("data-props") or "{}")
         except ValueError:
             continue
         if isinstance(props, dict):
@@ -850,7 +850,7 @@ def parse_videos(doc):
         raw = props.get("videosJson")
         if isinstance(raw, str):
             try:
-                raw = json.loads(raw)
+                raw = fastjson.loads(raw)
             except ValueError:
                 raw = []
         for item in raw if isinstance(raw, list) else []:

@@ -15,6 +15,7 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import config  # noqa: E402
 from schema_fields import load_query  # noqa: E402
 from indiamart import categories, discovery, fetch, products, refs, schemas, search, suppliers  # noqa: E402
+from scraper_utils.testing import hosted_only
 
 FX = os.path.join(os.path.dirname(os.path.abspath(__file__)), "fixtures")
 
@@ -167,7 +168,8 @@ class _Session:
         self.log, self.proxy, self.script = log, proxy, script
 
     def request(self, method, url, **kwargs):
-        self.log.append(("exit" if self.proxy else "direct", self.proxy, url))
+        kind = "gateway" if str(self.proxy).startswith("gateway") else "exit" if self.proxy else "direct"
+        self.log.append((kind, self.proxy, url))
         return self.script(self.proxy, url, kwargs)
 
     def close(self):
@@ -190,7 +192,11 @@ def egress(monkeypatch):
     monkeypatch.setattr(fetch, "_local", type("L", (), {})())
     monkeypatch.setattr(fetch, "_direct_hits", fetch.collections.defaultdict(fetch.collections.deque))
     monkeypatch.setattr(fetch, "_direct_blocked_until", {})
+    monkeypatch.setattr(fetch, "_gateway_refusals", fetch.collections.defaultdict(fetch.collections.deque))
+    monkeypatch.setattr(fetch, "_gateway_blocked_until", {})
     monkeypatch.setattr(fetch.time, "sleep", lambda s: None)
+    monkeypatch.setattr(config, "INDIAMART_OVERFLOW_EXIT", None)      # the gateway tests below turn it on
+    monkeypatch.setattr(config, "INDIAMART_GATEWAY_FAILURES", 3)
     monkeypatch.setattr(config, "INDIAMART_PROXY_COUNTRY", "in")
     monkeypatch.setattr(config, "indiamart_proxy", proxy)
     monkeypatch.setattr(config, "INDIAMART_DIRECT_PER_MINUTE", 2)
@@ -199,6 +205,7 @@ def egress(monkeypatch):
     return log, lambda script: state.__setitem__("script", script)
 
 
+@hosted_only
 def test_direct_budget_then_exits_and_rotation(egress):
     log, _ = egress
     for _ in range(7):
@@ -212,6 +219,7 @@ def test_direct_budget_then_exits_and_rotation(egress):
     assert log[0][0] == "direct"
 
 
+@hosted_only
 def test_429_on_own_ip_moves_the_host_to_exits(egress):
     log, set_script = egress
     set_script(lambda proxy, url, kw: _Resp(429, "429 Too Many Requests") if proxy is None else _Resp())
@@ -225,6 +233,7 @@ def test_429_on_own_ip_moves_the_host_to_exits(egress):
     assert log[0][0] == "direct"                                          # another host is unaffected
 
 
+@hosted_only
 def test_blocked_exit_is_replaced_and_gives_up_as_blocked(egress, monkeypatch):
     log, set_script = egress
     monkeypatch.setattr(config, "INDIAMART_DIRECT_PER_MINUTE", 0)
@@ -234,6 +243,7 @@ def test_blocked_exit_is_replaced_and_gives_up_as_blocked(egress, monkeypatch):
     assert [proxy for _, proxy, _ in log] == [f"http://exit-{i}" for i in range(1, 5)]
 
 
+@hosted_only
 def test_no_proxy_configured_stays_direct_and_suggest_is_unmetered(egress, monkeypatch):
     log, _ = egress
     for _ in range(5):
@@ -246,6 +256,86 @@ def test_no_proxy_configured_stays_direct_and_suggest_is_unmetered(egress, monke
     assert {kind for kind, _, _ in log} == {"direct"}
 
 
+# 2026-11-11: the Mumbai gateway exit carries the overflow in front of the residential exits
+
+@hosted_only
+def test_overflow_rides_the_gateway_not_residential(egress, monkeypatch):
+    log, _ = egress
+    monkeypatch.setattr(config, "INDIAMART_OVERFLOW_EXIT", "gateway:in")
+    assert config.indiamart_gateway_exit() == "gateway:in"
+    for _ in range(9):
+        assert fetch.get_json(fetch.DIR + "/api/x") == {"ok": True}
+    routes = [(kind, proxy) for kind, proxy, _ in log]
+    assert routes[:2] == [("direct", None)] * 2                           # the own-IP budget
+    assert routes[2:] == [("gateway", "gateway:in")] * 7                      # one gateway session, never retired
+    log.clear()
+    fetch.get_json(fetch.SUGGEST + "/suggest/suggest.php")                # the unmetered host stays on the own IP
+    fetch.get_json(fetch.WWW + "/api/y")                                  # budgets are per host
+    assert [kind for kind, _, _ in log] == ["direct", "direct"]
+
+
+@hosted_only
+def test_429_on_own_ip_moves_the_host_to_the_gateway(egress, monkeypatch):
+    log, set_script = egress
+    monkeypatch.setattr(config, "INDIAMART_OVERFLOW_EXIT", "gateway:in")
+    set_script(lambda proxy, url, kw: _Resp(429, "429 Too Many Requests") if proxy is None else _Resp())
+    assert fetch.get_json(fetch.DIR + "/api/x") == {"ok": True}
+    assert fetch.get_json(fetch.DIR + "/api/x") == {"ok": True}
+    assert [kind for kind, _, _ in log] == ["direct", "gateway", "gateway"]
+
+
+@hosted_only
+def test_gateway_failure_degrades_to_residential(egress, monkeypatch):
+    log, set_script = egress
+    monkeypatch.setattr(config, "INDIAMART_OVERFLOW_EXIT", "gateway:in")
+    monkeypatch.setattr(config, "INDIAMART_DIRECT_PER_MINUTE", 0)
+    kinds = lambda: [kind for kind, _, _ in log]
+
+    # the gateway fails without a refusal (timeout / 5xx): retried on it, the call's LAST attempt rides residential
+    def broken_gateway(proxy, url, kw):
+        if proxy == "gateway:in":
+            raise RuntimeError("gateway timeout")
+        return _Resp()
+    set_script(broken_gateway)
+    assert fetch.get_json(fetch.DIR + "/api/x") == {"ok": True}
+    assert kinds() == ["gateway", "gateway", "gateway", "exit"]
+    log.clear()
+    set_script(lambda proxy, url, kw: _Resp())
+    assert fetch.get_json(fetch.DIR + "/api/x") == {"ok": True} and kinds() == ["gateway"]    # the next call: the gateway again
+
+    # one refusal is only retried (another gateway address) ...
+    log.clear()
+    answers = iter([_Resp(429, "429")])
+    set_script(lambda proxy, url, kw: next(answers, None) or _Resp())
+    assert fetch.get_json(fetch.DIR + "/api/x") == {"ok": True} and kinds() == ["gateway", "gateway"]
+    # ... INDIAMART_GATEWAY_FAILURES of them within a minute send that host's overflow to residential for a cooldown
+    log.clear()
+    set_script(lambda proxy, url, kw: _Resp(429, "429") if proxy == "gateway:in" else _Resp())
+    assert fetch.get_json(fetch.DIR + "/api/x") == {"ok": True}
+    assert kinds() == ["gateway", "gateway", "exit"]                      # refusals 2 and 3, then the cooldown
+    log.clear()
+    assert fetch.get_json(fetch.DIR + "/api/x") == {"ok": True} and kinds() == ["exit"]
+    assert fetch.get_page(fetch.WWW + "/x/")[0] and kinds() == ["exit", "gateway", "gateway", "gateway", "exit"]   # www: its own count
+    # the cooldown over: the gateway again
+    log.clear()
+    fetch._gateway_blocked_until.clear()
+    set_script(lambda proxy, url, kw: _Resp())
+    assert fetch.get_json(fetch.DIR + "/api/x") == {"ok": True} and kinds() == ["gateway"]
+
+
+@hosted_only
+def test_gateway_alone_without_residential(egress, monkeypatch):
+    log, set_script = egress
+    monkeypatch.setattr(config, "INDIAMART_OVERFLOW_EXIT", "gateway:in")
+    monkeypatch.setattr(config, "INDIAMART_PROXY_COUNTRY", None)
+    monkeypatch.setattr(config, "INDIAMART_DIRECT_PER_MINUTE", 0)
+    set_script(lambda proxy, url, kw: _Resp(429, "429"))
+    with pytest.raises(fetch.IndiamartBlocked):
+        fetch.get_json(fetch.DIR + "/api/x")
+    assert [kind for kind, _, _ in log] == ["gateway"] * 4                # nothing behind it: every attempt on the gateway
+
+
+@hosted_only
 def test_status_mapping(egress):
     _, set_script = egress
     set_script(lambda proxy, url, kw: _Resp(404, "<html>nope</html>"))

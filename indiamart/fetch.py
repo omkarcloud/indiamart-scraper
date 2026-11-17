@@ -47,10 +47,17 @@ the window's first request; suggest.imimg.com is not limited). So egress is
 budgeted: up to
 config.INDIAMART_DIRECT_PER_MINUTE requests a minute per host leave from
 the machine's own IP (fast, free), everything above that — and everything
-while the own IP is cooling down on that host after a 429 — goes through
-sticky residential proxy exits (config.indiamart_proxy()), one per worker thread,
-each retired after config.INDIAMART_REQUESTS_PER_EXIT requests or on its
-first 429. With no proxy country configured all traffic is direct.
+while the own IP is cooling down on that host after a 429 — goes, since
+2026-11-11, through the Mumbai gateway (config.INDIAMART_OVERFLOW_EXIT
+= "gateway:in", exit_gateway.py): a fresh gateway address on nearly every request,
+so the limiter has nothing to count (40 searches in 5 s all 200; the numbers
+are in config.py's block). Behind it stay the sticky residential proxy exits
+(config.indiamart_proxy()), one per worker thread, each retired after
+config.INDIAMART_REQUESTS_PER_EXIT requests or on its first 429: they serve
+a host for config.INDIAMART_GATEWAY_COOLDOWN seconds after the gateway was
+refused there config.INDIAMART_GATEWAY_FAILURES times within a minute, and
+the last attempt of a call the gateway kept failing. With no gateway and no
+proxy country configured all traffic is direct.
 
 FALLBACK HOOK: no fingerprint / JS gate exists today. If one appears
 (403 or a challenge page on every exit), escalate the way trustpilot/fetch.py
@@ -66,6 +73,7 @@ Failure taxonomy (scraper_errors, mapped to HTTP by route_glue):
 import base64
 import collections
 import json
+import fastjson
 import os
 import re
 import sys
@@ -77,7 +85,9 @@ from urllib.parse import urlsplit
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 import config
+import egress
 from scraper_errors import BadRequest, Blocked, NotFound, UpstreamError
+from scraper_utils import debug, sessions
 
 DIR = "https://dir.indiamart.com"
 WWW = "https://www.indiamart.com"
@@ -93,12 +103,10 @@ UNLIMITED_HOSTS = {"suggest.imimg.com"}   # no limiter there (40-call burst all 
 PAGE_HEADERS = {
     "accept": ("text/html,application/xhtml+xml,application/xml;q=0.9,"
                "image/avif,image/webp,image/apng,*/*;q=0.8"),
-    "accept-language": "en-IN,en;q=0.9",
     "upgrade-insecure-requests": "1",
 }
 XHR_HEADERS = {
     "accept": "*/*",
-    "accept-language": "en-IN,en;q=0.9",
     "sec-fetch-site": "same-origin",
     "sec-fetch-mode": "cors",
     "sec-fetch-dest": "empty",
@@ -121,23 +129,34 @@ class IndiamartNotFound(NotFound):
     """Entity / page does not exist — never retried."""
 
 
-# ---- egress: own-IP budget + sticky exits ----------------------------------------
+# ---- egress: own-IP budget, then the gateway exit, then sticky exits ----------------
 _local = threading.local()
 _direct_lock = threading.Lock()
 _direct_hits = collections.defaultdict(collections.deque)   # host -> request times
 _direct_blocked_until = {}                                  # host -> epoch
+_gateway_refusals = collections.defaultdict(collections.deque)   # host -> times the gateway was refused there
+_gateway_blocked_until = {}                                 # host -> epoch until which its overflow skips the gateway
+
+DIRECT, GATEWAY, EXIT = "direct", "gateway", "exit"         # the three routes of a request
 
 
 def _proxy_configured():
     return bool(config.INDIAMART_PROXY_COUNTRY)
 
 
+def _exits_configured():
+    """True when the overflow has somewhere to go: the gateway exit
+    (config.INDIAMART_OVERFLOW_EXIT) or residential exits."""
+    return bool(config.indiamart_gateway_exit() or _proxy_configured())
+
+
 def _take_direct(host):
     """True when this request may leave from the machine's own IP: always
-    when no proxy is configured, else while that host's per-minute budget
-    lasts and the IP is not cooling down there after a 429 (the limiter
-    counts per host: a 429 on dir.indiamart.com leaves www untouched)."""
-    if not _proxy_configured() or host in UNLIMITED_HOSTS:
+    when no gateway and no proxy is configured, else while that host's
+    per-minute budget lasts and the IP is not cooling down there after a 429
+    (the limiter counts per host: a 429 on dir.indiamart.com leaves www
+    untouched)."""
+    if not _exits_configured() or host in UNLIMITED_HOSTS:
         return True
     limit = config.INDIAMART_DIRECT_PER_MINUTE
     if limit <= 0:
@@ -160,34 +179,71 @@ def _note_direct_block(host):
         _direct_blocked_until[host] = time.time() + config.INDIAMART_DIRECT_COOLDOWN
 
 
+def _route(host, past_gateway=False):
+    """Where this request leaves from: the own IP while its budget lasts
+    (DIRECT), else the gateway exit (GATEWAY: a fresh gateway address on nearly
+    every request, so the per-IP limiter has nothing to count), else a
+    sticky residential exit (EXIT). The residential exits serve a host only
+    while the gateway is cooling down there after it was refused
+    (_note_gateway_block), for the last attempt of a call the gateway kept
+    failing (`past_gateway`), or when no gateway is configured."""
+    if _take_direct(host):
+        return DIRECT
+    if config.indiamart_gateway_exit() and not (
+            _proxy_configured() and (past_gateway or time.time() < _gateway_blocked_until.get(host, 0))):
+        return GATEWAY
+    return EXIT
+
+
+def _note_gateway_block(host):
+    """The gateway was refused on this host (429 / 403 on a gateway address).
+    One refusal is only retried — the next request leaves from another
+    address — but config.INDIAMART_GATEWAY_FAILURES of them within
+    DIRECT_WINDOW seconds send the host's overflow to the residential exits
+    for config.INDIAMART_GATEWAY_COOLDOWN seconds."""
+    now = time.time()
+    with _direct_lock:
+        hits = _gateway_refusals[host]
+        hits.append(now)
+        while hits and now - hits[0] > DIRECT_WINDOW:
+            hits.popleft()
+        if len(hits) < max(1, config.INDIAMART_GATEWAY_FAILURES) or not _proxy_configured():
+            return
+        hits.clear()
+        _gateway_blocked_until[host] = now + config.INDIAMART_GATEWAY_COOLDOWN
+    print(f"indiamart: the gateway exit was refused on {host}, its overflow rides residential exits "
+          f"for {config.INDIAMART_GATEWAY_COOLDOWN} s")       # how often this prints is the number to watch
+
+
 def _new_session(proxy=None):
-    from curl_cffi import requests as curl_requests
-    sess = curl_requests.Session(impersonate=IMPERSONATE)
-    if proxy:
-        sess.proxies = {"http": proxy, "https": proxy}
+    # None (the own IP), a proxy URL, or the gateway exit ("gateway:in")
+    sess = egress.new_session(proxy, impersonate=IMPERSONATE)
+    sess.headers["accept-language"] = egress.accept_language(proxy, country=egress.gateway_country(proxy))   # the exit's language
     return sess
 
 
 def _close(sess):
-    if sess is not None:
-        try:
-            sess.close()
-        except Exception:
-            pass
+    sessions.close_quietly(sess)
 
 
-def _session(direct):
-    """The worker thread's curl session for one route (a curl handle must
-    not be shared across threads). Exit sessions hold one sticky residential
+def _session(route):
+    """The worker thread's session for one route (a curl handle must not be
+    shared across threads). The gateway session needs no rotation (gateway
+    changes the address itself); exit sessions hold one sticky residential
     IP and are replaced after INDIAMART_REQUESTS_PER_EXIT requests."""
-    if direct:
+    if route == DIRECT:
         sess = getattr(_local, "direct", None)
         if sess is None:
             sess = _local.direct = _new_session()
         return sess
+    if route == GATEWAY:
+        sess = getattr(_local, "gateway", None)
+        if sess is None:
+            sess = _local.gateway = _new_session(config.indiamart_gateway_exit())
+        return sess
     sess = getattr(_local, "exit", None)
     if sess is not None and getattr(_local, "exit_uses", 0) >= config.INDIAMART_REQUESTS_PER_EXIT:
-        _drop_session(False)
+        _drop_session(EXIT)
         sess = None
     if sess is None:
         sess = _local.exit = _new_session(config.indiamart_proxy())
@@ -196,25 +252,17 @@ def _session(direct):
     return sess
 
 
-def _drop_session(direct):
-    name = "direct" if direct else "exit"
-    sess = getattr(_local, name, None)
-    setattr(_local, name, None)
-    if not direct:
+def _drop_session(route):
+    sess = getattr(_local, route, None)
+    setattr(_local, route, None)
+    if route == EXIT:
         _local.exit_uses = 0
     _close(sess)
 
 
 def dump_debug(name, text):
     """Write a raw body to $INDIAMART_DEBUG_DIR/<name>.txt (utf-8)."""
-    dbg = os.environ.get("INDIAMART_DEBUG_DIR", "")
-    if dbg and text:
-        try:
-            os.makedirs(dbg, exist_ok=True)
-            with open(os.path.join(dbg, name + ".txt"), "w", encoding="utf-8") as f:
-                f.write(text)
-        except OSError:
-            pass
+    debug.dump("INDIAMART_DEBUG_DIR", name, text, encoding="utf-8")
 
 
 # ---- requests ------------------------------------------------------------------------
@@ -233,30 +281,39 @@ def _request(method, url, *, params=None, headers=None, json_body=None, timeout=
     attempts = max(1, config.INDIAMART_MAX_ATTEMPTS)
     host = urlsplit(url).netloc
     last = None
+    gateway_failed = False      # the gateway failed this call: its last attempt rides a residential exit
     for attempt in range(1, attempts + 1):
-        direct = _take_direct(host)
-        sess = _session(direct)
+        route = _route(host, past_gateway=gateway_failed and attempt == attempts)
+        sess = _session(route)
         try:
             resp = sess.request(method, url, params=query or None, headers=headers,
                                 json=json_body, timeout=timeout, allow_redirects=True)
         except Exception as e:
-            _drop_session(direct)
+            _drop_session(route)
+            gateway_failed = gateway_failed or route == GATEWAY
             last = IndiamartUpstreamError(f"request failed on {label}: {type(e).__name__}: {e}")
             continue
         status = resp.status_code
         if status == 429 or (status == 403 and "<html" in (resp.text or "")[:400].lower()):
             dump_debug("blocked", resp.text)
             last = IndiamartBlocked(f"HTTP {status} on {label}")
-            if direct and _proxy_configured():
+            if route == DIRECT and _exits_configured():
                 _note_direct_block(host)
+            elif route == GATEWAY:
+                # the retry leaves from another gateway address, or from a
+                # residential exit once the host cools down / on the last attempt
+                gateway_failed = True
+                _note_gateway_block(host)
+                _drop_session(route)
             else:
-                _drop_session(direct)
-                if direct and attempt < attempts:   # no exits to move to: wait the limiter out
+                _drop_session(route)
+                if route == DIRECT and attempt < attempts:   # no exits to move to: wait the limiter out
                     time.sleep(config.RETRY_BACKOFF * attempt * 3)
             continue
         if status >= 500:
             last = IndiamartUpstreamError(f"HTTP {status} on {label}")
-            _drop_session(direct)
+            _drop_session(route)
+            gateway_failed = gateway_failed or route == GATEWAY
             if attempt < attempts:
                 time.sleep(config.RETRY_BACKOFF * attempt)
             continue
@@ -380,7 +437,7 @@ def decrypt_envelope(body, private_key):
             padding.OAEP(mgf=padding.MGF1(hashes.SHA256()), algorithm=hashes.SHA256(), label=None))
         plain = AESGCM(aes_key).decrypt(
             base64.b64decode(body["iv"]), base64.b64decode(body["data"]) + base64.b64decode(body["tag"]), None)
-        return json.loads(plain)
+        return fastjson.loads(plain)
     except Exception as e:
         raise IndiamartUpstreamError(f"could not decrypt the storefront response: {type(e).__name__}: {e}")
 
@@ -418,7 +475,7 @@ def next_data(html):
     if not match:
         return None
     try:
-        return json.loads(match.group(1))
+        return fastjson.loads(match.group(1))
     except ValueError:
         return None
 

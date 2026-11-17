@@ -35,3 +35,11 @@ INDIAMART_MAX_ATTEMPTS = 4          # tries per upstream call
 def indiamart_proxy():
     """The proxy URL for overflow requests (None = direct)."""
     return INDIAMART_PROXY
+
+
+# ---- added by the sync: defaults for a direct run ----
+INDIAMART_GATEWAY_COOLDOWN = 300
+INDIAMART_GATEWAY_FAILURES = 3
+def indiamart_gateway_exit():
+    return None
+
